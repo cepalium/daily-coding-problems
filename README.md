@@ -1,6 +1,6 @@
 # Daily Coding Problems
 
-Register to receive Daily Coding Problem every [here](https://www.dailycodingproblem.com/). <br/>
+Register to receive Daily Coding Problem everyday [here](https://www.dailycodingproblem.com/). <br/>
 My solutions are written in Python3.
 
 ---
@@ -31,7 +31,7 @@ and deserialize(s), which deserializes the string back into the tree.
 
 Example: given a Node class <br/>
 ```
-class Node: <br/>
+class Node:
    def __init__(self, val, left=None, right=None):
        self.val = val
         self.left = left

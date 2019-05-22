@@ -155,7 +155,7 @@ For example, the following tree has 5 unival subtrees:
 
  ## #9
 
-Status: SOLVED [9.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/7.py) 
+Status: SOLVED [9.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/9.py) 
 
 Origin: Airbnb
 

@@ -1,9 +1,17 @@
 # --------------------------
 # Author: Tuan Nguyen
 # Date: 20190514
-# Task: Given a list of numbers and a number k, 
-# return whether any two numbers from the list add up to k.
 # --------------------------
+"""
+Problem:
+
+Given a list of numbers and a number k, 
+return whether any two numbers from the list add up to k.
+
+For example, given [10, 15, 3, 7] and k of 17, 
+return true since 10 + 7 is 17.
+"""
+
 
 def checkSum(arr: [], k):
 # input: array of numbers & int k
@@ -15,12 +23,12 @@ def checkSum(arr: [], k):
     return False
 
 
-def unitTest(arr: [], k):
+def checkSum_test(arr: [], k):
     print(arr, k, checkSum(arr, k))
 
 
 if __name__ == "__main__":
-    unitTest([10,5,2,7], 17)
-    unitTest([10,5,2,7], 12)
-    unitTest([10,5,2,7], 0)
-    unitTest([10,5,2,7], -5)
+    checkSum_test([10,5,2,7], 17)    # return True
+    checkSum_test([10,5,2,7], 12)    # return True
+    checkSum_test([10,5,2,7], 0)     # return False
+    checkSum_test([10,5,2,7], -5)    # return False

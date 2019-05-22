@@ -1,12 +1,20 @@
 # --------------------------------
 # Author: Tuan Nguyen
-# Date created: 20190515
-#
-# Task:
-# Given an array of integers, 
-# return a new array such that each element at index i of the new array 
-# is the product of all the numbers in the original array except the one at i.
+# Date: 20190515
 # ----------------------------------
+"""
+Problem:
+
+Given an array of integers , 
+return a new array such that each element at index i of the new array 
+is the product of all the numbers in the original array except the one at i.
+
+For example, 
+* if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]
+* if our input was [3, 2, 1], the expected output would be [2, 3, 6]
+
+"""
+
 
 def productList(arr: []):
 # input: an array of integers
@@ -27,5 +35,5 @@ def unitTest(arr: []):
 
 
 if __name__ == "__main__":
-    unitTest([1,2,3,4,5])
-    unitTest([3,2,1])
+    unitTest([1,2,3,4,5])   # return [120, 60, 40, 30, 24]
+    unitTest([3,2,1])       # return [2, 3, 6]

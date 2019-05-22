@@ -1,9 +1,18 @@
 # --------------------------
 # Author: Tuan Nguyen
 # Date created: 20190520
-# Task: Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, 
-# count the number of ways it can be decoded.
 # --------------------------
+"""
+Problem:
+
+Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, 
+count the number of ways it can be decoded.
+
+For example, the message '111' would give 3, 
+since it could be decoded as 'aaa', 'ka', and 'ak'.
+
+"""
+
 
 # libraries
 import string 
@@ -70,16 +79,16 @@ def decodeWays(msg):
     for message in posibleMsgs:
         if(isDecoded(message, privateKey)):
             counter += 1
-            decodedList.append([message, decode(message, privateKey)])
+            decodedList.append(decode(message, privateKey))
 
     return counter, decodedList
 
 
-def unitTest(message):
+def decodeWays_test(message):
     print(message, decodeWays(message))
 
 
 if __name__ == "__main__":
-    unitTest('111')
-    unitTest('1234')
-    unitTest('001')
+    decodeWays_test('111')  # return 3
+    decodeWays_test('1234') # return 3
+    decodeWays_test('001')  # return 0

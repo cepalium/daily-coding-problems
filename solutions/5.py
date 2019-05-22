@@ -1,10 +1,16 @@
 # --------------------------
 # Author: Tuan Nguyen
 # Date: 20190518
-# Task: Given a pair (a,b) constructed by cons(a,b), 
-# implement car(cons(a,b) to return the first element of the pair i.e a 
-# and cdr(cons(a,b)) to return the last element of the pair i.e b.
 # --------------------------
+"""
+Problem: 
+
+cons(a, b) constructs a pair, 
+and car(pair) and cdr(pair) returns the first and last element of that pair. 
+
+For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+"""
+
 
 def cons(a, b):
 # input: 2 ints a&b
@@ -24,11 +30,11 @@ def cdr(f):
     return f(lambda a,b: b) 
 
 
-def unitTest(a, b):
+def car_cdr_test(a, b):
     print((a,b), car(cons(a,b)), cdr(cons(a,b)))
 
 
 if __name__ == "__main__":
-    unitTest(3,4)
-    unitTest(5,6)
-    unitTest(-1,1)
+    car_cdr_test(3,4)   # return 3, 4
+    car_cdr_test(5,6)   # return 5, 6
+    car_cdr_test(-1,1)  # return -1, 1

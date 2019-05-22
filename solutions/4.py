@@ -1,11 +1,18 @@
 # --------------------------
 # Author: Tuan Nguyen
 # Date: 20190517
-# Task: Given an array of integers, 
-# find the first missing positive integer in linear time and constant space. 
-# i.e find the lowest positive integer that does not exist in the array. 
-# The array can contain duplicates and negative numbers as well.
 # --------------------------
+"""
+Problem:
+
+Given an array of integers (can contain duplicates and negative numbers as well.)
+Find the first missing positive integer in linear time and constant space, 
+i.e find the lowest positive integer that does not exist in the array.
+
+For example, the input [3, 4, -1, 1] should give 2. 
+The input [1, 2, 0] should give 3.
+"""
+
 
 def missingLowestPositiveInteger(arr: []):
 # input: array of int 'arr'
@@ -28,12 +35,12 @@ def missingLowestPositiveInteger(arr: []):
     return missingLPInt
 
 
-def unitTest(arr: []):
+def missingLowestPositiveInteger_test(arr: []):
     print(arr, missingLowestPositiveInteger(arr))
 
 
 if __name__ == "__main__":
-    unitTest([3,4,-1,1])
-    unitTest([1,2,0])
-    unitTest([3,4,-1,1,2])
-    unitTest([3,5,-1,1,2])
+    missingLowestPositiveInteger_test([3,4,-1,1])   # return 2
+    missingLowestPositiveInteger_test([1,2,0])      # return 3
+    missingLowestPositiveInteger_test([3,4,-1,1,2]) # return 5
+    missingLowestPositiveInteger_test([3,5,-1,1,2]) # return 4

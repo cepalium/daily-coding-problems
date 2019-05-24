@@ -30,10 +30,10 @@ def productList(arr: []):
     return prodArr
 
 
-def unitTest(arr: []):
+def productList_test(arr: []):
     print(arr, productList(arr))
 
 
 if __name__ == "__main__":
-    unitTest([1,2,3,4,5])   # return [120, 60, 40, 30, 24]
-    unitTest([3,2,1])       # return [2, 3, 6]
+    productList_test([1,2,3,4,5])   # return [120, 60, 40, 30, 24]
+    productList_test([3,2,1])       # return [2, 3, 6]

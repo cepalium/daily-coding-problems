@@ -20,7 +20,7 @@ Day | Origin | Difficulty | Status
 [13](#13) | Amazon | Hard | [13.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/13.py)
 [14](#14) | Google | Medium | [14.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/14.py)
 
-## Problem desciptions
+## Problem descriptions
 
 ### #1
 

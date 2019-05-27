@@ -26,7 +26,7 @@ def piEstimationByMonteCarloMethod(iterations):
             numPointsInCircle += 1
         numPointsInSquare += 1  # new point in unit square
     pi = 4 * numPointsInCircle / numPointsInSquare  # pi estimation by Monte Carlo method
-    return round(pi, 3)
+    return round(pi, 3)     # round to 3 decimals
 
 
 def piEstimationByMonteCarloMethod_test(iterations):

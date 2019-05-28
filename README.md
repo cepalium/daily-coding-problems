@@ -1,7 +1,6 @@
 # Daily Coding Problems
 
 Register to receive Daily Coding Problem everyday [here](https://www.dailycodingproblem.com/). <br/>
-My solutions are written in Python3.
 
 Day | Origin | Difficulty | Status
 --- | ------ | ---------- | ------ 
@@ -19,6 +18,7 @@ Day | Origin | Difficulty | Status
 [12](#12) | Amazon | Hard | UNSOLVED []()
 [13](#13) | Amazon | Hard | [13.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/13.py)
 [14](#14) | Google | Medium | [14.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/14.py)
+[15](#15) | Facebook | Medium | UNSOLVED []()
 
 ## Problem descriptions
 
@@ -181,3 +181,8 @@ Hint: The basic equation of a circle is x<sup>2</sup> + y<sup>2</sup> = r<sup>2<
 
 ---
 
+### #15
+
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
+---

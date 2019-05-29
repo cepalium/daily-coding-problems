@@ -19,6 +19,7 @@ Day | Origin | Difficulty | Status
 [13](#13) | Amazon | Hard | [13.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/13.py)
 [14](#14) | Google | Medium | [14.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/14.py)
 [15](#15) | Facebook | Medium | UNSOLVED []()
+[16](#16) | Twitter | Easy | [16.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/16.py)
 
 ## Problem descriptions
 
@@ -184,5 +185,15 @@ Hint: The basic equation of a circle is x<sup>2</sup> + y<sup>2</sup> = r<sup>2<
 ### #15
 
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
+---
+
+### #16
+
+You run an e-commerce website and want to record the last N order ids in a log. Implement a data structure to accomplish this, with the following API:
+
+record(order_id): adds the order_id to the log
+get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
+You should be as efficient with time and space as possible.
 
 ---

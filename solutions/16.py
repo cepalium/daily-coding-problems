@@ -33,8 +33,8 @@ class Order():
 if __name__ == "__main__":
     eCommerceOrders = Order()
     # add order ids
-    for i in range(1, 101):
+    for i in range(1, 101):     # add log from 1 to 100
         eCommerceOrders.record(i)
     
-    print(eCommerceOrders.get_last(10))
-    print(eCommerceOrders.get_last(50))
+    print(eCommerceOrders.get_last(10))     # return 90
+    print(eCommerceOrders.get_last(50))     # return 50

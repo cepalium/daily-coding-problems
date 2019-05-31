@@ -20,7 +20,8 @@ Day | Origin | Difficulty | Status
 [14](#14) | Google | Medium | [14.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/14.py)
 [15](#15) | Facebook | Medium | UNSOLVED []()
 [16](#16) | Twitter | Easy | [16.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/16.py)
-[17](#17) | Google | Hard | UNSOLVED []()
+[17](#17) | Google | Hard | [17.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/17.py)
+[18](#18) | Google | Hard | [18.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/18.py)
 
 ## Problem descriptions
 
@@ -231,5 +232,20 @@ The directory dir contains two sub-directories subdir1 and subdir2. subdir1 cont
 We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is 32 (not including the double quotes).
 
 Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
+
+---
+
+### #18
+
+Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
+
+For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
+
+    10 = max(10, 5, 2)
+    7 = max(5, 2, 7)
+    8 = max(2, 7, 8)
+    8 = max(7, 8, 7)
+
+Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
 ---

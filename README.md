@@ -22,6 +22,7 @@ Day | Origin | Difficulty | Status
 [16](#16) | Twitter | Easy | [16.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/16.py)
 [17](#17) | Google | Hard | [17.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/17.py)
 [18](#18) | Google | Hard | [18.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/18.py)
+[19](#19) | Facebook | Medium | [19.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/19.py)
 
 ## Problem descriptions
 
@@ -247,5 +248,13 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
     8 = max(7, 8, 7)
 
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+
+---
+
+### #19
+
+A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
+
+Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
 ---

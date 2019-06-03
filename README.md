@@ -23,6 +23,8 @@ Day | Origin | Difficulty | Status
 [17](#17) | Google | Hard | [17.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/17.py)
 [18](#18) | Google | Hard | [18.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/18.py)
 [19](#19) | Facebook | Medium | [19.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/19.py)
+[20](#20) | Google | Easy | UNSOLVED []()
+[21](#21) | Snapchat | Easy | [21.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/21.py)
 
 ## Problem descriptions
 
@@ -256,5 +258,25 @@ Do this in O(n) time and O(k) space. You can modify the input array in-place and
 A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+
+---
+
+### #20
+
+Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
+
+For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
+
+In this example, assume nodes with the same value are the exact same node objects.
+
+Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+
+---
+
+### #21
+
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+
+For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
 ---

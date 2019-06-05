@@ -78,3 +78,4 @@ def minStepInBoards_test(board, start, end):
 
 if __name__ == "__main__":
     minStepInBoards_test([[f, f, f, f], [t, t, f, t], [f, f, f, f], [f, f, f, f]], (3,0), (0,0))   # return 7
+    minStepInBoards_test([[f, f, f, f], [t, t, t, t], [f, f, f, f], [f, f, f, f]], (3,0), (0,0))   # return "null", row[1] is all blocked

@@ -27,16 +27,16 @@ Day | Origin | Difficulty | Status
 [21](#21) | Snapchat | Easy | [21.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/21.py)
 [22](#22) | Microsoft | Medium | [22.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/22.py)
 [23](#23) | Google | Easy | [23.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/23.py)
+[24](#24) | Google | Medium | UNSOLVED []()
+[25](#25) | Facebook | Hard | UNSOLVED []()
 
 ## Problem descriptions
 
 ### #1
 
-Given a list of numbers and a number k, 
-return whether any two numbers from the list add up to k.
+Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
 
-For example, given [10, 15, 3, 7] and k of 17, 
-return true since 10 + 7 is 17.
+For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 ---
 
@@ -45,16 +45,14 @@ return true since 10 + 7 is 17.
 Given an array of integers , return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
 
 For example, 
-<li> if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24] </li>
-<li>If our input was [3, 2, 1], the expected output would be [2, 3, 6]
+* if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]
+* If our input was [3, 2, 1], the expected output would be [2, 3, 6]
 
 ---
 
 ### #3
 
-Given the root to a binary tree, 
-implement serialize(root), which serializes the tree into a string, 
-and deserialize(s), which deserializes the string back into the tree.
+Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
 Example: given a Node class <br/>
 ```
@@ -72,8 +70,7 @@ The following test should pass: <br/>
 
 ### #4
 
-Given an array of integers (The array can contain duplicates and negative numbers as well.)<br/>
-Find the first missing positive integer in linear time and constant space, i.e find the lowest positive integer that does not exist in the array.
+Given an array of integers (The array can contain duplicates and negative numbers as well.), find the first missing positive integer in linear time and constant space, i.e find the lowest positive integer that does not exist in the array.
 
 For example, the input [3, 4, -1, 1] should give 2. <br/>
 The input [1, 2, 0] should give 3.
@@ -103,7 +100,7 @@ If using a language that has no pointers (such as Python), you can assume you ha
 
 ---
 
-##3 #7
+### #7
 
 Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
 
@@ -307,5 +304,32 @@ For example, given the following board:
 [f, f, f, f]]
 ```
 and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
+
+---
+
+### #24
+
+Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.
+
+Design a binary tree node class with the following methods:
+
+is_locked, which returns whether the node is locked
+lock, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true. <br/>
+unlock, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true. <br/>
+You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
+
+---
+
+### #25
+
+Implement regular expression matching with the following special characters:
+
+'.' (period) which matches any single character <br/>
+'*' (asterisk) which matches zero or more of the preceding element
+That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
+
+For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
+
+Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
 ---

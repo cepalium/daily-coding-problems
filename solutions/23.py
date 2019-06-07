@@ -36,11 +36,11 @@ def minStepInBoards(board, start, end):
     d = [[no_rows*no_cols for i in range(no_cols)] for j in range(no_rows)] # init matrix distance
     eventList = []
     # initialization
-    d[start[0]][start[1]] = 0
+    d[start[0]][start[1]] = 0   # start as 0
     eventList.append(start)
     # loop
     while eventList:
-        curPos = eventList.pop(0)
+        curPos = eventList.pop(0)   # 1st event in list
         curRow = curPos[0]
         curCol = curPos[1]
         # up

@@ -29,6 +29,9 @@ Day | Origin | Difficulty | Status
 [23](#23) | Google | Easy | [23.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/23.py)
 [24](#24) | Google | Medium | UNSOLVED []()
 [25](#25) | Facebook | Hard | [25.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/25.py)
+[26](#26) | Google | Medium | UNSOLVED [()]
+[27](#27) | Facebook | Easy | [27.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/27.py)
+
 
 ## Problem descriptions
 
@@ -331,5 +334,25 @@ That is, implement a function that takes in a string and a valid regular express
 For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
 
 Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+
+---
+
+### #26
+
+Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
+
+The list is very long, so making more than one pass is prohibitively expensive.
+
+Do this in constant space and in one pass.
+
+---
+
+### #27
+
+Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
+
+For example, given the string "([])[]({})", you should return true.
+
+Given the string "([)]" or "((()", you should return false.
 
 ---

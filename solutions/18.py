@@ -14,7 +14,8 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
     8 = max(2, 7, 8)
     8 = max(7, 8, 7)
 
-Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. 
+Do this in O(n) time and O(k) space. 
+You can modify the input array in-place and you do not need to store the results. 
 You can simply print them out as you compute them.
 """
 
@@ -28,7 +29,7 @@ def slidingWindowMaximum(arr, k):
 # output: sliding window of size k maximum from arr 
 # method: double-ended queue "deq"
 	slidingWindowMax = []		# init returned list
-	deq = collections.deque()	# init double-ended queue, store index
+	deq = collections.deque()	# init double-ended queue to store index
 	# 1st window
 	for i in range(k):
 		# remove indexes of smaller values in 1st window if the later index comes a bigger value

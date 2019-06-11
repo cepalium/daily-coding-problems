@@ -31,7 +31,8 @@ Day | Origin | Difficulty | Status
 [25](#25) | Facebook | Hard | [25.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/25.py)
 [26](#26) | Google | Medium | UNSOLVED []()
 [27](#27) | Facebook | Easy | [27.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/27.py)
-
+[28](#28) | Palantir | Medium | UNSOLVED []()
+[29](#29) | Amazon | Easy | [29.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/29.py)
 
 ## Problem descriptions
 
@@ -354,5 +355,32 @@ Given a string of round, curly, and square open and closing brackets, return whe
 For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
+
+---
+
+### #28
+
+Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
+
+More specifically, you should have as many words as possible in each line. There should be at least one space between each word. Pad extra spaces when necessary so that each line has exactly length k. Spaces should be distributed as equally as possible, with the extra spaces, if any, distributed starting from the left.
+
+If you can only fit one word on a line, then you should pad the right-hand side with spaces.
+
+Each word is guaranteed not to be longer than k.
+
+For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"] and k = 16, you should return the following:
+```
+["the  quick brown", # 1 extra space on the left
+"fox  jumps  over", # 2 extra spaces distributed evenly
+"the   lazy   dog"] # 4 extra spaces distributed evenly
+```
+
+---
+
+### #29
+
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
 ---

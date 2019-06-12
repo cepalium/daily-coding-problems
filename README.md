@@ -33,6 +33,8 @@ Day | Origin | Difficulty | Status
 [27](#27) | Facebook | Easy | [27.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/27.py)
 [28](#28) | Palantir | Medium | UNSOLVED []()
 [29](#29) | Amazon | Easy | [29.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/29.py)
+[30](#30) | Amazon | Medium | [30.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/30.py)
+
 
 ## Problem descriptions
 

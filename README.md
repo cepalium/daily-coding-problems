@@ -33,8 +33,8 @@ Day | Origin | Difficulty | Status
 [27](#27) | Facebook | Easy | [27.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/27.py)
 [28](#28) | Palantir | Medium | UNSOLVED []()
 [29](#29) | Amazon | Easy | [29.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/29.py)
-[30](#30) | Amazon | Medium | [30.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/30.py)
-
+[30](#30) | Facebook | Medium | [30.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/30.py)
+[31](#31) | Google | Easy | [31.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/31.py)
 
 ## Problem descriptions
 
@@ -396,5 +396,13 @@ Compute how many units of water remain trapped on the map in O(N) time and O(1) 
 For example, given the input [2, 1, 2], we can hold 1 unit of water in the middle.
 
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+
+---
+
+### #31
+
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
+Given two strings, compute the edit distance between them.
 
 ---

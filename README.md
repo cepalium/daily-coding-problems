@@ -35,6 +35,8 @@ Day | Origin | Difficulty | Status
 [29](#29) | Amazon | Easy | [29.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/29.py)
 [30](#30) | Facebook | Medium | [30.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/30.py)
 [31](#31) | Google | Easy | [31.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/31.py)
+[32](#32) | Jane Street | Hard | UNSOLVED []()
+[33](#33) | Microsoft | Easy | [33.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/33.py)
 
 ## Problem descriptions
 
@@ -404,5 +406,32 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
 
 Given two strings, compute the edit distance between them.
+
+---
+
+### #32
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities.
+
+---
+
+### #33
+
+Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
+
+Recall that the median of an even-numbered list is the average of the two middle numbers.
+
+For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out:
+```
+2
+1.5
+2
+3.5
+2
+2
+2
+```
 
 ---

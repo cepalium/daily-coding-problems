@@ -37,6 +37,9 @@ Day | Origin | Difficulty | Status
 [31](#31) | Google | Easy | [31.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/31.py)
 [32](#32) | Jane Street | Hard | UNSOLVED []()
 [33](#33) | Microsoft | Easy | [33.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/33.py)
+[34](#34) | Quora | Medium | [34.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/34.py)
+[35](#35) | Google | Hard | [35.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/35.py)
+
 
 ## Problem descriptions
 
@@ -433,5 +436,25 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 2
 ```
+
+---
+
+### #34
+
+Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
+
+For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
+
+As another example, given the string "google", you should return "elgoogle".
+
+---
+
+### #35
+
+Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
+
+Do this in linear time and in-place.
+
+For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
 ---

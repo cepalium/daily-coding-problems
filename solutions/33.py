@@ -18,9 +18,6 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 """
 
-import random
-
-
 def merge(A, B):
 # input: 2 sorted lists A & B of ints
 # output: list C merged from all elements of A & B ascendingly

@@ -1,7 +1,7 @@
 # ------------------------------------------------
 # Author: Tuan Nguyen
 # Date: 20190619
-#!solutions/36.py
+#!solutions/37.py
 # -----------------------------------------------
 """
 The power set of a set is the set of all its subsets. 

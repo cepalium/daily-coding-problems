@@ -2,6 +2,7 @@
 
 Register to receive Daily Coding Problem everyday [here](https://www.dailycodingproblem.com/). <br/>
 
+
 Day | Origin | Difficulty | Status
 --- | ------ | ---------- | ------ 
 [1](#1) | Google | Easy | [1.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/1.py)
@@ -39,6 +40,8 @@ Day | Origin | Difficulty | Status
 [33](#33) | Microsoft | Easy | [33.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/33.py)
 [34](#34) | Quora | Medium | [34.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/34.py)
 [35](#35) | Google | Hard | [35.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/35.py)
+[36](#36) | Dropbox | Medium | UNSOLVED []()
+[37](#37) | Google | Easy | [37.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/37.py)
 
 
 ## Problem descriptions
@@ -456,5 +459,21 @@ Given an array of strictly the characters 'R', 'G', and 'B', segregate the value
 Do this in linear time and in-place.
 
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
+---
+
+### #36
+
+Given the root to a binary search tree, find the second largest node in the tree.
+
+---
+
+### #37
+
+The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
+
+For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+
+You may also use a list or array to represent a set.
 
 ---

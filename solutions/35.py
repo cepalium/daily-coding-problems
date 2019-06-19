@@ -22,7 +22,7 @@ def sortRGB(arr):
     l = 0
     r = len(arr) - 1
     while l < r:
-        if arr[l] == 'B' and arr[r] != 'B':
+        if (arr[l] == 'B') and (arr[r] != 'B'):
             arr[l], arr[r] = arr[r], arr[l] # swap 'B' to back
             l += 1
             r -= 1
@@ -34,7 +34,7 @@ def sortRGB(arr):
     l = 0
     r = len(arr) - 1
     while l < r:
-        if arr[l] != 'R' and arr[r] == 'R':
+        if (arr[l] != 'R') and (arr[r] == 'R'):
             arr[l], arr[r] = arr[r], arr[l] # swap 'R' to front
             l += 1
             r -= 1

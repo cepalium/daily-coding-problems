@@ -27,19 +27,19 @@ def computeItinerary(flights, start):
 # output: return the lexicographically smallest itineriries
 # e.g flights = [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')], start = 'A' 
 # ~> return ['A', 'B', 'C', 'A', 'C'] // ['A', 'C', 'A', 'B', 'C'] is also valid but a bigger one
-    route = []
-    source = dest = start
-    while dest:
+    route = []  # init itinerary
+    source = dest = start   # init source
+    while flights:  # loop until list 'flights' has no flight
         route.append(source)
         destList = [flight[1] for flight in flights if flight[0] == source]
-        if not destList:
+        if not destList:    # if no flight availble from source, then break loop
             break
-        dest = min(destList)
-        flights.remove((source, dest))
+        dest = min(destList)    # else, then choose the lexicographically smallest destnation
+        flights.remove((source, dest))  # remove this flight from list 'flights'
         source = dest
-    if not flights:
+    if not flights: # make up the iterary successully w/ all flights
         return route
-    return 'No itinerary available'
+    return 'No itinerary available' # else
 
 
 def computeItinerary_test(flights, start):

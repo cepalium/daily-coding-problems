@@ -46,7 +46,7 @@ Day | Origin | Difficulty | Status
 [38](#38) | Microsoft | Hard | []()
 [39](#39) | Dropbox | Medium | [39.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/39.py)
 [40](#40) | Google | Hard | []()
-[41](#41) | Facebook | Medium | []()
+[41](#41) | Facebook | Medium | [41.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/41.py)
 
 ## Problem descriptions
 
@@ -604,5 +604,7 @@ For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 
 Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
+
+[Back on Top](#Process)
 
 ---

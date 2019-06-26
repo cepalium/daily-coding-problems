@@ -48,6 +48,8 @@ Day | Origin | Difficulty | Status
 [40](#40) | Google | Hard | []()
 [41](#41) | Facebook | Medium | [41.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/41.py)
 [42](#42) | Google | Hard | [42.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/42.py)
+[43](#43) | Amazon | Easy | []()
+[44](#44) | Google | Medium | []()
 
 
 ## Problem descriptions
@@ -611,12 +613,39 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 
 ---
 
-### #41
+### #42
 
 Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If such a subset cannot be made, then return null.
 
 Integers can appear more than once in the list. You may assume all numbers in the list are positive.
 
 For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
+
+---
+
+### #43
+
+Implement a stack that has the following methods:
+
+push(val), which pushes an element onto the stack
+pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+Each method should run in constant time.
+
+[Back on Top](#Process)
+
+---
+
+### #44
+
+We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements A[i] and A[j] form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
+
+Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
+
+You may assume each element in the array is distinct.
+
+For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+
+[Back on Top](#Process)
 
 ---

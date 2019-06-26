@@ -49,7 +49,7 @@ Day | Origin | Difficulty | Status
 [41](#41) | Facebook | Medium | [41.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/41.py)
 [42](#42) | Google | Hard | [42.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/42.py)
 [43](#43) | Amazon | Easy | []()
-[44](#44) | Google | Medium | []()
+[44](#44) | Google | Medium | [44.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/44.py)
 
 
 ## Problem descriptions

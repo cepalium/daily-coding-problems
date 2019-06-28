@@ -41,4 +41,4 @@ def check_uniform_rand7():
         print(k, pct)
 
 if __name__ == "__main__":
-    check_uniform_rand7()
+    check_uniform_rand7()   # print percentage[1,7] ~ 14.286

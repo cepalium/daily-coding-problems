@@ -51,7 +51,7 @@ Day | Origin | Difficulty | Status
 [43](#43) | Amazon | Easy | []()
 [44](#44) | Google | Medium | [44.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/44.py)
 [45](#45) | Two Sigma | Easy | [45.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/45.py)
-
+[46](#46) | Amazon | Hard | [46.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/46.py)
 
 ## Problem descriptions
 
@@ -654,6 +654,16 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 ### #45
 
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
+
+[Back on Top](#Process)
+
+---
+
+### #46
+
+Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
+
+For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
 
 [Back on Top](#Process)
 

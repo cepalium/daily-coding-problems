@@ -25,14 +25,14 @@ def longestPalindromicSubstring_pivotToRight(string):
 # output: longest palindromic substring of 'string' w/ following method:
 # method: if left pivots != right pivots, left pivots move right
 # ~> this method misses the palindromic substring which starts from left pivots to before right pivots
-# ~> suggest apply this method again with inversed string to get the correct answer
+# ~> suggest applying this method again with inversed string to get the correct answer
 # running time: O(n)
     forwardLongestPalindromicSubstring = ''
     # init pivots
-    lo = 0  # 1st index of string
-    li = lo + 1
-    ro = len(string) - 1    # last index of string
-    ri = ro - 1
+    lo = 0  # init outer left pivot
+    li = lo + 1 # init inner left pivot
+    ro = len(string) - 1    # init outer right pivot
+    ri = ro - 1 # init inner right pivot
     while li <= ro:
         # print(lo, li, ri, ro, string[lo], string[li], string[ri], string[ro])
         if ri <= li <= ri + 1 and is_palindromic(string[lo:ro+1]):
@@ -53,7 +53,7 @@ def longestPalindromicSubstring_pivotToRight(string):
             li += 1
             ro = ri
             ri -= 1
-        else:
+        else:   # left pivots move right
             lo += 1
             li = lo + 1
     return forwardLongestPalindromicSubstring

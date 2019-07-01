@@ -52,6 +52,9 @@ Day | Origin | Difficulty | Status
 [44](#44) | Google | Medium | [44.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/44.py)
 [45](#45) | Two Sigma | Easy | [45.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/45.py)
 [46](#46) | Amazon | Hard | [46.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/46.py)
+[47](#47) | Facebook | Easy | [47.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/47.py)
+[48](#48) | Google | Medium | []()
+[49](#49) | Amazon | Medium | [49.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/49.py)
 
 ## Problem descriptions
 
@@ -664,6 +667,55 @@ Using a function rand5() that returns an integer from 1 to 5 (inclusive) with un
 Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
 
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+
+[Back on Top](#Process)
+
+---
+
+### #47
+
+Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
+
+For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+
+[Back on Top](#Process)
+
+---
+
+### #48
+
+Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
+
+For example, given the following preorder traversal:
+
+[a, b, d, e, c, f, g]
+
+And the following inorder traversal:
+
+[d, b, e, a, f, c, g]
+
+You should return the following tree:
+'''
+    a
+   / \
+  b   c
+ / \ / \
+d  e f  g
+'''
+
+[Back on Top](#Process)
+
+---
+
+### #49
+
+Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
+
+For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
+
+Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
+
+Do this in O(N) time.
 
 [Back on Top](#Process)
 

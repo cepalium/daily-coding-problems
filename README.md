@@ -55,6 +55,8 @@ Day | Origin | Difficulty | Status
 [47](#47) | Facebook | Easy | [47.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/47.py)
 [48](#48) | Google | Medium | []()
 [49](#49) | Amazon | Medium | [49.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/49.py)
+[50](#50) | Microsoft | Easy | []()
+[51](#51) | Facebook | Medium | [51.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/51.py)
 
 ## Problem descriptions
 
@@ -695,13 +697,13 @@ And the following inorder traversal:
 [d, b, e, a, f, c, g]
 
 You should return the following tree:
-'''
+```
     a
    / \
   b   c
  / \ / \
 d  e f  g
-'''
+```
 
 [Back on Top](#Process)
 
@@ -716,6 +718,39 @@ For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be
 Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
 
 Do this in O(N) time.
+
+[Back on Top](#Process)
+
+---
+
+### #50
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+```
+    *
+   / \
+  +    +
+ / \  / \
+3  2  4  5
+```
+
+You should return 45, as it is (3 + 2) * (4 + 5).
+
+[Back on Top](#Process)
+
+---
+
+### #51
+
+Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
+It should run in O(N) time.
+
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
 [Back on Top](#Process)
 

@@ -57,6 +57,7 @@ Day | Origin | Difficulty | Status
 [49](#49) | Amazon | Medium | [49.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/49.py)
 [50](#50) | Microsoft | Easy | []()
 [51](#51) | Facebook | Medium | [51.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/51.py)
+[52](#52) | Google | Hard | []()
 
 ## Problem descriptions
 
@@ -751,6 +752,17 @@ Given a function that generates perfectly random numbers between 1 and k (inclus
 It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+
+[Back on Top](#Process)
+
+---
+
+### #52
+
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
+set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
+get(key): gets the value at key. If no such key exists, return null.
 
 [Back on Top](#Process)
 

@@ -16,14 +16,19 @@ get(key): gets the value at key. If no such key exists, return null.
 
 import collections
 
-
+'''
+Class: Least-Recently-Used Cache
+'''
 class LRUCache():
     def __init__(self, size):
         self.size = size
         self.deq = collections.deque()  # init double-ended queue: store key ~> LRU element in last
         self.dict = {}  # init dict(): store (key,value)
     
-
+    '''
+    Functionality: sets key to value
+    * If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
+    '''
     def set(self, key, value):
         if len(self.deq) == self.size:  # if cache is full
             lru_key = self.deq.pop()    # get rid of the LRU element by popping the last element in deq
@@ -31,7 +36,10 @@ class LRUCache():
         self.deq.appendleft(key)    # add key to front of deq, i.e most-recently used
         self.dict[key] = value  # save value of key
     
-    
+    '''
+    Functionality: gets the value at key
+    * If no such key exists, return null
+    '''
     def get(self, key):
         if key in self.dict.keys():
             return self.dict[key]

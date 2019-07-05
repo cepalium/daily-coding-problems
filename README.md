@@ -57,7 +57,8 @@ Day | Origin | Difficulty | Status
 [49](#49) | Amazon | Medium | [49.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/49.py)
 [50](#50) | Microsoft | Easy | []()
 [51](#51) | Facebook | Medium | [51.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/51.py)
-[52](#52) | Google | Hard | []()
+[52](#52) | Google | Hard | [52.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/52.py)
+[53](#53) | Apple | Medium | [53.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/53.py)
 
 ## Problem descriptions
 
@@ -763,6 +764,14 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 
 set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
 get(key): gets the value at key. If no such key exists, return null.
+
+[Back on Top](#Process)
+
+---
+
+### #53
+
+Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
 
 [Back on Top](#Process)
 

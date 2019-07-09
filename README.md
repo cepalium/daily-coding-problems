@@ -59,6 +59,10 @@ Day | Origin | Difficulty | Status
 [51](#51) | Facebook | Medium | [51.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/51.py)
 [52](#52) | Google | Hard | [52.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/52.py)
 [53](#53) | Apple | Medium | [53.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/53.py)
+[54](#54) | Dropbox | Hard | []()
+[55](#55) | Microsoft | Easy | []()
+[56](#56) | Google | Medium | []()
+[57](#57) | Amazon | Medium | [57.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/57.py)
 
 ## Problem descriptions
 
@@ -772,6 +776,49 @@ get(key): gets the value at key. If no such key exists, return null.
 ### #53
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
+
+[Back on Top](#Process)
+
+---
+
+### #54
+
+Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
+Implement an efficient sudoku solver.
+
+[Back on Top](#Process)
+
+---
+
+### #55
+
+Implement a URL shortener with the following methods:
+
+* shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
+* restore(short), which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+
+[Back on Top](#Process)
+
+---
+
+### #56
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+[Back on Top](#Process)
+
+---
+
+### # 57
+
+Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
+
+You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
+
+For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
 [Back on Top](#Process)
 

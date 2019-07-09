@@ -812,7 +812,7 @@ Given an undirected graph represented as an adjacency matrix and an integer k, w
 
 ---
 
-### # 57
+### #57
 
 Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
 

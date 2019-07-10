@@ -63,6 +63,7 @@ Day | Origin | Difficulty | Status
 [55](#55) | Microsoft | Easy | []()
 [56](#56) | Google | Medium | []()
 [57](#57) | Amazon | Medium | [57.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/57.py)
+[58]($58) | Amazon | Medium | [58.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/58.py)
 
 ## Problem descriptions
 
@@ -819,6 +820,20 @@ Given a string s and an integer k, break up the string into multiple lines such 
 You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+
+[Back on Top](#Process)
+
+---
+
+### #58
+
+An sorted array of integers was rotated an unknown number of times.
+
+Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
+
+For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
+
+You can assume all the integers in the array are unique.
 
 [Back on Top](#Process)
 

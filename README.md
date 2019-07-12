@@ -63,7 +63,9 @@ Day | Origin | Difficulty | Status
 [55](#55) | Microsoft | Easy | []()
 [56](#56) | Google | Medium | []()
 [57](#57) | Amazon | Medium | [57.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/57.py)
-[58]($58) | Amazon | Medium | [58.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/58.py)
+[58](#58) | Amazon | Medium | [58.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/58.py)
+[59](#59) | Google | Hard | []()
+[60](#60) | Facebook | Medium | [60.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/60.py)
 
 ## Problem descriptions
 
@@ -834,6 +836,26 @@ Given such an array, find the index of the element in the array in faster than l
 For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
 
 You can assume all the integers in the array are unique.
+
+[Back on Top](#Process)
+
+---
+
+### #59
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+[Back on Top](#Process)
+
+---
+
+### #60
+
+Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
+
+For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, which both add up to 55.
+
+Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
 
 [Back on Top](#Process)
 

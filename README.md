@@ -66,6 +66,10 @@ Day | Origin | Difficulty | Status
 [58](#58) | Amazon | Medium | [58.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/58.py)
 [59](#59) | Google | Hard | []()
 [60](#60) | Facebook | Medium | [60.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/60.py)
+[61](#61) | Google | Medium | []()
+[62](#62) | Facebook | Medium | []()
+[63](#63) | Microsoft | Easy | [63.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/63.py)
+
 
 ## Problem descriptions
 
@@ -856,6 +860,51 @@ Given a multiset of integers, return whether it can be partitioned into two subs
 For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, which both add up to 55.
 
 Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
+
+[Back on Top](#Process)
+
+---
+
+### #61
+
+Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, pow(2, 10) should return 1024.
+
+[Back on Top](#Process)
+
+---
+
+### #62
+
+There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
+
+For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
+
+Right, then down
+Down, then right
+Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+
+[Back on Top](#Process)
+
+---
+
+### #63
+
+Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+
+For example, given the following matrix:
+
+```
+[['F', 'A', 'C', 'I'],
+ ['O', 'B', 'Q', 'P'],
+ ['A', 'N', 'O', 'B'],
+ ['M', 'A', 'S', 'S']]
+ ```
+
+and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
 [Back on Top](#Process)
 

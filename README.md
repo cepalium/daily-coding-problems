@@ -69,6 +69,8 @@ Day | Origin | Difficulty | Status
 [61](#61) | Google | Medium | []()
 [62](#62) | Facebook | Medium | []()
 [63](#63) | Microsoft | Easy | [63.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/63.py)
+[64](#64) | Google | Hard | []()
+[65](#65) | Amazon | Easy | [65.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/65.py)
 
 
 ## Problem descriptions
@@ -905,6 +907,54 @@ For example, given the following matrix:
  ```
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+
+[Back on Top](#Process)
+
+---
+### #64
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
+
+[Back on Top](#Process)
+
+---
+### #65
+
+Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+
+For example, given the following matrix:
+```
+[[1,  2,  3,  4,  5],
+ [6,  7,  8,  9,  10],
+ [11, 12, 13, 14, 15],
+ [16, 17, 18, 19, 20]]
+```
+
+You should print out the following:
+```
+1
+2
+3
+4
+5
+10
+15
+20
+19
+18
+17
+16
+11
+6
+7
+8
+9
+14
+13
+12
+```
 
 [Back on Top](#Process)
 

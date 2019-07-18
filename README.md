@@ -71,7 +71,7 @@ Day | Origin | Difficulty | Status
 [63](#63) | Microsoft | Easy | [63.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/63.py)
 [64](#64) | Google | Hard | []()
 [65](#65) | Amazon | Easy | [65.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/65.py)
-
+[66](#66) | Square | Medium | [66.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/66.py)
 
 ## Problem descriptions
 
@@ -959,3 +959,9 @@ You should print out the following:
 [Back on Top](#Process)
 
 ---
+
+### #66
+
+Assume you have access to a function toss_biased() which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
+
+Write a function to simulate an unbiased coin toss.

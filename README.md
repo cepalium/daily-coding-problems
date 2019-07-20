@@ -72,6 +72,8 @@ Day | Origin | Difficulty | Status
 [64](#64) | Google | Hard | []()
 [65](#65) | Amazon | Easy | [65.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/65.py)
 [66](#66) | Square | Medium | [66.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/66.py)
+[67](#67) | Google | Hard | []()
+[68](#68) | Google | Meidum | [68.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/68.py)
 
 ## Problem descriptions
 
@@ -965,3 +967,46 @@ You should print out the following:
 Assume you have access to a function toss_biased() which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
 
 Write a function to simulate an unbiased coin toss.
+
+[Back on Top](#Process)
+
+---
+
+### #67
+
+Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
+set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed. <br/>
+get(key): gets the value at key. If no such key exists, return null.
+Each operation should run in O(1) time.
+
+[Back on Top](#Process)
+
+---
+
+### #68
+
+On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
+
+You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
+
+For example, given M = 5 and the list of bishops:
+```
+(0, 0)
+(1, 2)
+(2, 2)
+(4, 0)
+```
+The board would look like this:
+```
+[b 0 0 0 0]
+[0 0 b 0 0]
+[0 0 b 0 0]
+[0 0 0 0 0]
+[b 0 0 0 0]
+```
+You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
+
+[Back on Top](#Process)
+
+---

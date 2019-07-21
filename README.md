@@ -73,7 +73,8 @@ Day | Origin | Difficulty | Status
 [65](#65) | Amazon | Easy | [65.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/65.py)
 [66](#66) | Square | Medium | [66.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/66.py)
 [67](#67) | Google | Hard | []()
-[68](#68) | Google | Meidum | [68.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/68.py)
+[68](#68) | Google | Medium | [68.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/68.py)
+[69](#69) | Facebook | Easy | [69.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/69.py)
 
 ## Problem descriptions
 
@@ -1006,6 +1007,18 @@ The board would look like this:
 [b 0 0 0 0]
 ```
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
+
+[Back on Top](#Process)
+
+---
+
+### #69
+
+Given a list of integers, return the largest product that can be made by multiplying any three integers.
+
+For example, if the list is [-10, -10, 5, 2], we should return 500, since that's -10 * -10 * 5.
+
+You can assume the list has at least three integers.
 
 [Back on Top](#Process)
 

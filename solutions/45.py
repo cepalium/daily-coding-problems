@@ -17,14 +17,13 @@ def rand5():
 
 def rand7():
 # output: uniformly random int [1,7] by using rand5()
+# requirements: build rand7() from rand5()
 # method: rand7 = ((rand5 + 5*rand5) % 7) + 1
 # condition: rand5 + 5*rand5 < 27
-    c = -1  # init c
-    while (c >= 27) or (c == -1):
-        a = rand5()
-        b = rand5() 
-        c = a + 5*b
-    return (c % 7) + 1  # c % 7 = {0,...6} ~> +1 to have {1,...,7}
+    c = rand5() + 5*rand5() # c = {6,7,...,35}
+    while c >= 27:
+        c = rand5() + 5*rand5()
+    return (c % 7) + 1  # c % 7 = {0,...6} => (c % 7) + 1 = {1,...,7}
 
 
 def check_uniform_rand7():

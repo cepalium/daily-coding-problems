@@ -76,6 +76,7 @@ Day | Origin | Difficulty | Status
 [68](#68) | Google | Medium | [68.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/68.py)
 [69](#69) | Facebook | Easy | [69.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/69.py)
 [70](#70) | Microsoft | Easy | [70.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/70.py)
+[71](#71) | Two Sigma | Easy | [71.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/71.py)
 
 ## Problem descriptions
 
@@ -1032,6 +1033,14 @@ A number is considered perfect if its digits sum up to exactly 10.
 Given a positive integer n, return the n-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
+
+[Back on Top](#Process)
+
+---
+
+### #71
+
+Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
 
 [Back on Top](#Process)
 

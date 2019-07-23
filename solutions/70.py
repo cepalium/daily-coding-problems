@@ -15,10 +15,11 @@ def nthPerfectNumber(n):
 # input: int n
 # output: n-th perfect number
 # perfect number := sum all digits equals to 10
-    # init
+# running time: O(n)
+    # init var
     pNumber = 0
     n0 = 0
-    # loop: 
+    # loop
     while n0 < n:
         pNumber += 1
         sum_digits_in_pNumber = sum([int(d) for d in str(pNumber)])

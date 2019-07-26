@@ -77,6 +77,9 @@ Day | Origin | Difficulty | Status
 [69](#69) | Facebook | Easy | [69.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/69.py)
 [70](#70) | Microsoft | Easy | [70.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/70.py)
 [71](#71) | Two Sigma | Easy | [71.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/71.py)
+[72](#72) | Google | Hard | []()
+[73](#73) | Google | Easy | []()
+[74](#74) | Apple | Medium | [74.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/74.py)
 
 ## Problem descriptions
 
@@ -1041,6 +1044,71 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 ### #71
 
 Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
+
+[Back on Top](#Process)
+
+---
+
+### #72
+
+In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. For example, if a path in the graph goes through "ABACA", the value of the path is 3, since there are 3 occurrences of 'A' on the path.
+
+Given a graph with n nodes and m directed edges, return the largest value path of the graph. If the largest value is infinite, then return null.
+
+The graph is represented with a string and an edge list. The i-th character represents the uppercase letter of the i-th node. Each tuple in the edge list (i, j) means there is a directed edge from the i-th node to the j-th node. Self-edges are possible, as well as multi-edges.
+
+For example, the following input graph:
+
+> ABACA
+```
+[(0, 1),
+ (0, 2),
+ (2, 3),
+ (3, 4)]
+```
+Would have maximum value 3 using the path of vertices [0, 2, 3, 4], (A, A, C, A).
+
+The following input graph:
+
+> A
+```
+[(0, 0)]
+```
+Should return null, since we have an infinite loop.
+
+[Back on Top](#Process)
+
+---
+
+### #73
+
+Given the head of a singly linked list, reverse it in-place.
+
+[Back on Top](#Process)
+
+---
+
+### #74
+
+Suppose you have a multiplication table that is N by N. That is, a 2D array where the value at the i-th row and j-th column is (i + 1) * (j + 1) (if 0-indexed) or i * j (if 1-indexed).
+
+Given integers N and X, write a function that returns the number of times X appears as a value in an N by N multiplication table.
+
+For example, given N = 6 and X = 12, you should return 4, since the multiplication table looks like this:
+
+| 1 | 2 | 3 | 4 | 5 | 6 |
+
+| 2 | 4 | 6 | 8 | 10 | 12 |
+
+| 3 | 6 | 9 | 12 | 15 | 18 |
+
+| 4 | 8 | 12 | 16 | 20 | 24 |
+
+| 5 | 10 | 15 | 20 | 25 | 30 |
+
+| 6 | 12 | 18 | 24 | 30 | 36 |
+
+And there are 4 12's in the table.
 
 [Back on Top](#Process)
 

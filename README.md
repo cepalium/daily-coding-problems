@@ -80,6 +80,7 @@ Day | Origin | Difficulty | Status
 [72](#72) | Google | Hard | []()
 [73](#73) | Google | Easy | []()
 [74](#74) | Apple | Medium | [74.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/74.py)
+[75](#75) | Microsoft | Hard | [75.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/75.py)
 
 ## Problem descriptions
 
@@ -1109,6 +1110,16 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 | 6 | 12 | 18 | 24 | 30 | 36 |
 
 And there are 4 12's in the table.
+
+[Back on Top](#Process)
+
+---
+
+### #75
+
+Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
+
+For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 
 [Back on Top](#Process)
 

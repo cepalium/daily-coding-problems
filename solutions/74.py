@@ -62,3 +62,7 @@ def countX_inMultiplicationTable_test(N, X):
 
 if __name__ == "__main__":
     countX_inMultiplicationTable_test(N=6, X=12) # return 4
+    countX_inMultiplicationTable_test(N=6, X=11) # return 0
+    countX_inMultiplicationTable_test(N=6, X=1) # return 1
+    countX_inMultiplicationTable_test(N=6, X=25) # return 1
+    countX_inMultiplicationTable_test(N=6, X=6) # return 4

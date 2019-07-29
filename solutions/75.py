@@ -14,10 +14,12 @@ the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 def longestIncreasingSubsequence(arr):
 # input: array arr
 # output: length of longest increasing subsequence in arr
+# method: dynamic programming
+# running time: O(n^2)
     s = []
     # base case:
     s.append(1) # s[0] = 1
-    # recursion
+    # recursion:
     for i in range(1, len(arr)):
         tmp = [s[j] for j in range(len(s)) if arr[j] < arr[i]]  # list {s[j] | j < i, arr[j] < arr[i]}
         tmp.append(0)   # list {0, s[j] | j < i, arr[j] < arr[i]}

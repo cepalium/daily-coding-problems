@@ -28,8 +28,8 @@ def mergeOverlappingIntervals(intervals):
 # output: list after merging all overlapping intervals
 # running time: O(n^2)
     # trivial
-    if len(intervals) == 0:
-        return []
+    if len(intervals) < 2:
+        return intervals
     # else: have intervals
     mergedIntervals = []    # init output
     # add 1st interval into output

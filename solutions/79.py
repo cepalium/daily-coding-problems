@@ -23,17 +23,16 @@ def is_nonDecreasing(arr, m):
         if arr[i] > arr[i-1]:   
             continue
         # else: 2 adjacent elements are NOT non-decreasing
-        # false case 1: 2 elements are NOT non-decreasing & no modification left ~> False
+        # false case 1: 2 elements are NOT non-decreasing & no modification left
         if m == 0:
             return False
-        # 2 elements are NOT non-decreasing & still can modify element
+        # 2 elements are NOT non-decreasing & can modify element if possible
         prevElement_digits = [int(d) for d in str(arr[i-1])]
-        print(prevElement_digits)
-        if arr[i] > min(prevElement_digits):    # 2 adjacent elements are NOT non-decreasing & a modification is possible
-            m -= 1  # decreasing no. modifications left, then continue
-            continue
-        else:   # false case 2: 2 adjacent elements are NOT non-decreasing & no possible modification ~> False
+        # false case 2: 2 adjacent elements are NOT non-decreasing & no possible modification
+        if arr[i] < min(prevElement_digits): 
             return False
+        # else: 2 adjacent elements are NOT non-decreasing & a modification is possible
+        m -= 1  # decrease no. modifications, then continue
     return True
 
 

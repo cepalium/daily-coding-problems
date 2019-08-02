@@ -85,6 +85,8 @@ Day | Origin | Difficulty | Status
 [77](#77) | Snapchat | Easy | [77.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/77.py)
 [78](#78) | Google | Medium | []()
 [79](#79) | Facebook | Medium | [79.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/79.py)
+[80](#80) | Google | Easy | []()
+[81](#81) | Yelp | Easy | [81.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/81.py)
 
 ## Problem descriptions
 
@@ -1192,6 +1194,31 @@ Given an array of integers, write a function to determine whether the array coul
 For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
 
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
+
+[Back on Top](#Process)
+
+---
+
+### #80
+
+Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
+```
+    a
+   / \
+  b   c
+ /
+d
+```
+
+[Back on Top](#Process)
+
+---
+
+### #81
+
+Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
+
+For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
 
 [Back on Top](#Process)
 

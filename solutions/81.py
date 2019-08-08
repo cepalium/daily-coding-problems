@@ -31,8 +31,8 @@ def possibleWords(digitStr):
     # iteration
     while digitStr: # until all digits
         lastDigit = digitStr[-1]
-        tmp = []    # temporary list to store new concated words 
-        for c in digitsToLetters[lastDigit]:
+        tmp = []    # temporary list to store new concated words
+        for c in digitsToLetters[lastDigit]:    # add letters from current last digits to all words in current list 'words'
             for word in words:
                 word = c + word
                 tmp.append(word)

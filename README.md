@@ -87,6 +87,12 @@ Day | Origin | Difficulty | Status
 [79](#79) | Facebook | Medium | [79.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/79.py)
 [80](#80) | Google | Easy | []()
 [81](#81) | Yelp | Easy | [81.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/81.py)
+[82](#82) | Microsoft | Easy | []()
+[83](#83) | Google | Medium | []()
+[84](#84) | Amazon | Medium | []()
+[85](#85) | Facebook | Medium | [85.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/85.py)
+[86](#86) | Google | Medium | [86.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/86.py)
+[87](#87) | Uber | Hard | []() 
 
 ## Problem descriptions
 
@@ -1219,6 +1225,106 @@ d
 Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
 
 For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
+
+[Back on Top](#Process)
+
+---
+
+### #82
+
+Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
+
+For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+
+[Back on Top](#Process)
+
+---
+
+### #83
+
+Invert a binary tree.
+
+For example, given the following tree:
+```
+    a
+   / \
+  b   c
+ / \  /
+d   e f
+```
+should become:
+```
+  a
+ / \
+ c  b
+ \  / \
+  f e  d
+```
+
+[Back on Top](#Process)
+
+---
+
+### #84
+
+Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
+
+For example, this matrix has 4 islands.
+```
+1 0 0 0 0
+0 0 1 1 0
+0 1 1 0 0
+0 0 0 0 0
+1 1 0 0 1
+1 1 0 0 1
+```
+
+[Back on Top](#Process)
+
+---
+
+### #85
+
+Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
+
+[Back on Top](#Process)
+
+---
+
+### #86
+
+Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+
+For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+
+[Back on Top](#Process)
+
+---
+
+### #87
+
+A rule looks like this:
+
+> A NE B
+
+This means this means point A is located northeast of point B.
+
+> A SW C
+
+means that point A is southwest of C.
+
+Given a list of rules, check if the sum of the rules validate. For example:
+```
+A N B
+B NE C
+C N A
+```
+does not validate, since A cannot be both north and south of C.
+```
+A NW B
+A N B
+```
+is considered valid.
 
 [Back on Top](#Process)
 

@@ -93,6 +93,8 @@ Day | Origin | Difficulty | Status
 [85](#85) | Facebook | Medium | [85.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/85.py)
 [86](#86) | Google | Medium | [86.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/86.py)
 [87](#87) | Uber | Hard | []() 
+[88](#88) | ContextLogic | Medium | []()
+[89](#89) | LinkedIn | Medium | []()
 
 ## Problem descriptions
 
@@ -1325,6 +1327,24 @@ A NW B
 A N B
 ```
 is considered valid.
+
+[Back on Top](#Process)
+
+---
+
+### #88
+
+Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+
+[Back on Top](#Process)
+
+---
+
+### #89
+
+Determine whether a tree is a valid binary search tree.
+
+A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
 
 [Back on Top](#Process)
 

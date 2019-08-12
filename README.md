@@ -93,8 +93,10 @@ Day | Origin | Difficulty | Status
 [85](#85) | Facebook | Medium | [85.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/85.py)
 [86](#86) | Google | Medium | [86.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/86.py)
 [87](#87) | Uber | Hard | []() 
-[88](#88) | ContextLogic | Medium | []()
+[88](#88) | ContextLogic | Medium | [88.py]((https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/88.py)
 [89](#89) | LinkedIn | Medium | []()
+[90](#90) | Google | Medium | [90.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/90.py)
+[91](#91) | Dropbox | Easy | [91.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/91.py)
 
 ## Problem descriptions
 
@@ -1345,6 +1347,30 @@ Implement division of two positive integers without using the division, multipli
 Determine whether a tree is a valid binary search tree.
 
 A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
+
+[Back on Top](#Process)
+
+---
+### #90
+
+Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
+
+[Back on Top](#Process)
+
+---
+
+### #91
+
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+```
+functions = []
+for i in range(10):
+    functions.append(lambda : i)
+
+for f in functions:
+    print(f())
+```
 
 [Back on Top](#Process)
 

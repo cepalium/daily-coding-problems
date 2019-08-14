@@ -93,7 +93,7 @@ Day | Origin | Difficulty | Status
 [85](#85) | Facebook | Medium | [85.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/85.py)
 [86](#86) | Google | Medium | [86.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/86.py)
 [87](#87) | Uber | Hard | []() 
-[88](#88) | ContextLogic | Medium | [88.py]((https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/88.py)
+[88](#88) | ContextLogic | Medium | [88.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/88.py)
 [89](#89) | LinkedIn | Medium | []()
 [90](#90) | Google | Medium | [90.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/90.py)
 [91](#91) | Dropbox | Easy | [91.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/91.py)

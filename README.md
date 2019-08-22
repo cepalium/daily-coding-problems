@@ -97,6 +97,17 @@ Day | Origin | Difficulty | Status
 [89](#89) | LinkedIn | Medium | []()
 [90](#90) | Google | Medium | [90.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/90.py)
 [91](#91) | Dropbox | Easy | [91.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/91.py)
+[92](#92) | Airbnb | Hard | []()
+[93](#93) | Apple | Hard | []()
+[94](#94) | Google | Easy | []()
+[95](#95) | Palantir | Hard | []()
+[96](#96) | Microsoft | Easy | []()
+[97](#97) | Stripe | Medium | []()
+[98](#98) | Coursera | Easy | []()
+[99](#99) | Microsoft | Medium | []()
+[100](#100) | Google | Easy | [100.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/100.py)
+[101](#101) | Alibaba | Easy | [101.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/101.py)
+
 
 ## Problem descriptions
 
@@ -1351,6 +1362,7 @@ A binary search tree is a tree with two children, left and right, and satisfies 
 [Back on Top](#Process)
 
 ---
+
 ### #90
 
 Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
@@ -1371,6 +1383,173 @@ for i in range(10):
 for f in functions:
     print(f())
 ```
+
+[Back on Top](#Process)
+
+---
+
+### #92
+
+We're given a hashmap associating each courseId key with a list of courseIds values, which represents that the prerequisites of courseId are courseIds. Return a sorted ordering of courses such that we can finish all courses.
+
+Return null if there is no such ordering.
+
+For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
+
+[Back on Top](#Process)
+
+---
+
+### #93
+
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
+
+[Back on Top](#Process)
+
+---
+
+### #94
+
+Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
+
+[Back on Top](#Process)
+
+---
+
+### #95
+
+Given a number represented by a list of digits, find the next greater permutation of a number, in terms of lexicographic ordering. If there is not greater permutation possible, return the permutation with the lowest value/ordering.
+
+For example, the list [1,2,3] should return [1,3,2]. The list [1,3,2] should return [2,1,3]. The list [3,2,1] should return [1,2,3].
+
+Can you perform the operation without allocating extra memory (disregarding the input memory)?
+
+[Back on Top](#Process)
+
+---
+
+### #96
+
+Given a number in the form of a list of digits, return all possible permutations.
+
+For example, given [1,2,3], return 
+> [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]].
+
+[Back on Top](#Process)
+
+---
+
+### #97
+
+Write a map implementation with a get function that lets you retrieve the value of a key at a particular time.
+
+It should contain the following methods:
+
+set(key, value, time): sets key to value for t = time.
+get(key, time): gets the key at t = time.
+The map should work like this. If we set a key at a particular time, it will maintain that value forever or until it gets set at a later time. In other words, when we get a key at a time, it should return the value that was set for that key set at the most recent time.
+
+Consider the following examples:
+```
+d.set(1, 1, 0) # set key 1 to value 1 at time 0
+d.set(1, 2, 2) # set key 1 to value 2 at time 2
+d.get(1, 1) # get key 1 at time 1 should be 1
+d.get(1, 3) # get key 1 at time 3 should be 2
+```
+```
+d.set(1, 1, 5) # set key 1 to value 1 at time 5
+d.get(1, 0) # get key 1 at time 0 should be null
+d.get(1, 10) # get key 1 at time 10 should be 1
+```
+```
+d.set(1, 1, 0) # set key 1 to value 1 at time 0
+d.set(1, 2, 0) # set key 1 to value 2 at time 0
+d.get(1, 0) # get key 1 at time 0 should be 2
+```
+
+[Back on Top](#Process)
+
+---
+
+### #98
+
+Given a 2D board of characters and a word, find if the word exists in the grid.
+
+The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
+
+For example, given the following board:
+```
+[
+  ['A','B','C','E'],
+  ['S','F','C','S'],
+  ['A','D','E','E']
+]
+```
+exists(board, "ABCCED") returns true, exists(board, "SEE") returns true, exists(board, "ABCB") returns false.
+
+[Back on Top](#Process)
+
+---
+
+### #99
+
+Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element sequence is [1, 2, 3, 4]. Return its length: 4.
+
+Your algorithm should run in O(n) complexity.
+
+[Back on Top](#Process)
+
+---
+
+### #100
+
+You are in an infinite 2D grid where you can move in any of the 8 directions:
+```
+ (x,y) to
+    (x+1, y),
+    (x - 1, y),
+    (x, y+1),
+    (x, y-1),
+    (x-1, y-1),
+    (x+1,y+1),
+    (x-1,y+1),
+    (x+1,y-1)
+```
+You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
+
+Example:
+```
+Input: [(0, 0), (1, 1), (1, 2)]
+Output: 2
+```
+It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
+
+[Back on Top](#Process)
+
+---
+
+### #101
+
+Given an even number (greater than 2), return two prime numbers whose sum will be equal to the given number.
+
+A solution will always exist. See Goldbach’s conjecture.
+
+Example:
+```
+Input: 4
+Output: 2 + 2 = 4
+```
+If there are more than one solution possible, return the lexicographically smaller solution.
+
+If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then
+
+> [a, b] < [c, d]
+
+If a < c OR a==c AND b < d.
 
 [Back on Top](#Process)
 

@@ -107,6 +107,7 @@ Day | Origin | Difficulty | Status
 [99](#99) | Microsoft | Medium | []()
 [100](#100) | Google | Easy | [100.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/100.py)
 [101](#101) | Alibaba | Easy | [101.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/101.py)
+[102](#102) | Lyft | Medium | [102.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/102.py)
 
 
 ## Problem descriptions
@@ -1550,6 +1551,16 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 > [a, b] < [c, d]
 
 If a < c OR a==c AND b < d.
+
+[Back on Top](#Process)
+
+---
+
+### #102
+
+Given a list of integers and a number K, return which contiguous elements of the list sum to K.
+
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
 [Back on Top](#Process)
 

@@ -109,6 +109,9 @@ Day | Origin | Difficulty | Status
 [101](#101) | Alibaba | Easy | [101.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/101.py)
 [102](#102) | Lyft | Medium | [102.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/102.py)
 [103](#103) | Square | Medium | [103.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/103.py)
+[104](#104) | Google | Easy | []()
+[105](#105) | Facebook | Easy | []()
+[106](#106) | Pinterest | Medium | [106.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/106.py)
 
 ## Problem descriptions
 
@@ -1573,6 +1576,36 @@ Given a string and a set of characters, return the shortest substring containing
 For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
 
 If there is no substring containing all the characters in the set, return null.
+
+[Back on Top](#Process)
+
+---
+
+### #104
+
+Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
+
+For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False.
+
+[Back on Top](#Process)
+
+---
+
+### #105
+
+Given a function f, and N return a debounced f of N milliseconds.
+
+That is, as long as the debounced f continues to be invoked, f itself will not be called for N milliseconds.
+
+[Back on Top](#Process)
+
+---
+
+### #106
+
+Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
+
+For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 
 [Back on Top](#Process)
 

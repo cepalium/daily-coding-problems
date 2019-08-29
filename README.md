@@ -112,6 +112,8 @@ Day | Origin | Difficulty | Status
 [104](#104) | Google | Easy | []()
 [105](#105) | Facebook | Easy | []()
 [106](#106) | Pinterest | Medium | [106.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/106.py)
+[107](#107) | Microsoft | Easy | []()
+[108](#108) | Google | Easy | [108.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/108.py)
 
 ## Problem descriptions
 
@@ -1606,6 +1608,31 @@ That is, as long as the debounced f continues to be invoked, f itself will not b
 Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
 
 For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
+
+[Back on Top](#Process)
+
+---
+
+### #107
+
+Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
+```
+  1
+ / \
+2   3
+   / \
+  4   5
+```  
+
+[Back on Top](#Process)
+
+---
+
+### #108
+
+Given two strings A and B, return whether or not A can be shifted some number of times to get B.
+
+For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb, return false.
 
 [Back on Top](#Process)
 

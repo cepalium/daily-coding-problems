@@ -114,6 +114,11 @@ Day | Origin | Difficulty | Status
 [106](#106) | Pinterest | Medium | [106.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/106.py)
 [107](#107) | Microsoft | Easy | []()
 [108](#108) | Google | Easy | [108.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/108.py)
+[109](#109) | Cisco | Medium | [109.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/109.py)
+[110](#110) | Facebook | Medium | []()
+[111](#111) | Google | Hard | []()
+[112](#112) | Twitter | Hard | []()
+[113](#113) | Google | Medium | [113.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/113.py)
 
 ## Problem descriptions
 
@@ -1633,6 +1638,67 @@ Print the nodes in a binary tree level-wise. For example, the following should p
 Given two strings A and B, return whether or not A can be shifted some number of times to get B.
 
 For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb, return false.
+
+[Back on Top](#Process)
+
+---
+
+### #109
+
+Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
+
+For example, 10101010 should be 01010101. 11100010 should be 11010001.
+
+Bonus: Can you do this in one line?
+
+[Back on Top](#Process)
+
+---
+
+### #110
+
+Given a binary tree, return all paths from the root to leaves.
+
+For example, given the tree:
+```
+   1
+  / \
+ 2   3
+    / \
+   4   5
+```
+
+Return [[1, 2], [1, 3, 4], [1, 3, 5]].
+
+[Back on Top](#Process)
+
+---
+
+### #111
+
+Given a word W and a string S, find all starting indices in S which are anagrams of W.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
+[Back on Top](#Process)
+
+---
+
+### #112
+
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
+
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
+
+[Back on Top](#Process)
+
+---
+
+### #113
+
+Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
+
+Follow-up: given a mutable string representation, can you perform this operation in-place?
 
 [Back on Top](#Process)
 

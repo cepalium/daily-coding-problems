@@ -119,6 +119,7 @@ Day | Origin | Difficulty | Status
 [111](#111) | Google | Hard | []()
 [112](#112) | Twitter | Hard | []()
 [113](#113) | Google | Medium | [113.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/113.py)
+[114](#114) | Facebook | Hard | [114.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/114.py)
 
 ## Problem descriptions
 
@@ -1699,6 +1700,16 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
 Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
 
 Follow-up: given a mutable string representation, can you perform this operation in-place?
+
+[Back on Top](#Process)
+
+---
+
+### #114
+
+Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given "hello/world:here", return "here/world:hello"
+
+Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
 [Back on Top](#Process)
 

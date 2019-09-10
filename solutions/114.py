@@ -57,11 +57,10 @@ def reverseWords(string, delim):
         if startByWord:
             output.append(words[i_words])   # add word to output
             i_words += 1    # move iterator
-            startByWord = not startByWord   # reverse to add delimiter at next round
         else:
             output.append(delimiters[i_delimiters]) # add delimiter to output
             i_delimiters += 1   # move iterator
-            startByWord = not startByWord   # reverse to add word at next round
+        startByWord = not startByWord   # reverse to add element from the other list at next round
     # copy the rest to output
     while i_words < len(words):
         output.append(words[i_words])

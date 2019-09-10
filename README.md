@@ -120,6 +120,12 @@ Day | Origin | Difficulty | Status
 [112](#112) | Twitter | Hard | []()
 [113](#113) | Google | Medium | [113.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/113.py)
 [114](#114) | Facebook | Hard | [114.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/114.py)
+[115](#115) | Google | Hard | []()
+[116](#116) | Jane Street | Medium | []()
+[117](#117) | Facebook | Easy | []()
+[118](#118) | Google | Easy | [118.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/118.py)
+[119](#119) | Google | Medium | []()
+[120](#120) | Microsoft | Medium | []()
 
 ## Problem descriptions
 
@@ -1710,6 +1716,60 @@ Follow-up: given a mutable string representation, can you perform this operation
 Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given "hello/world:here", return "here/world:hello"
 
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
+
+[Back on Top](#Process)
+
+---
+
+### #115
+
+Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
+
+[Back on Top](#Process)
+
+---
+
+### #116
+
+Generate a finite, but an arbitrarily large binary tree quickly in O(1).
+
+That is, generate() should return a tree whose size is unbounded but finite.
+
+[Back on Top](#Process)
+
+---
+
+### #117
+
+Given a binary tree, return the level of the tree with minimum sum.
+
+[Back on Top](#Process)
+
+---
+
+### #118
+
+Given a sorted list of integers, square the elements and give the output in sorted order.
+
+For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+
+[Back on Top](#Process)
+
+---
+
+### #119
+
+Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
+
+For example, given the intervals [0, 3], [2, 6], [3, 4], [6, 9], one set of numbers that covers all these intervals is {3, 6}.
+
+[Back on Top](#Process)
+
+---
+
+### #120
+
+Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of getInstance(), return the first instance and in every odd call of getInstance(), return the second instance.
 
 [Back on Top](#Process)
 

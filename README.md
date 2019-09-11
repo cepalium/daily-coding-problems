@@ -48,7 +48,7 @@ Day | Origin | Difficulty | Status
 [40](#40) | Google | Hard | [40.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/40.py)
 [41](#41) | Facebook | Medium | [41.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/41.py)
 [42](#42) | Google | Hard | [42.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/42.py)
-[43](#43) | Amazon | Easy | [43_java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/ArrayStack.java)
+[43](#43) | Amazon | Easy | [43_java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/43/ArrayStack.java)
 [44](#44) | Google | Medium | [44.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/44.py)
 [45](#45) | Two Sigma | Easy | [45.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/45.py)
 [46](#46) | Amazon | Hard | [46.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/46.py)

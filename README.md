@@ -45,10 +45,10 @@ Day | Origin | Difficulty | Status
 [37](#37) | Google | Easy | [37.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/37.py)
 [38](#38) | Microsoft | Hard | []()
 [39](#39) | Dropbox | Medium | [39.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/39.py)
-[40](#40) | Google | Hard | []()
+[40](#40) | Google | Hard | [40.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/40.py)
 [41](#41) | Facebook | Medium | [41.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/41.py)
 [42](#42) | Google | Hard | [42.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/42.py)
-[43](#43) | Amazon | Easy | []()
+[43](#43) | Amazon | Easy | [43_java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/ArrayStack.java)
 [44](#44) | Google | Medium | [44.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/44.py)
 [45](#45) | Two Sigma | Easy | [45.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/45.py)
 [46](#46) | Amazon | Hard | [46.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/46.py)
@@ -66,7 +66,7 @@ Day | Origin | Difficulty | Status
 [58](#58) | Amazon | Medium | [58.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/58.py)
 [59](#59) | Google | Hard | []()
 [60](#60) | Facebook | Medium | [60.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/60.py)
-[61](#61) | Google | Medium | []()
+[61](#61) | Google | Medium | [61.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/61.py)
 [62](#62) | Facebook | Medium | []()
 [63](#63) | Microsoft | Easy | [63.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/63.py)
 [64](#64) | Google | Hard | []()
@@ -92,7 +92,7 @@ Day | Origin | Difficulty | Status
 [84](#84) | Amazon | Medium | []()
 [85](#85) | Facebook | Medium | [85.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/85.py)
 [86](#86) | Google | Medium | [86.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/86.py)
-[87](#87) | Uber | Hard | []() 
+[87](#87) | Uber | Hard | [87.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/87.py) 
 [88](#88) | ContextLogic | Medium | [88.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/88.py)
 [89](#89) | LinkedIn | Medium | []()
 [90](#90) | Google | Medium | [90.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/90.py)
@@ -126,6 +126,7 @@ Day | Origin | Difficulty | Status
 [118](#118) | Google | Easy | [118.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/118.py)
 [119](#119) | Google | Medium | []()
 [120](#120) | Microsoft | Medium | []()
+[121](#121) | Google | Hard | []()
 
 ## Problem descriptions
 
@@ -702,9 +703,10 @@ For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] sin
 
 Implement a stack that has the following methods:
 
-push(val), which pushes an element onto the stack
-pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
-max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+* push(val), which pushes an element onto the stack
+* pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+* max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
 Each method should run in constant time.
 
 [Back on Top](#Process)
@@ -938,9 +940,9 @@ For example, pow(2, 10) should return 1024.
 There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
 
 For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
+* Right, then down
+* Down, then right
 
-Right, then down
-Down, then right
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 [Back on Top](#Process)
@@ -1028,8 +1030,9 @@ Write a function to simulate an unbiased coin toss.
 
 Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
 
-set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed. <br/>
-get(key): gets the value at key. If no such key exists, return null.
+* set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
+* get(key): gets the value at key. If no such key exists, return null.
+
 Each operation should run in O(1) time.
 
 [Back on Top](#Process)
@@ -1465,8 +1468,9 @@ Write a map implementation with a get function that lets you retrieve the value 
 
 It should contain the following methods:
 
-set(key, value, time): sets key to value for t = time.
-get(key, time): gets the key at t = time.
+* set(key, value, time): sets key to value for t = time.
+* get(key, time): gets the key at t = time.
+
 The map should work like this. If we set a key at a particular time, it will maintain that value forever or until it gets set at a later time. In other words, when we get a key at a time, it should return the value that was set for that key set at the most recent time.
 
 Consider the following examples:
@@ -1770,6 +1774,16 @@ For example, given the intervals [0, 3], [2, 6], [3, 4], [6, 9], one set of numb
 ### #120
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of getInstance(), return the first instance and in every odd call of getInstance(), return the second instance.
+
+[Back on Top](#Process)
+
+---
+
+### #121
+
+Given a string which we can delete at most k, return whether you can make a palindrome.
+
+For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
 [Back on Top](#Process)
 

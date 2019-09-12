@@ -31,7 +31,7 @@ Day | Origin | Difficulty | Status
 [23](#23) | Google | Easy | [23.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/23.py)
 [24](#24) | Google | Medium | []()
 [25](#25) | Facebook | Hard | [25.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/25.py)
-[26](#26) | Google | Medium | []()
+[26](#26) | Google | Medium | [26.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/26/RemoveLinkedList.java)
 [27](#27) | Facebook | Easy | [27.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/27.py)
 [28](#28) | Palantir | Medium | []()
 [29](#29) | Amazon | Easy | [29.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/29.py)
@@ -48,7 +48,7 @@ Day | Origin | Difficulty | Status
 [40](#40) | Google | Hard | [40.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/40.py)
 [41](#41) | Facebook | Medium | [41.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/41.py)
 [42](#42) | Google | Hard | [42.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/42.py)
-[43](#43) | Amazon | Easy | [43_java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/43/ArrayStack.java)
+[43](#43) | Amazon | Easy | [43.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/43/ArrayStack.java)
 [44](#44) | Google | Medium | [44.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/44.py)
 [45](#45) | Two Sigma | Easy | [45.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/45.py)
 [46](#46) | Amazon | Hard | [46.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/46.py)
@@ -78,7 +78,7 @@ Day | Origin | Difficulty | Status
 [70](#70) | Microsoft | Easy | [70.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/70.py)
 [71](#71) | Two Sigma | Easy | [71.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/71.py)
 [72](#72) | Google | Hard | []()
-[73](#73) | Google | Easy | []()
+[73](#73) | Google | Easy | [73.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/73/ReverseLinkedList.java)
 [74](#74) | Apple | Medium | [74.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/74.py)
 [75](#75) | Microsoft | Hard | [75.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/75.py)
 [76](#76) | Google | Medium | []()
@@ -101,7 +101,7 @@ Day | Origin | Difficulty | Status
 [93](#93) | Apple | Hard | []()
 [94](#94) | Google | Easy | []()
 [95](#95) | Palantir | Hard | []()
-[96](#96) | Microsoft | Easy | []()
+[96](#96) | Microsoft | Easy | [96.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/96.py)
 [97](#97) | Stripe | Medium | []()
 [98](#98) | Coursera | Easy | []()
 [99](#99) | Microsoft | Medium | []()
@@ -109,7 +109,7 @@ Day | Origin | Difficulty | Status
 [101](#101) | Alibaba | Easy | [101.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/101.py)
 [102](#102) | Lyft | Medium | [102.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/102.py)
 [103](#103) | Square | Medium | [103.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/103.py)
-[104](#104) | Google | Easy | []()
+[104](#104) | Google | Easy | [104.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/104/PalindromeDoublyLinkedList.java)
 [105](#105) | Facebook | Easy | []()
 [106](#106) | Pinterest | Medium | [106.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/106.py)
 [107](#107) | Microsoft | Easy | []()
@@ -127,6 +127,7 @@ Day | Origin | Difficulty | Status
 [119](#119) | Google | Medium | []()
 [120](#120) | Microsoft | Medium | []()
 [121](#121) | Google | Hard | []()
+[122](#122) | Zillow | Medium | []()
 
 ## Problem descriptions
 
@@ -1784,6 +1785,23 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 Given a string which we can delete at most k, return whether you can make a palindrome.
 
 For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+
+[Back on Top](#Process)
+
+---
+
+### #122
+
+You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at matrix[0][0], and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
+
+For example, in this matrix
+```
+0 3 1 1
+2 0 0 4
+1 5 3 1
+```
+
+The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 
 [Back on Top](#Process)
 

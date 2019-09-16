@@ -128,6 +128,10 @@ Day | Origin | Difficulty | Status
 [120](#120) | Microsoft | Medium | []()
 [121](#121) | Google | Hard | []()
 [122](#122) | Zillow | Medium | []()
+[123](#123) | LinkedIn | Hard | []()
+[124](#124) | Microsoft | Easy | []()
+[125](#125) | Google | Easy | []()
+[126](#126) | Facebook | Medium | [126.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/126.py)
 
 ## Problem descriptions
 
@@ -1802,6 +1806,61 @@ For example, in this matrix
 ```
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+
+[Back on Top](#Process)
+
+---
+
+### #123
+
+Given a string, return whether it represents a number. Here are the different kinds of numbers:
+* "10", a positive integer
+* "-10", a negative integer
+* "10.1", a positive real number
+* "-10.1", a negative real number
+* "1e5", a number in scientific notation
+
+And here are examples of non-numbers:
+* "a"
+* "x 1"
+* "a -2"
+* "-"
+
+[Back on Top](#Process)
+
+---
+
+### #124
+
+You have n fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+
+Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
+
+[Back on Top](#Process)
+
+---
+
+### #125
+
+Given the root of a binary search tree, and a target K, return two nodes in the tree whose sum equals K.
+
+For example, given the following tree and K of 20
+```
+    10
+   /   \
+ 5      15
+       /  \
+     11    15
+```
+Return the nodes 5 and 15.
+
+[Back on Top](#Process)
+
+---
+
+### #126
+
+Write a function that rotates a list by k elements. For example, [1, 2, 3, 4, 5, 6] rotated by two becomes [3, 4, 5, 6, 1, 2]. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
 [Back on Top](#Process)
 

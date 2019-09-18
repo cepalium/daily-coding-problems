@@ -25,7 +25,7 @@ Day | Origin | Difficulty | Status
 [17](#17) | Google | Hard | [17.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/17.py)
 [18](#18) | Google | Hard | [18.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/18.py)
 [19](#19) | Facebook | Medium | [19.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/19.py)
-[20](#20) | Google | Easy | []()
+[20](#20) | Google | Easy | [20.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/20/IntersectLinkedList.java)
 [21](#21) | Snapchat | Easy | [21.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/21.py)
 [22](#22) | Microsoft | Medium | [22.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/22.py)
 [23](#23) | Google | Easy | [23.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/23.py)
@@ -116,7 +116,7 @@ Day | Origin | Difficulty | Status
 [108](#108) | Google | Easy | [108.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/108.py)
 [109](#109) | Cisco | Medium | [109.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/109.py)
 [110](#110) | Facebook | Medium | []()
-[111](#111) | Google | Hard | []()
+[111](#111) | Google | Hard | [111.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/111.py)
 [112](#112) | Twitter | Hard | []()
 [113](#113) | Google | Medium | [113.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/113.py)
 [114](#114) | Facebook | Hard | [114.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/114.py)
@@ -127,12 +127,13 @@ Day | Origin | Difficulty | Status
 [119](#119) | Google | Medium | []()
 [120](#120) | Microsoft | Medium | []()
 [121](#121) | Google | Hard | []()
-[122](#122) | Zillow | Medium | []()
+[122](#122) | Zillow | Medium | [122.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/122.py)
 [123](#123) | LinkedIn | Hard | []()
 [124](#124) | Microsoft | Easy | []()
 [125](#125) | Google | Easy | []()
 [126](#126) | Facebook | Medium | [126.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/126.py)
 [127](#127) | Microsoft | Easy | [127.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/127/SumReversedLinkedList.java)
+[128](#128) |  | Medium | []()
 
 
 ## Problem descriptions
@@ -465,9 +466,10 @@ Implement locking in a binary tree. A binary tree node can be locked or unlocked
 
 Design a binary tree node class with the following methods:
 
-is_locked, which returns whether the node is locked
-lock, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true. <br/>
-unlock, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true. <br/>
+* is_locked, which returns whether the node is locked
+lock, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
+* unlock, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
+
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 
 [Back on Top](#Process)
@@ -1888,6 +1890,35 @@ For example, given
 return 124 (99 + 25) as:
 
 > 4 -> 2 -> 1
+
+[Back on Top](#Process)
+
+---
+
+### #128
+
+The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
+
+All the disks start off on the first rod in a stack. They are ordered by size, with the largest disk on the bottom and the smallest one at the top.
+
+The goal of this puzzle is to move all the disks from the first rod to the last rod while following these rules:
+
+* You can only move one disk at a time.
+* A move consists of taking the uppermost disk from one of the stacks and placing it on top of another stack.
+* You cannot place a larger disk on top of a smaller disk.
+
+Write a function that prints out all the steps necessary to complete the Tower of Hanoi. You should assume that the rods are numbered, with the first rod being 1, the second (auxiliary) rod being 2, and the last (goal) rod being 3.
+
+For example, with n = 3, we can do this in 7 moves:
+```
+Move 1 to 3
+Move 1 to 2
+Move 3 to 2
+Move 1 to 3
+Move 2 to 1
+Move 2 to 3
+Move 1 to 3
+```
 
 [Back on Top](#Process)
 

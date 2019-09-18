@@ -12,7 +12,7 @@ Do this in constant space and in one pass.
 public class RemoveLinkedList {
     public static class SinglyLinkedList<E> {
         // -------------- nested class Node -----------------
-        private class Node<E> {
+        protected class Node<E> {
             // instance variables
             private E element;
             private Node<E> next;

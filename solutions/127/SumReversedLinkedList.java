@@ -24,22 +24,22 @@ return 124 (99 + 25) as:
 import java.util.Arrays;
 
 public class SumReversedLinkedList {
+    // ----------- nested Node class -----------------
+    protected static class Node {
+        private Integer element;      // reference to element sotred at this node
+        private Node next;   // reference to subsequent node in the list
+        public Node(Integer e, Node n) {
+            element = e;
+            next = n;
+        }
+        public Integer getElement() { return element; }
+        public Node getNext() { return next; }
+        // update methods
+        public void setElement(Integer e) { element = e;}
+        public void setNext(Node n) { next = n; }
+    } // --------------- end of nested Node class ---------------------
+
     public static class LinkedList {
-        // ----------- nested Node class -----------------
-        protected class Node {
-            private Integer element;      // reference to element sotred at this node
-            private Node next;   // reference to subsequent node in the list
-            public Node(Integer e, Node n) {
-                element = e;
-                next = n;
-            }
-            public Integer getElement() { return element; }
-            public Node getNext() { return next; }
-            // update methods
-            public void setElement(Integer e) { element = e;}
-            public void setNext(Node n) { next = n; }
-        } // --------------- end of nested Node class ---------------------
-    
         // instance variables of SinglyLinkedList
         private Node head = null;        // head node of list (null if empty)
         private Node tail = null;        // last node of list (null if empty)
@@ -99,45 +99,51 @@ public class SumReversedLinkedList {
                 tail = null;    // special case: list is empty now
             return answer;
         }
-        /** sum another linked list, from its node n, to the current linked list object */
-        public void sumList(Node n) {
-            Node cur = getHead();               
-            Integer curElement;
-            Integer nElement;
-            Integer carry = 0;
-            Integer sum;
-            while (cur != null || n != null) {      // loop until both linked lists are running out of nodes
-                if (cur != null)                    // if current list runs out of nodes, but the other list still has nodes
-                    curElement = cur.getElement();  // then assign its value to 0
-                else
-                    curElement = 0;
-                if (n != null)                          // if the other list runs out of nodes, but the current list still has nodes
-                    nElement = n.getElement();          // then assign its value to 0
-                else
-                    nElement = 0;
-                sum = curElement + nElement + carry;    // calculate the sum
-                carry = 0;                              // reset the carry
-                if (sum > 9) {                          // calculate the carry for next round
-                    carry = sum / 10;
-                    sum = sum % 10;
-                }               
-                // set the sum to current list          
-                if (cur != null)
-                    cur.setElement(sum);
-                else
-                    addLast(sum);
-                // update next node if current node in list is not null
-                if (cur != null)
-                    cur = cur.getNext();
-                if (n != null)
-                    n = n.getNext();
-            }
-            if (carry != 0)     // add carry as last node in linked list (if carry != 0)
-                addLast(carry);
+    }
+
+    // constructor
+    public SumReversedLinkedList() { }
+
+    /** sum another linked list to the current linked list object */
+    public LinkedList sumLinkedList(LinkedList l1, LinkedList l2) {
+        // instance variables
+        LinkedList sumList = new LinkedList();
+        Node l1cur = l1.getHead();
+        Node l2cur = l2.getHead();      
+        Integer l1Element;
+        Integer l2Element;
+        Integer carry = 0;
+        Integer sum;
+        while (l1cur != null || l2cur != null) {      // loop until both linked lists are running out of nodes
+            if (l1cur != null)                    // if current list runs out of nodes, but the other list still has nodes
+                l1Element = l1cur.getElement();  // then assign its value to 0
+            else
+                l1Element = 0;
+            if (l2cur != null)                          // if the other list runs out of nodes, but the current list still has nodes
+                l2Element = l2cur.getElement();          // then assign its value to 0
+            else
+                l2Element = 0;
+            sum = l1Element + l2Element + carry;    // calculate the sum
+            carry = 0;                              // reset the carry
+            if (sum > 9) {                          // calculate the carry for next round
+                carry = sum / 10;
+                sum = sum % 10;
+            }               
+            // set the sum to current list          
+            sumList.addLast(sum);
+            // update next node if current node in list is not null
+            if (l1cur != null)
+                l1cur = l1cur.getNext();
+            if (l2cur != null)
+                l2cur = l2cur.getNext();
         }
+        if (carry != 0)     // add carry as last node in linked list (if carry != 0)
+            sumList.addLast(carry);
+        return sumList;
     }
 
     public static void main(String[] args) {
+        SumReversedLinkedList master = new SumReversedLinkedList();
         LinkedList list1 = new LinkedList();
         LinkedList list2 = new LinkedList();
         list1.addLast(9);
@@ -146,7 +152,7 @@ public class SumReversedLinkedList {
         list2.addLast(2);
         System.out.println(list1.toString());
         System.out.println(list2.toString());
-        list1.sumList(list2.getHead());
-        System.out.println(list1.toString());
+        LinkedList sumList = master.sumLinkedList(list1, list2);
+        System.out.println(sumList.toString());
     }
 }

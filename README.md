@@ -134,6 +134,12 @@ Day | Origin | Difficulty | Status
 [126](#126) | Facebook | Medium | [126.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/126.py)
 [127](#127) | Microsoft | Easy | [127.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/127/SumReversedLinkedList.java)
 [128](#128) |  | Medium | []()
+[129](#129) |  | Medium | [129.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/129.py)
+[130](#130) | Facebook | Medium | []()
+[131](#131) | Snapchat | Medium | []()
+[132](#132) | Riot Games | Easy | [132.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/132.py)
+[133](#133) | Amazon | Medium | []()
+[134](#134) | Facebook | Easy | []()
 
 
 ## Problem descriptions
@@ -1919,6 +1925,79 @@ Move 2 to 1
 Move 2 to 3
 Move 1 to 3
 ```
+
+[Back on Top](#Process)
+
+---
+
+### #129
+
+Given a real number n, find the square root of n. For example, given n = 9, return 3.
+
+[Back on Top](#Process)
+
+---
+
+### #130
+
+Given an array of numbers representing the stock prices of a company in chronological order and an integer k, return the maximum profit you can make from k buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
+
+For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
+
+[Back on Top](#Process)
+
+---
+
+### #131
+
+Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+
+[Back on Top](#Process)
+
+---
+
+### #132
+
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+
+* record(timestamp): records a hit that happened at timestamp
+* total(): returns the total number of hits recorded
+* range(lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive)
+
+Follow-up: What if our system has limited memory?
+
+[Back on Top](#Process)
+
+---
+
+### #133
+
+Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
+
+For example, the inorder successor of 22 is 30.
+```
+   10
+  /  \
+ 5    30
+     /  \
+   22    35
+```
+
+You can assume each node has a parent pointer.
+
+[Back on Top](#Process)
+
+---
+
+### #134
+
+You have a large array with most of the elements as zero.
+
+Use a more space-efficient data structure, SparseArray, that implements the same interface:
+
+* init(arr, size): initialize with the original large array and size.
+* set(i, val): updates index at i with val.
+* get(i): gets the value at index i.
 
 [Back on Top](#Process)
 

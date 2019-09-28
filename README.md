@@ -139,7 +139,11 @@ Day | Origin | Difficulty | Status
 [131](#131) | Snapchat | Medium | []()
 [132](#132) | Riot Games | Easy | [132.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/132.py)
 [133](#133) | Amazon | Medium | []()
-[134](#134) | Facebook | Easy | []()
+[134](#134) | Facebook | Easy | [134.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/134.py)
+[135](#135) | Apple | Easy | []()
+[136](#136) | Google | Medium | []()
+[137](#137) | Amazon | Medium | [137.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/137.py)
+[138](#138) | Google | Medium | [138.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/138.py)
 
 
 ## Problem descriptions
@@ -173,8 +177,8 @@ Given the root to a binary tree, implement serialize(root), which serializes the
 Example: given a Node class <br/>
 ```
 class Node:
-   def __init__(self, val, left=None, right=None):
-       self.val = val
+    def __init__(self, val, left=None, right=None):
+        self.val = val
         self.left = left
         self.right = right
 ```
@@ -1998,6 +2002,68 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 * init(arr, size): initialize with the original large array and size.
 * set(i, val): updates index at i with val.
 * get(i): gets the value at index i.
+
+[Back on Top](#Process)
+
+---
+
+### #135
+
+Given a binary tree, find a minimum path sum from root to a leaf.
+
+For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+```
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1
+```
+
+[Back on Top](#Process)
+
+---
+
+### #136
+Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+
+For example, given the following matrix:
+```
+[[1, 0, 0, 0],
+ [1, 0, 1, 1],
+ [1, 0, 1, 1],
+ [0, 1, 0, 0]]
+```
+Return 4.
+
+[Back on Top](#Process)
+
+---
+
+### #137
+
+Implement a bit array.
+
+A bit array is a space efficient array that holds a value of 1 or 0 at each index.
+
+* init(size): initialize the array with size
+* set(i, val): updates index at i with val where val is either 1 or 0.
+* get(i): gets the value at index i.
+
+
+[Back on Top](#Process)
+
+---
+
+### #138
+
+Find the minimum number of coins required to make n cents.
+
+You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
+
+For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
 
 [Back on Top](#Process)
 

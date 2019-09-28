@@ -28,7 +28,6 @@ class HitCounter:
         self.size += 1
 
 
-    
     """ returns the total no. hits recorded """
     def total(self):
         return self.size

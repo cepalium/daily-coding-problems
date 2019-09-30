@@ -143,7 +143,9 @@ Day | Origin | Difficulty | Status
 [135](#135) | Apple | Easy | []()
 [136](#136) | Google | Medium | []()
 [137](#137) | Amazon | Medium | [137.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/137.py)
-[138](#138) | Google | Medium | [138.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/138.py)
+[138](#138) | Google | Hard | [138.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/138.py)
+[139](#139) | Google | Medium | []()
+[140](#140) | Facebook | Medium | [140.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/140.py)
 
 
 ## Problem descriptions
@@ -2064,6 +2066,41 @@ Find the minimum number of coins required to make n cents.
 You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 
 For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
+
+[Back on Top](#Process)
+
+---
+
+### #139
+
+Given an iterator with methods next() and hasNext(), create a wrapper iterator, PeekableInterface, which also implements peek(). peek shows the next element that would be returned on next().
+
+Here is the interface:
+```
+class PeekableInterface(object):
+    def __init__(self, iterator):
+        pass
+
+    def peek(self):
+        pass
+
+    def next(self):
+        pass
+
+    def hasNext(self):
+        pass
+```
+
+[Back on Top](#Process)
+
+---
+### #140
+
+Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+
+For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The order does not matter.
+
+Follow-up: Can you do this in linear time and constant space?
 
 [Back on Top](#Process)
 

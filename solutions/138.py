@@ -16,7 +16,7 @@ def minCoins(x, availableCoins):
 # input: int x as x cents & list of available coins
 # output: min no. coins required to make n cents from list of available coins
     availableCoins = sorted(availableCoins, reverse=True)   # sort available coins descendingly
-    minCoins = math.inf                                     # initialize min coins for exchange to plus infinitiv from beginning
+    minCoins = math.inf                                     # initialize min coins for exchange to plus infinitiv
     n = len(availableCoins)
     for i in range(n):      # find min no. coins by dropping the highest-value coin after each iteration
         val = x                                             # var to temporarily store the input money amount

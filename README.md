@@ -146,6 +146,9 @@ Day | Origin | Difficulty | Status
 [138](#138) | Google | Hard | [138.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/138.py)
 [139](#139) | Google | Medium | []()
 [140](#140) | Facebook | Medium | [140.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/140.py)
+[141](#141) | Microsoft | Hard | [141.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/141.py)
+[142](#142) | Google | Hard | []()
+[143](#143) | Amazon | Medium | [143.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/143.py)
 
 
 ## Problem descriptions
@@ -2101,6 +2104,50 @@ Given an array of integers in which two elements appear exactly once and all oth
 For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The order does not matter.
 
 Follow-up: Can you do this in linear time and constant space?
+
+[Back on Top](#Process)
+
+---
+
+### #141
+
+Implement 3 stacks using a single list:
+
+```
+class Stack:
+    def __init__(self):
+        self.list = []
+
+    def pop(self, stack_number):
+        pass
+
+    def push(self, item, stack_number):
+        pass
+```
+
+[Back on Top](#Process)
+
+---
+
+### #142
+
+You're given a string consisting solely of (, ), and *. * can represent either a (, ), or an empty string. Determine whether the parentheses are balanced.
+
+For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+
+[Back on Top](#Process)
+
+---
+
+### #143
+
+Given a pivot x, and a list lst, partition the list into three parts.
+
+* The first part contains all elements in lst that are less than x
+* The second part contains all elements in lst that are equal to x
+* The third part contains all elements in lst that are larger than x Ordering within a part can be arbitrary.
+
+For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`
 
 [Back on Top](#Process)
 

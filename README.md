@@ -4,7 +4,7 @@ Register to receive Daily Coding Problem everyday at [Daily Coding Problem](http
 
 ## Process
 
-Day | Origin | Difficulty | Status
+Day | Origin | Difficulty | Solution
 --- | ------ | ---------- | ------ 
 [1](#1) | Google | Easy | [1.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/1.py)
 [2](#2) | Uber | Hard | [2.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/2.py)
@@ -149,6 +149,7 @@ Day | Origin | Difficulty | Status
 [141](#141) | Microsoft | Hard | [141.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/141.py)
 [142](#142) | Google | Hard | []()
 [143](#143) | Amazon | Medium | [143.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/143.py)
+[144](#144) | Google | Medium | [144.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/144.py)
 
 
 ## Problem descriptions
@@ -2148,6 +2149,20 @@ Given a pivot x, and a list lst, partition the list into three parts.
 * The third part contains all elements in lst that are larger than x Ordering within a part can be arbitrary.
 
 For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`
+
+[Back on Top](#Process)
+
+---
+
+### #144
+
+Given an array of numbers and an index i, return the index of the nearest larger number of the number at index i, where distance is measured in array indices.
+
+For example, given [4, 1, 3, 5, 6] and index 0, you should return 3.
+
+If two distances to larger numbers are the equal, then return any one of them. If the array at i doesn't have a nearest larger integer, then return null.
+
+Follow-up: If you can preprocess the array, can you do this in constant time?
 
 [Back on Top](#Process)
 

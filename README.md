@@ -150,6 +150,9 @@ Day | Origin | Difficulty | Solution
 [142](#142) | Google | Hard | []()
 [143](#143) | Amazon | Medium | [143.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/143.py)
 [144](#144) | Google | Medium | [144.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/144.py)
+[145](#145) | Google | Easy | []()
+[146](#146) | BufferBox | Medium | []()
+[147](#147) | | Hard | [147.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/147.py)
 
 
 ## Problem descriptions
@@ -2163,6 +2166,52 @@ For example, given [4, 1, 3, 5, 6] and index 0, you should return 3.
 If two distances to larger numbers are the equal, then return any one of them. If the array at i doesn't have a nearest larger integer, then return null.
 
 Follow-up: If you can preprocess the array, can you do this in constant time?
+
+[Back on Top](#Process)
+
+---
+
+### #145
+
+Given the head of a singly linked list, swap every two nodes and return its head.
+
+For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+
+[Back on Top](#Process)
+
+---
+
+### #146
+
+Given a binary tree where all nodes are either 0 or 1, prune the tree so that subtrees containing all 0s are removed.
+
+For example, given the following tree:
+```
+   0
+  / \
+ 1   0
+    / \
+   1   0
+  / \
+ 0   0
+```
+should be pruned to:
+```
+   0
+  / \
+ 1   0
+    /
+   1
+```
+We do not remove the tree at the root or its left child because it still has a 1 as a descendant.
+
+[Back on Top](#Process)
+
+---
+
+### #147
+
+Given a list, sort it using this method: reverse(lst, i, j), which reverses lst from i to j.
 
 [Back on Top](#Process)
 

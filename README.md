@@ -153,6 +153,9 @@ Day | Origin | Difficulty | Solution
 [145](#145) | Google | Easy | []()
 [146](#146) | BufferBox | Medium | []()
 [147](#147) | | Hard | [147.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/147.py)
+[148](#148) | Apple | Medium | [148.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/148.py)
+[149](#149) | Goldman Sachs | Hard | [149.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/149.py)
+[150](#150) | LinkedIn | Hard | [150.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/150.py)
 
 
 ## Problem descriptions
@@ -2212,6 +2215,40 @@ We do not remove the tree at the root or its left child because it still has a 1
 ### #147
 
 Given a list, sort it using this method: reverse(lst, i, j), which reverses lst from i to j.
+
+[Back on Top](#Process)
+
+---
+
+### #148
+
+Gray code is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
+
+Given a number of bits n, generate a possible gray code for it.
+
+For example, for n = 2, one gray code would be [00, 01, 11, 10].
+
+[Back on Top](#Process)
+
+---
+
+### #149
+
+Given a list of numbers L, implement a method sum(i, j) which returns the sum from the sublist L[i:j] (including i, excluding j).
+
+For example, given L = [1, 2, 3, 4, 5], sum(1, 3) should return sum([2, 3]), which is 5.
+
+You can assume that you can do some pre-processing. sum() should be optimized over the pre-processing step.
+
+[Back on Top](#Process)
+
+---
+
+### #150
+
+Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
+
+For example, given the list of points [(0, 0), (5, 4), (3, 1)], the central point (1, 2), and k = 2, return [(0, 0), (3, 1)].
 
 [Back on Top](#Process)
 

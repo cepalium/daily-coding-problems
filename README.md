@@ -156,6 +156,8 @@ Day | Origin | Difficulty | Solution
 [148](#148) | Apple | Medium | [148.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/148.py)
 [149](#149) | Goldman Sachs | Hard | [149.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/149.py)
 [150](#150) | LinkedIn | Hard | [150.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/150.py)
+[151](#151) |  | Medium | []()
+[152](#152) | Triplebyte | Medium | [152.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/152.py)
 
 
 ## Problem descriptions
@@ -2249,6 +2251,41 @@ You can assume that you can do some pre-processing. sum() should be optimized ov
 Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
 
 For example, given the list of points [(0, 0), (5, 4), (3, 1)], the central point (1, 2), and k = 2, return [(0, 0), (3, 1)].
+
+[Back on Top](#Process)
+
+---
+
+### #151
+
+Given a 2-D matrix representing an image, a location of a pixel in the screen and a color C, replace the color of the given pixel and all adjacent same colored pixels with C.
+
+For example, given the following matrix, and location pixel of (2, 2), and 'G' for green:
+```
+B B W
+W W W
+W W W
+B B B
+```
+Becomes
+```
+B B G
+G G G
+G G G
+B B B
+```
+
+[Back on Top](#Process)
+
+---
+
+### #152
+
+You are given n numbers as well as n probabilities that sum up to 1. Write a function to generate one of the numbers with its corresponding probability.
+
+For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return 1 `10%` of the time, 2 `50%` of the time, and 3 and 4 `20%` of the time.
+
+You can generate random numbers between 0 and 1 uniformly.
 
 [Back on Top](#Process)
 

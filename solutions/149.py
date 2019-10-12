@@ -14,14 +14,14 @@ You can assume that you can do some pre-processing. sum() should be optimized ov
 class IntegerList:
     """ constructor """
     def __init__(self, lst):
-        # create a list of prefix sum from lst
+        # create a list of prefix sum from lst in linear time
         total = 0
         self.prefixSum = []
         for e in lst:
             total += e
             self.prefixSum.append(total)
     
-    """ returns the sum from the sublist L[i:j] (including i, excluding j) """
+    """ returns the sum from the sublist L[i:j] (including i, excluding j) in constant time """
     def sum(self, i, j):
         if i < 0 or j >= len(self.prefixSum):   # validate
             raise IndexError("Invalid index")

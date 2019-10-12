@@ -9,9 +9,15 @@ from operator import itemgetter
 def kNearestPoints(points, central_point, k):
 # input: list of points (x, y), a central point (x_C, y_c) & int k
 # output: list of k nearest points from central point
+    # trival cases
+    if k <= 0:
+        return []
+    if k >= len(points):
+        return points
+    # else
     x_c = central_point[0]  # x-coordinate of central point
     y_c = central_point[1]  # y-coordinate of central point
-    distance_list = []      # list of [point, distance from point to central points] initialized
+    distance_list = []      # list of [point (x,y), distance to central point] initialized
     kList = []              # list of k nearest points initialized
     # compute distance from each points to central points, then push entry into distance_list
     for point in points:

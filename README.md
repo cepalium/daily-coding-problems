@@ -158,6 +158,7 @@ Day | Origin | Difficulty | Solution
 [150](#150) | LinkedIn | Hard | [150.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/150.py)
 [151](#151) |  | Medium | []()
 [152](#152) | Triplebyte | Medium | [152.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/152.py)
+[153](#153) | | Hard | [153.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/153.py)
 
 
 ## Problem descriptions
@@ -2286,6 +2287,16 @@ You are given n numbers as well as n probabilities that sum up to 1. Write a fun
 For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return 1 `10%` of the time, 2 `50%` of the time, and 3 and 4 `20%` of the time.
 
 You can generate random numbers between 0 and 1 uniformly.
+
+[Back on Top](#Process)
+
+---
+
+### #153
+
+Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
+
+For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
 [Back on Top](#Process)
 

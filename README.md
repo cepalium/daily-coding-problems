@@ -159,6 +159,8 @@ Day | Origin | Difficulty | Solution
 [151](#151) |  | Medium | []()
 [152](#152) | Triplebyte | Medium | [152.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/152.py)
 [153](#153) | | Hard | [153.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/153.py)
+[154](#154) | Amazon | Easy | [154.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/153.py)
+[155](#155) | MongoDB | Medium | [155.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/153.py)
 
 
 ## Problem descriptions
@@ -2297,6 +2299,34 @@ You can generate random numbers between 0 and 1 uniformly.
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
 
 For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+
+[Back on Top](#Process)
+
+---
+
+### #154
+
+Implement a stack API using only a heap. A stack implements the following methods:
+
+* push(item), which adds an element to the stack
+* pop(), which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
+
+Recall that a heap has the following operations:
+
+* push(item), which adds a new key to the heap
+* pop(), which removes and returns the max value of the heap
+
+[Back on Top](#Process)
+
+---
+
+### #155
+
+Given a list of elements, find the majority element, which appears more than half the time (`> floor(len(lst) / 2.0)`).
+
+You can assume that such element exists.
+
+For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
 
 [Back on Top](#Process)
 

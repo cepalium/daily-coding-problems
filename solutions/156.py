@@ -29,8 +29,8 @@ def possible_smallest(n, lst, marker):
     if n == 0:
         return 0
     else:
-        q = n // lst[marker]
-        r = n % lst[marker]
+        q = n // lst[marker]    # quotient: number of integers possible by this int
+        r = n % lst[marker]     # remainder
         return q + possible_smallest(r, lst, marker+1)
 
 

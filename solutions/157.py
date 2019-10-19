@@ -21,11 +21,11 @@ def is_permutation_palindrome(str):
 
 
 def is_palindrome(str):
-    """ return true if string str is palindrome """
+    """ return True if string str is palindrome """
     n = len(str)
     for i in range(n//2):       # loop to middle of string str
         if str[i] != str[-1-i]:
-            return False    # find a character has no match with its mirrored character
+            return False    # find a character doesn't match with its mirror-positioned character
     return True     # reach this, then str is palindrome
 
 

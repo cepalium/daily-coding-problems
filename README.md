@@ -163,6 +163,8 @@ Day | Origin | Difficulty | Solution
 [155](#155) | MongoDB | Medium | [155.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/155.py)
 [156](#156) | Facebook | Medium | [156.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/156.py)
 [157](#157) | Amazon | Easy | [157.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/157.py)
+[158](#158) | Slack | Medium | []()
+[159](#159) | Google | Easy | [159.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/159.py)
 
 
 ## Problem descriptions
@@ -2351,6 +2353,38 @@ Given n = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
 Given a string, determine whether any permutation of it is a palindrome.
 
 For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
+
+[Back on Top](#Process)
+
+---
+
+### #158
+
+You are given an N by M matrix of 0s and 1s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
+
+You can only move right and down. 0 represents an empty space while 1 represents a wall you cannot walk through.
+
+For example, given the following matrix:
+```
+[[0, 0, 1],
+ [0, 0, 1],
+ [1, 0, 0]]
+```
+Return two, as there are only two ways to get to the bottom right:
+
+Right, down, down, right
+Down, right, down, right
+The top left corner and bottom right corner will always be 0.
+
+[Back on Top](#Process)
+
+---
+
+### #159
+
+Given a string, return the first recurring character in it, or null if there is no recurring chracter.
+
+For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
 [Back on Top](#Process)
 

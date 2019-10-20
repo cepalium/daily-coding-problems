@@ -55,7 +55,7 @@ Day | Origin | Difficulty | Solution
 [47](#47) | Facebook | Easy | [47.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/47.py)
 [48](#48) | Google | Medium | []()
 [49](#49) | Amazon | Medium | [49.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/49.py)
-[50](#50) | Microsoft | Easy | []()
+[50](#50) | Microsoft | Easy | [50.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/50.py)
 [51](#51) | Facebook | Medium | [51.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/51.py)
 [52](#52) | Google | Hard | [52.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/52.py)
 [53](#53) | Apple | Medium | [53.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/53.py)
@@ -83,12 +83,12 @@ Day | Origin | Difficulty | Solution
 [75](#75) | Microsoft | Hard | [75.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/75.py)
 [76](#76) | Google | Medium | []()
 [77](#77) | Snapchat | Easy | [77.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/77.py)
-[78](#78) | Google | Medium | []()
+[78](#78) | Google | Medium | [78.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/78.py)
 [79](#79) | Facebook | Medium | [79.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/79.py)
-[80](#80) | Google | Easy | []()
+[80](#80) | Google | Easy | [80.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/80.py)
 [81](#81) | Yelp | Easy | [81.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/81.py)
 [82](#82) | Microsoft | Easy | []()
-[83](#83) | Google | Medium | []()
+[83](#83) | Google | Medium | [83.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/83.py)
 [84](#84) | Amazon | Medium | []()
 [85](#85) | Facebook | Medium | [85.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/85.py)
 [86](#86) | Google | Medium | [86.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/86.py)
@@ -112,17 +112,17 @@ Day | Origin | Difficulty | Solution
 [104](#104) | Google | Easy | [104.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/104/PalindromeDoublyLinkedList.java)
 [105](#105) | Facebook | Easy | []()
 [106](#106) | Pinterest | Medium | [106.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/106.py)
-[107](#107) | Microsoft | Easy | []()
+[107](#107) | Microsoft | Easy | [107.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/107.py)
 [108](#108) | Google | Easy | [108.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/108.py)
 [109](#109) | Cisco | Medium | [109.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/109.py)
-[110](#110) | Facebook | Medium | []()
+[110](#110) | Facebook | Medium | [110.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/110.py)
 [111](#111) | Google | Hard | [111.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/111.py)
 [112](#112) | Twitter | Hard | []()
 [113](#113) | Google | Medium | [113.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/113.py)
 [114](#114) | Facebook | Hard | [114.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/114.py)
 [115](#115) | Google | Hard | []()
 [116](#116) | Jane Street | Medium | []()
-[117](#117) | Facebook | Easy | []()
+[117](#117) | Facebook | Easy | [117.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/117.py)
 [118](#118) | Google | Easy | [118.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/118.py)
 [119](#119) | Google | Medium | []()
 [120](#120) | Microsoft | Medium | []()
@@ -140,7 +140,7 @@ Day | Origin | Difficulty | Solution
 [132](#132) | Riot Games | Easy | [132.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/132.py)
 [133](#133) | Amazon | Medium | []()
 [134](#134) | Facebook | Easy | [134.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/134.py)
-[135](#135) | Apple | Easy | []()
+[135](#135) | Apple | Easy | [135.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/135.py)
 [136](#136) | Google | Medium | []()
 [137](#137) | Amazon | Medium | [137.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/137.py)
 [138](#138) | Google | Hard | [138.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/138.py)
@@ -150,7 +150,7 @@ Day | Origin | Difficulty | Solution
 [142](#142) | Google | Hard | []()
 [143](#143) | Amazon | Medium | [143.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/143.py)
 [144](#144) | Google | Medium | [144.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/144.py)
-[145](#145) | Google | Easy | []()
+[145](#145) | Google | Easy | [145.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/145.py)
 [146](#146) | BufferBox | Medium | []()
 [147](#147) | | Hard | [147.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/147.py)
 [148](#148) | Apple | Medium | [148.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/148.py)
@@ -165,6 +165,7 @@ Day | Origin | Difficulty | Solution
 [157](#157) | Amazon | Easy | [157.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/157.py)
 [158](#158) | Slack | Medium | []()
 [159](#159) | Google | Easy | [159.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/159.py)
+[160](#158) | Uber | Medium | []()
 
 
 ## Problem descriptions
@@ -2385,6 +2386,28 @@ The top left corner and bottom right corner will always be 0.
 Given a string, return the first recurring character in it, or null if there is no recurring chracter.
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+
+[Back on Top](#Process)
+
+---
+
+### #160
+
+Given a tree where each edge has a weight, compute the length of the longest path in the tree.
+
+For example, given the following tree:
+```
+   a
+  /|\
+ b c d
+    / \
+   e   f
+  / \
+ g   h
+```
+and the weights: `a-b: 3`, `a-c: 5`, `a-d: 8`, `d-e: 2`, `d-f: 4`, `e-g: 1`, `e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of 17.
+
+The path does not have to pass through the root, and each node can have any amount of children.
 
 [Back on Top](#Process)
 

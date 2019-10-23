@@ -4,8 +4,8 @@ Register to receive Daily Coding Problem everyday at [Daily Coding Problem](http
 
 ## Process
 
-Day | Origin | Difficulty | Solution
---- | ------ | ---------- | ------ 
+Day | Origin | Difficulty | Python | Java
+--- | ------ | ---------- | ------ | ----
 [1](#1) | Google | Easy | [1.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/1.py)
 [2](#2) | Uber | Hard | [2.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/2.py)
 [3](#3) | Google | Medium | []()
@@ -25,13 +25,13 @@ Day | Origin | Difficulty | Solution
 [17](#17) | Google | Hard | [17.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/17.py)
 [18](#18) | Google | Hard | [18.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/18.py)
 [19](#19) | Facebook | Medium | [19.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/19.py)
-[20](#20) | Google | Easy | [20.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/20/IntersectLinkedList.java)
+[20](#20) | Google | Easy | | [20.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/20/IntersectLinkedList.java)
 [21](#21) | Snapchat | Easy | [21.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/21.py)
 [22](#22) | Microsoft | Medium | [22.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/22.py)
 [23](#23) | Google | Easy | [23.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/23.py)
 [24](#24) | Google | Medium | []()
 [25](#25) | Facebook | Hard | [25.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/25.py)
-[26](#26) | Google | Medium | [26.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/26/RemoveLinkedList.java)
+[26](#26) | Google | Medium | | [26.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/26/RemoveLinkedList.java)
 [27](#27) | Facebook | Easy | [27.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/27.py)
 [28](#28) | Palantir | Medium | []()
 [29](#29) | Amazon | Easy | [29.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/29.py)
@@ -48,7 +48,7 @@ Day | Origin | Difficulty | Solution
 [40](#40) | Google | Hard | [40.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/40.py)
 [41](#41) | Facebook | Medium | [41.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/41.py)
 [42](#42) | Google | Hard | [42.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/42.py)
-[43](#43) | Amazon | Easy | [43.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/43/ArrayStackDemo.java)
+[43](#43) | Amazon | Easy | | [43.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/43/ArrayStackDemo.java)
 [44](#44) | Google | Medium | [44.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/44.py)
 [45](#45) | Two Sigma | Easy | [45.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/45.py)
 [46](#46) | Amazon | Hard | [46.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/46.py)
@@ -78,7 +78,7 @@ Day | Origin | Difficulty | Solution
 [70](#70) | Microsoft | Easy | [70.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/70.py)
 [71](#71) | Two Sigma | Easy | [71.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/71.py)
 [72](#72) | Google | Hard | []()
-[73](#73) | Google | Easy | [73.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/73/ReverseLinkedList.java)
+[73](#73) | Google | Easy | | [73.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/73/ReverseLinkedList.java)
 [74](#74) | Apple | Medium | [74.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/74.py)
 [75](#75) | Microsoft | Hard | [75.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/75.py)
 [76](#76) | Google | Medium | []()
@@ -109,7 +109,7 @@ Day | Origin | Difficulty | Solution
 [101](#101) | Alibaba | Easy | [101.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/101.py)
 [102](#102) | Lyft | Medium | [102.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/102.py)
 [103](#103) | Square | Medium | [103.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/103.py)
-[104](#104) | Google | Easy | [104.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/104/PalindromeDoublyLinkedList.java)
+[104](#104) | Google | Easy | | [104.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/104/PalindromeDoublyLinkedList.java)
 [105](#105) | Facebook | Easy | []()
 [106](#106) | Pinterest | Medium | [106.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/106.py)
 [107](#107) | Microsoft | Easy | [107.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/107.py)
@@ -132,7 +132,7 @@ Day | Origin | Difficulty | Solution
 [124](#124) | Microsoft | Easy | []()
 [125](#125) | Google | Easy | []()
 [126](#126) | Facebook | Medium | [126.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/126.py)
-[127](#127) | Microsoft | Easy | [127.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/127/SumReversedLinkedList.java)
+[127](#127) | Microsoft | Easy | | [127.java](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/127/SumReversedLinkedList.java)
 [128](#128) |  | Medium | []()
 [129](#129) |  | Medium | [129.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/129.py)
 [130](#130) | Facebook | Medium | []()
@@ -165,7 +165,10 @@ Day | Origin | Difficulty | Solution
 [157](#157) | Amazon | Easy | [157.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/157.py)
 [158](#158) | Slack | Medium | []()
 [159](#159) | Google | Easy | [159.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/159.py)
-[160](#158) | Uber | Medium | []()
+[160](#160) | Uber | Hard | []()
+[161](#161) | Facebook | Easy | []()
+[162](#162) | Square | Medium | []()
+[163](#163) | Jane Street | Hard | [163.py](https://github.com/TuanANg/daily-coding-problems/blob/master/solutions/163.py)
 
 
 ## Problem descriptions
@@ -2408,6 +2411,53 @@ For example, given the following tree:
 and the weights: `a-b: 3`, `a-c: 5`, `a-d: 8`, `d-e: 2`, `d-f: 4`, `e-g: 1`, `e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of 17.
 
 The path does not have to pass through the root, and each node can have any amount of children.
+
+[Back on Top](#Process)
+
+---
+
+### #161
+
+Given a 32-bit integer, return the number with its bits reversed.
+
+For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+
+[Back on Top](#Process)
+
+---
+
+### #162
+
+Given a list of words, return the shortest unique prefix of each word. For example, given the list:
+```
+dog
+cat
+apple
+apricot
+fish
+```
+Return the list:
+```
+d
+c
+app
+apr
+f
+```
+
+[Back on Top](#Process)
+
+---
+
+### #163
+
+Given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it.
+
+The expression is given as a list of numbers and operands. For example: [5, 3, '+'] should return 5 + 3 = 8.
+
+For example, [15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-'] should return 5, since it is equivalent to ((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5.
+
+You can assume the given expression is always valid.
 
 [Back on Top](#Process)
 

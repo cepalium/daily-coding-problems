@@ -1,7 +1,7 @@
 # --------------------------
 # Author: Tuan Nguyen
 # Date created: 20191017
-#!solutions/156.py
+#!156.py
 # --------------------------
 """
 Given a positive integer n, find the smallest number of squared integers which sum to n.

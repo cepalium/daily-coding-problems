@@ -1,7 +1,7 @@
 # --------------------------
 # Author: Tuan Nguyen
 # Date created: 20191017
-#!solutions/157.py
+#!157.py
 # --------------------------
 """
 Given a string, determine whether any permutation of it is a palindrome.

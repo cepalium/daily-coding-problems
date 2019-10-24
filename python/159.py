@@ -1,7 +1,7 @@
 # -------------------------
 # Author: Tuan Nguyen
 # Date created: 20191019
-#!solutions/159.py
+#!159.py
 # -------------------------
 """
 Given a string, return the first recurring character in it, or null if there is no recurring chracter.

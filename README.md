@@ -169,7 +169,8 @@ Day | Origin | Difficulty | Python | Java
 [161](#161) | Facebook | Easy | []()
 [162](#162) | Square | Medium | []()
 [163](#163) | Jane Street | Hard | [163.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/163.py)
-[164](#164) | | | [164.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/164.py)
+[164](#164) | Google | Medium | [164.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/164.py)
+[165](#165) | Google | Medium | [165.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/165.py) | [165.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/165/SmallerElementsToRight.java)
 
 
 
@@ -2468,6 +2469,22 @@ You can assume the given expression is always valid.
 ### #164
 
 You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
+[Back on Top](#Process)
+
+---
+
+### #165
+
+Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element in the original input array.
+
+For example, given the array [3, 4, 9, 6, 1], return [1, 1, 2, 1, 0], since:
+
+* There is 1 smaller element to the right of 3
+* There is 1 smaller element to the right of 4
+* There are 2 smaller elements to the right of 9
+* There is 1 smaller element to the right of 6
+* There are no smaller elements to the right of 1
 
 [Back on Top](#Process)
 

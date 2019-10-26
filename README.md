@@ -164,12 +164,12 @@ Day | Origin | Difficulty | Python | Java
 [156](#156) | Facebook | Medium | [156.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/156.py)
 [157](#157) | Amazon | Easy | [157.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/157.py)
 [158](#158) | Slack | Medium | []()
-[159](#159) | Google | Easy | [159.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/159.py)
+[159](#159) | Google | Easy | [159.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/159.py) | [159.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/159/FirstRecurCharacter.java)
 [160](#160) | Uber | Hard | []()
 [161](#161) | Facebook | Easy | []()
 [162](#162) | Square | Medium | []()
-[163](#163) | Jane Street | Hard | [163.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/163.py)
-[164](#164) | Google | Medium | [164.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/164.py)
+[163](#163) | Jane Street | Hard | [163.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/163.py) | [163.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/163/ReversePolishNotation.java)
+[164](#164) | Google | Medium | [164.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/164.py) | [164.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/164/FindDuplicate.java)
 [165](#165) | Google | Medium | [165.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/165.py) | [165.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/165/SmallerElementsToRight.java)
 
 

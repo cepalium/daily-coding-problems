@@ -1,5 +1,3 @@
-import jdk.jfr.Timestamp;
-
 /**
  * @author Tuan Nguyen
  * @since 20191025
@@ -21,9 +19,9 @@ public class SmallerElementsToRight {
     public int[] smallerElementsToRight(int[] arr) {
         int n = arr.length;
         int[] smallerElements = new int[n];
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {           // for each element 
             int counter = 0;
-            for (int j = i+1; j < n; j++) {
+            for (int j = i+1; j < n; j++) {     // iteratively count no. smaller elements to its right
                 if (arr[i] > arr[j])
                     counter++;
             }
@@ -32,16 +30,14 @@ public class SmallerElementsToRight {
         return smallerElements;
     }
 
-    public void printArray(int[] arr) {
-        int n = arr.length;
-        for (int i = 0; i < n; i++)
-            System.out.print(arr[i] + " ");
-        System.out.println("");
-    }
-
     public static void main(String[] args) {
-        SmallerElementsToRight small = new SmallerElementsToRight();
-        int[] arr = {3,4,9,6,1};
-        small.printArray(small.smallerElementsToRight(arr));
+        SmallerElementsToRight ser = new SmallerElementsToRight();
+        int[] arr;
+        // test 1
+        arr = new int[]{3,4,9,6,1};
+        assert(ser.smallerElementsToRight(arr) == new int[]{1,1,2,1,0});
+        // test 2
+        arr = new int[]{5,4,3,2,1};
+        assert(ser.smallerElementsToRight(arr) == new int[]{4,3,2,1,0});
     }
 }

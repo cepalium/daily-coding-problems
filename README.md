@@ -171,7 +171,8 @@ Day | Origin | Difficulty | Python | Java
 [163](#163) | Jane Street | Hard | [163.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/163.py) | [163.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/163/ReversePolishNotation.java)
 [164](#164) | Google | Medium | [164.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/164.py) | [164.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/164/FindDuplicate.java)
 [165](#165) | Google | Medium | [165.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/165.py) | [165.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/165/SmallerElementsToRight.java)
-
+[166](#166) | Uber | Medium | []()
+[167](#167) | Airbnb | Easy | [167.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/167.py)
 
 
 ## Problem descriptions
@@ -2485,6 +2486,31 @@ For example, given the array [3, 4, 9, 6, 1], return [1, 1, 2, 1, 0], since:
 * There are 2 smaller elements to the right of 9
 * There is 1 smaller element to the right of 6
 * There are no smaller elements to the right of 1
+
+[Back on Top](#Process)
+
+---
+
+### #166
+
+Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
+
+* next(): returns the next element in the array of arrays. If there are no more elements, raise an exception.
+* has_next(): returns whether or not the iterator still has elements left.
+
+For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling next() repeatedly should output 1, 2, 3, 4, 5, 6.
+
+Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
+
+[Back on Top](#Process)
+
+---
+
+### #167
+
+Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
+
+For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
 
 [Back on Top](#Process)
 

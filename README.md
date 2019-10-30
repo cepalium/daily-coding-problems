@@ -6,8 +6,8 @@ Register to receive Daily Coding Problem everyday at [Daily Coding Problem](http
 
 Day | Origin | Difficulty | Python | Java
 --- | ------ | ---------- | ------ | ----
-[1](#1) | Google | Easy | [1.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/1.py)
-[2](#2) | Uber | Hard | [2.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/2.py)
+[1](#1) | Google | Easy | [1.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/1.py) | [1.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/1/SumToK.java)
+[2](#2) | Uber | Hard | [2.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/2.py) | [2.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/2/Product.java)
 [3](#3) | Google | Medium | []()
 [4](#4) | Stripe | Hard | [4.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/4.py)
 [5](#5) | Jane Street | Medium | [5.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/5.py)
@@ -153,14 +153,14 @@ Day | Origin | Difficulty | Python | Java
 [145](#145) | Google | Easy | [145.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/145.py)
 [146](#146) | BufferBox | Medium | []()
 [147](#147) | | Hard | [147.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/147.py)
-[148](#148) | Apple | Medium | [148.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/148.py)
+[148](#148) | Apple | Medium | [148.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/148.py) | [148.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/148/GrayCode.java)
 [149](#149) | Goldman Sachs | Hard | [149.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/149.py)
 [150](#150) | LinkedIn | Hard | [150.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/150.py)
 [151](#151) |  | Medium | []()
 [152](#152) | Triplebyte | Medium | [152.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/152.py)
 [153](#153) | | Hard | [153.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/153.py)
 [154](#154) | Amazon | Easy | [154.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/154.py)
-[155](#155) | MongoDB | Medium | [155.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/155.py)
+[155](#155) | MongoDB | Medium | [155.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/155.py) | [155.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/155/MajorityElement.java)
 [156](#156) | Facebook | Medium | [156.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/156.py)
 [157](#157) | Amazon | Easy | [157.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/157.py)
 [158](#158) | Slack | Medium | []()
@@ -173,6 +173,9 @@ Day | Origin | Difficulty | Python | Java
 [165](#165) | Google | Medium | [165.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/165.py) | [165.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/165/SmallerElementsToRight.java)
 [166](#166) | Uber | Medium | []()
 [167](#167) | Airbnb | Easy | [167.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/167.py)
+[168](#168) | Facebook | Medium | []()
+[169](#169) | Google | Medium | []()
+[170](#170) | Facebook | Medium | []()
 
 
 ## Problem descriptions
@@ -2511,6 +2514,50 @@ Do not use flatten or otherwise clone the arrays. Some of the arrays can be empt
 Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
 
 For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
+
+[Back on Top](#Process)
+
+---
+
+### #168
+
+Given an N by N matrix, rotate it by 90 degrees clockwise.
+
+For example, given the following matrix:
+```
+[[1, 2, 3],
+ [4, 5, 6],
+ [7, 8, 9]]
+```
+you should return:
+```
+[[7, 4, 1],
+ [8, 5, 2],
+ [9, 6, 3]]
+```
+Follow-up: What if you couldn't use any extra space?
+
+[Back on Top](#Process)
+
+---
+
+### #169
+
+Given a linked list, sort it in O(n log n) time and constant space.
+
+For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
+
+[Back on Top](#Process)
+
+---
+
+### #170
+
+Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as start and end and is lowercase.
+
+For example, given start = "dog", end = "cat", and dictionary = {"dot", "dop", "dat", "cat"}, return ["dog", "dot", "dat", "cat"].
+
+Given start = "dog", end = "cat", and dictionary = {"dot", "tod", "dat", "dar"}, return null as there is no possible transformation from dog to cat.
 
 [Back on Top](#Process)
 

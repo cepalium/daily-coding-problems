@@ -142,17 +142,17 @@ Day | Origin | Difficulty | Python | Java
 [134](#134) | Facebook | Easy | [134.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/134.py)
 [135](#135) | Apple | Easy | [135.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/135.py)
 [136](#136) | Google | Medium | []()
-[137](#137) | Amazon | Medium | [137.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/137.py)
+[137](#137) | Amazon | Medium | [137.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/137.py) | [137.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/137/BitArray.java)
 [138](#138) | Google | Hard | [138.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/138.py)
 [139](#139) | Google | Medium | []()
 [140](#140) | Facebook | Medium | [140.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/140.py)
 [141](#141) | Microsoft | Hard | [141.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/141.py)
 [142](#142) | Google | Hard | []()
-[143](#143) | Amazon | Medium | [143.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/143.py)
+[143](#143) | Amazon | Medium | [143.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/143.py) | [143.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/143/Partition.java)
 [144](#144) | Google | Medium | [144.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/144.py)
 [145](#145) | Google | Easy | [145.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/145.py)
 [146](#146) | BufferBox | Medium | []()
-[147](#147) | | Hard | [147.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/147.py)
+[147](#147) | | Hard | [147.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/147.py) | [147.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/147/SortByReverse.java)
 [148](#148) | Apple | Medium | [148.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/148.py) | [148.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/148/GrayCode.java)
 [149](#149) | Goldman Sachs | Hard | [149.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/149.py)
 [150](#150) | LinkedIn | Hard | [150.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/150.py)
@@ -176,6 +176,7 @@ Day | Origin | Difficulty | Python | Java
 [168](#168) | Facebook | Medium | []()
 [169](#169) | Google | Medium | []()
 [170](#170) | Facebook | Medium | []()
+[171](#171) | Amazon | Easy | []()
 
 
 ## Problem descriptions
@@ -2558,6 +2559,24 @@ Given a start word, an end word, and a dictionary of valid words, find the short
 For example, given start = "dog", end = "cat", and dictionary = {"dot", "dop", "dat", "cat"}, return ["dog", "dot", "dat", "cat"].
 
 Given start = "dog", end = "cat", and dictionary = {"dot", "tod", "dat", "dar"}, return null as there is no possible transformation from dog to cat.
+
+[Back on Top](#Process)
+
+---
+
+### #171
+
+You are given a list of data entries that represent entries and exits of groups of people into a building. An entry looks like this:
+
+`{"timestamp": 1526579928, count: 3, "type": "enter"}`
+
+This means 3 people entered the building. An exit looks like this:
+
+`{"timestamp": 1526580382, count: 2, "type": "exit"}`
+
+This means that 2 people exited the building. timestamp is in Unix time.
+
+Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of (start, end) timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
 [Back on Top](#Process)
 

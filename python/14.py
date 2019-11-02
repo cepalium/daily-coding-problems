@@ -17,15 +17,13 @@ def piEstimationByMonteCarloMethod(iterations):
 # input: int iterations
 # output: estimation of pi to 3 decimals
     numPointsInCircle = 0
-    numPointsInSquare = 0
     for i in range(iterations):
-        # generate random point (x,y) inside 2x2 square
+        # generate random point (x,y) inside unit square
         x = random.uniform(-1, 1)
         y = random.uniform(-1, 1)
         if x**2 + y**2 <= 1:    # new point is inside unit circle (r=1)
             numPointsInCircle += 1
-        numPointsInSquare += 1  # new point in unit square
-    pi = 4 * numPointsInCircle / numPointsInSquare  # pi estimation by Monte Carlo method
+    pi = 4 * numPointsInCircle / iterations  # pi estimation by Monte Carlo method
     return round(pi, 3)     # round to 3 decimals
 
 

@@ -14,12 +14,12 @@ Day | Origin | Difficulty | Python | Java
 [6](#6) | Google | Hard | []()
 [7](#7) | Facebook | Medium | [7.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/7.py)
 [8](#8) | Google | Easy | []()
-[9](#9) | Airbnb | Hard | [9.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/9.py)
+[9](#9) | Airbnb | Hard | [9.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/9.py) | [9.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/9/IntArray.java)
 [10](#10) | Apple | Medium | []()
 [11](#11) | Twitter | Meidum | [11.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/11.py)
 [12](#12) | Amazon | Hard | []()
 [13](#13) | Amazon | Hard | [13.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/13.py)
-[14](#14) | Google | Medium | [14.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/14.py)
+[14](#14) | Google | Medium | [14.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/14.py) | [14.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/14/MonteCarlo.java)
 [15](#15) | Facebook | Medium | []()
 [16](#16) | Twitter | Easy | [16.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/16.py)
 [17](#17) | Google | Hard | [17.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/17.py)
@@ -131,16 +131,16 @@ Day | Origin | Difficulty | Python | Java
 [123](#123) | LinkedIn | Hard | []()
 [124](#124) | Microsoft | Easy | []()
 [125](#125) | Google | Easy | []()
-[126](#126) | Facebook | Medium | [126.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/126.py)
+[126](#126) | Facebook | Medium | [126.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/126.py) | [126.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/126/Rotation.java)
 [127](#127) | Microsoft | Easy | [127.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/127.py) | [127.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/127/SumReversedLinkedList.java)
 [128](#128) |  | Medium | []()
-[129](#129) |  | Medium | [129.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/129.py)
+[129](#129) |  | Medium | [129.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/129.py) | [129.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/129/Newton.java)
 [130](#130) | Facebook | Medium | []()
 [131](#131) | Snapchat | Medium | []()
 [132](#132) | Riot Games | Easy | [132.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/132.py)
 [133](#133) | Amazon | Medium | []()
 [134](#134) | Facebook | Easy | [134.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/134.py)
-[135](#135) | Apple | Easy | [135.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/135.py)
+[135](#135) | Apple | Easy | [135.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/135.py) | [135.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/135/IntegerBinaryTree.java)
 [136](#136) | Google | Medium | []()
 [137](#137) | Amazon | Medium | [137.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/137.py) | [137.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/137/BitArray.java)
 [138](#138) | Google | Hard | [138.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/138.py)
@@ -177,6 +177,8 @@ Day | Origin | Difficulty | Python | Java
 [169](#169) | Google | Medium | []()
 [170](#170) | Facebook | Medium | []()
 [171](#171) | Amazon | Easy | []()
+[172](#172) | Dropbox | Medium | [172.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/172.py)
+[173](#173) | Stripe | Easy | []()
 
 
 ## Problem descriptions
@@ -376,8 +378,9 @@ Given a stream of elements too large to store in memory, pick a random element f
 
 You run an e-commerce website and want to record the last N order ids in a log. Implement a data structure to accomplish this, with the following API:
 
-record(order_id): adds the order_id to the log
-get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
+* record(order_id): adds the order_id to the log
+* get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
+
 You should be as efficient with time and space as possible.
 
 [Back on Top](#Process)
@@ -2577,6 +2580,50 @@ This means 3 people entered the building. An exit looks like this:
 This means that 2 people exited the building. timestamp is in Unix time.
 
 Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of (start, end) timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
+
+[Back on Top](#Process)
+
+---
+
+### #172
+
+Given a string s and a list of words words, where each word is the same length, find all starting indices of substrings in s that is a concatenation of every word in words exactly once.
+
+For example, given s = "dogcatcatcodecatdog" and words = ["cat", "dog"], return [0, 13], since "dogcat" starts at index 0 and "catdog" starts at index 13.
+
+Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there are no substrings composed of "dog" and "cat" in s.
+
+The order of the indices does not matter.
+
+[Back on Top](#Process)
+
+---
+
+### #173
+
+Write a function to flatten a nested dictionary. Namespace the keys with a period.
+
+For example, given the following dictionary:
+```
+{
+    "key": 3,
+    "foo": {
+        "a": 5,
+        "bar": {
+            "baz": 8
+        }
+    }
+}
+```
+it should become:
+```
+{
+    "key": 3,
+    "foo.a": 5,
+    "foo.bar.baz": 8
+}
+```
+You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
 [Back on Top](#Process)
 

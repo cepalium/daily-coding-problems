@@ -181,6 +181,8 @@ Day | Origin | Difficulty | Python | Java
 [173](#173) | Stripe | Easy | []()
 [174](#174) | Microsoft | Medium | []()
 [175](#175) | Google | Easy | [175.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/175.py)
+[176](#176) | Bloomberg | | [176.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/176.py)
+[177](#177) | Airbnb | | [177.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/177.py)
 
 
 ## Problem descriptions
@@ -2662,6 +2664,30 @@ For example, given the starting state a, number of steps 5000, and the following
 ]
 ```
 One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656, 'c': 332 }.
+
+[Back on Top](#Process)
+
+---
+
+### #176
+
+Determine whether there exists a one-to-one character mapping from one string s1 to another s2.
+
+For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b to c, and c to d.
+
+Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
+
+[Back on Top](#Process)
+
+---
+
+### #177
+
+Given a linked list and a positive integer k, rotate the list to the right by k places.
+
+For example, given the linked list 7 -> 7 -> 3 -> 5 and k = 2, it should become 3 -> 5 -> 7 -> 7.
+
+Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 2, it should become 3 -> 4 -> 5 -> 1 -> 2.
 
 [Back on Top](#Process)
 

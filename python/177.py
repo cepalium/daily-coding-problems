@@ -12,7 +12,7 @@ Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 2, it should become 3 -> 4 -
 """
 
 class CircularLinkedList:
-    """ """
+    """ an implementation of circular linked list """
 
     # ----- nested Node class -----
     class _Node:
@@ -102,11 +102,11 @@ def test1():
     L.add_last(7)
     L.add_last(3)
     L.add_last(5)
-    L.print_list()
+    L.print_list()  # 7, 7, 3, 5
 
     L.rotate(2)
 
-    L.print_list()
+    L.print_list()  # 3, 5, 7, 7
 
 
 def test2():
@@ -117,11 +117,11 @@ def test2():
     L.add_last(3)
     L.add_last(4)
     L.add_last(5)
-    L.print_list()
+    L.print_list()  # 1, 2, 3, 4, 5
 
     L.rotate(2)
 
-    L.print_list()
+    L.print_list()  # 3, 4, 5, 1, 2
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ Day | Origin | Difficulty | Python | Java
 [4](#4) | Stripe | Hard | [4.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/4.py)
 [5](#5) | Jane Street | Medium | [5.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/5.py)
 [6](#6) | Google | Hard | []()
-[7](#7) | Facebook | Medium | [7.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/7.py)
+[7](#7) | Facebook | Medium | [7.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/7.py)f
 [8](#8) | Google | Easy | []()
 [9](#9) | Airbnb | Hard | [9.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/9.py) | [9.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/9/IntArray.java)
 [10](#10) | Apple | Medium | []()
@@ -181,9 +181,11 @@ Day | Origin | Difficulty | Python | Java
 [173](#173) | Stripe | Easy | []()
 [174](#174) | Microsoft | Medium | []()
 [175](#175) | Google | Easy | [175.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/175.py)
-[176](#176) | Bloomberg | | [176.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/176.py)
-[177](#177) | Airbnb | | [177.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/177.py)
-
+[176](#176) | Bloomberg | Easy | [176.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/176.py)
+[177](#177) | Airbnb | Easy | [177.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/177.py)
+[178](#178) | Two Sigma | Hard | []()
+[179](#179) | Google | Medium | []()
+[180](#180) | Google | Medium | [180.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/180.py)
 
 ## Problem descriptions
 
@@ -2688,6 +2690,50 @@ Given a linked list and a positive integer k, rotate the list to the right by k 
 For example, given the linked list 7 -> 7 -> 3 -> 5 and k = 2, it should become 3 -> 5 -> 7 -> 7.
 
 Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 2, it should become 3 -> 4 -> 5 -> 1 -> 2.
+
+[Back on Top](#Process)
+
+---
+### #178
+
+Alice wants to join her school's Probability Student Club. Membership dues are computed via one of two simple probabilistic games.
+
+The first game: roll a die repeatedly. Stop rolling once you get a five followed by a six. Your number of rolls is the amount you pay, in dollars.
+
+The second game: same, except that the stopping condition is a five followed by a five.
+
+Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
+
+[Back on Top](#Process)
+
+---
+
+### #179
+
+Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+
+For example, given the sequence 2, 4, 3, 8, 7, 5, you should construct the following tree:
+```
+    5
+   / \
+  3   7
+ / \   \
+2   4   8
+```
+
+[Back on Top](#Process)
+
+---
+
+### #180
+
+Given a stack of N elements, interleave the first half of the stack with the second half reversed using only one other queue. This should be done in-place.
+
+Recall that you can only push or pop from a stack, and enqueue or dequeue from a queue.
+
+For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. If the stack is [1, 2, 3, 4], it should become [1, 4, 2, 3].
+
+Hint: Try working backwards from the end state.
 
 [Back on Top](#Process)
 

@@ -26,10 +26,10 @@ def is_mapable(s1, s2):
     return True
 
 
-def isMapable_test(s1, s2, desiredVal):
-    assert is_mapable(s1, s2) == desiredVal
+def isMapable_test():
+    assert is_mapable(s1="abc", s2="bcd") == True
+    assert is_mapable(s1="foo", s2="bar") == False
 
 
 if __name__ == "__main__":
-    isMapable_test(s1="abc", s2="bcd", desiredVal=True)
-    isMapable_test(s1="foo", s2="bar", desiredVal=False)
+    isMapable_test()

@@ -12,7 +12,7 @@ Day | Origin | Difficulty | Python | Java
 [4](#4) | Stripe | Hard | [4.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/4.py)
 [5](#5) | Jane Street | Medium | [5.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/5.py)
 [6](#6) | Google | Hard | []()
-[7](#7) | Facebook | Medium | [7.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/7.py)f
+[7](#7) | Facebook | Medium | [7.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/7.py)
 [8](#8) | Google | Easy | []()
 [9](#9) | Airbnb | Hard | [9.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/9.py) | [9.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/9/IntArray.java)
 [10](#10) | Apple | Medium | []()
@@ -32,15 +32,15 @@ Day | Origin | Difficulty | Python | Java
 [24](#24) | Google | Medium | []()
 [25](#25) | Facebook | Hard | [25.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/25.py)
 [26](#26) | Google | Medium | [26.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/26.py) | [26.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/26/RemoveLinkedList.java)
-[27](#27) | Facebook | Easy | [27.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/27.py)
+[27](#27) | Facebook | Easy | [27.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/27.py) | [27.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/27/ValidBrackets.java)
 [28](#28) | Palantir | Medium | []()
 [29](#29) | Amazon | Easy | [29.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/29.py)
 [30](#30) | Facebook | Medium | [30.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/30.py)
-[31](#31) | Google | Easy | [31.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/31.py)
+[31](#31) | Google | Easy | [31.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/31.py) | [31.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/31/EditDistance.java)
 [32](#32) | Jane Street | Hard | []()
-[33](#33) | Microsoft | Easy | [33.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/33.py)
+[33](#33) | Microsoft | Easy | [33.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/33.py) | [33.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/33/Median.java)
 [34](#34) | Quora | Medium | [34.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/34.py)
-[35](#35) | Google | Hard | [35.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/35.py)
+[35](#35) | Google | Hard | [35.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/35.py) | [35.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/35/RGB.java)
 [36](#36) | Dropbox | Medium | []()
 [37](#37) | Google | Easy | [37.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/37.py)
 [38](#38) | Microsoft | Hard | []()
@@ -111,8 +111,8 @@ Day | Origin | Difficulty | Python | Java
 [103](#103) | Square | Medium | [103.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/103.py)
 [104](#104) | Google | Easy | [104.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/104.py) | [104.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/104/PalindromeDoublyLinkedList.java)
 [105](#105) | Facebook | Easy | []()
-[106](#106) | Pinterest | Medium | [106.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/106.py)
-[107](#107) | Microsoft | Easy | [107.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/107.py)
+[106](#106) | Pinterest | Medium | [106.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/106.py) | [106.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/106/Hopping.java)
+[107](#107) | Microsoft | Easy | [107.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/107.py) | [107.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/107/BinaryTree.java)
 [108](#108) | Google | Easy | [108.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/108.py)
 [109](#109) | Cisco | Medium | [109.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/109.py)
 [110](#110) | Facebook | Medium | [110.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/110.py)
@@ -127,7 +127,7 @@ Day | Origin | Difficulty | Python | Java
 [119](#119) | Google | Medium | []()
 [120](#120) | Microsoft | Medium | []()
 [121](#121) | Google | Hard | []()
-[122](#122) | Zillow | Medium | [122.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/122.py)
+[122](#122) | Zillow | Medium | [122.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/122.py) | [122.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/122/MaxCoin.java)
 [123](#123) | LinkedIn | Hard | []()
 [124](#124) | Microsoft | Easy | []()
 [125](#125) | Google | Easy | []()
@@ -185,7 +185,13 @@ Day | Origin | Difficulty | Python | Java
 [177](#177) | Airbnb | Easy | [177.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/177.py)
 [178](#178) | Two Sigma | Hard | []()
 [179](#179) | Google | Medium | []()
-[180](#180) | Google | Medium | [180.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/180.py)
+[180](#180) | Google | Medium | [180.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/180.py) | [180.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/180/InterleavedStack.java)
+[181](#181) | Google | Hard | []()
+[182](#182) | Facebook | Medium | []()
+[183](#183) | Twitch | Hard | []()
+[184](#184) | Amazon | Easy | [184.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/184.py) | [184.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/184/GCD.java)
+[185](#185) | Google | Easy | []()
+
 
 ## Problem descriptions
 
@@ -2734,6 +2740,70 @@ Recall that you can only push or pop from a stack, and enqueue or dequeue from a
 For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. If the stack is [1, 2, 3, 4], it should become [1, 4, 2, 3].
 
 Hint: Try working backwards from the end state.
+
+[Back on Top](#Process)
+
+---
+
+### #181
+
+Given a string, split it into as few strings as possible such that each string is a palindrome.
+
+For example, given the input string racecarannakayak, return ["racecar", "anna", "kayak"].
+
+Given the input string abc, return ["a", "b", "c"].
+
+[Back on Top](#Process)
+
+---
+
+### #182
+
+A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
+
+Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
+
+[Back on Top](#Process)
+
+---
+
+### #183
+
+Describe what happens when you type a URL into your browser and press Enter.
+
+[Back on Top](#Process)
+
+---
+
+### #184
+
+Given n numbers, find the greatest common denominator between them.
+
+For example, given the numbers [42, 56, 14], return 14.
+
+[Back on Top](#Process)
+
+---
+
+### #185
+
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
+
+For example, given the following rectangles:
+```
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+}
+```
+and
+```
+{
+    "top_left": (0, 5),
+    "dimensions": (4, 3) # width, height
+}
+```
+return 6.
 
 [Back on Top](#Process)
 

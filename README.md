@@ -173,7 +173,7 @@ Day | Origin | Difficulty | Python | Java
 [165](#165) | Google | Medium | [165.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/165.py) | [165.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/165/SmallerElementsToRight.java)
 [166](#166) | Uber | Medium | []()
 [167](#167) | Airbnb | Easy | [167.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/167.py)
-[168](#168) | Facebook | Medium | []()
+[168](#168) | Facebook | Medium | [168.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/168.py)
 [169](#169) | Google | Medium | []()
 [170](#170) | Facebook | Medium | []()
 [171](#171) | Amazon | Easy | []()
@@ -191,6 +191,10 @@ Day | Origin | Difficulty | Python | Java
 [183](#183) | Twitch | Hard | []()
 [184](#184) | Amazon | Easy | [184.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/184.py) | [184.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/184/GCD.java)
 [185](#185) | Google | Easy | []()
+[186](#186) | Microsoft | Hard | []()
+[187](#187) | Google | Easy | []()
+[188](#188) | Google | Medium | []()
+[189](#189) | Google | Easy | [189.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/189.py)
 
 
 ## Problem descriptions
@@ -2804,6 +2808,75 @@ and
 }
 ```
 return 6.
+
+[Back on Top](#Process)
+
+---
+
+### #186
+
+Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
+
+For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20}, which has a difference of 5, which is the smallest possible difference.
+
+[Back on Top](#Process)
+
+---
+
+### #187
+
+You are given given a list of rectangles represented by min and max x- and y-coordinates. Compute whether or not a pair of rectangles overlap each other. If one rectangle completely covers another, it is considered overlapping.
+
+For example, given the following rectangles:
+```
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+},
+{
+    "top_left": (-1, 3),
+    "dimensions": (2, 1)
+},
+{
+    "top_left": (0, 5),
+    "dimensions": (4, 3)
+}
+```
+return `true` as the first and third rectangle overlap each other.
+
+[Back on Top](#Process)
+
+---
+
+### #188
+
+What will this code print out?
+```
+def make_functions():
+    flist = []
+
+    for i in [1, 2, 3]:
+        def print_i():
+            print(i)
+        flist.append(print_i)
+
+    return flist
+
+functions = make_functions()
+for f in functions:
+    f()
+```
+How can we make it print out what we apparently want?
+
+[Back on Top](#Process)
+
+---
+
+### #189
+
+Given an array of elements, return the length of the longest subarray where all its elements are distinct.
+
+For example, given the array [5, 1, 3, 5, 2, 3, 4, 1], return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
 
 [Back on Top](#Process)
 

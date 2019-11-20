@@ -195,6 +195,8 @@ Day | Origin | Difficulty | Python | Java
 [187](#187) | Google | Easy | []()
 [188](#188) | Google | Medium | []()
 [189](#189) | Google | Easy | [189.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/189.py)
+[190](#190) | Facebook | Medium | [190.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/190.py)
+[191](#191) | Stripe | Easy | []()
 
 
 ## Problem descriptions
@@ -2877,6 +2879,32 @@ How can we make it print out what we apparently want?
 Given an array of elements, return the length of the longest subarray where all its elements are distinct.
 
 For example, given the array [5, 1, 3, 5, 2, 3, 4, 1], return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
+
+[Back on Top](#Process)
+
+---
+
+### #190
+
+Given a circular array, compute its maximum subarray sum in O(n) time. A subarray can be empty, and in this case the sum is 0.
+
+For example, given [8, -1, 3, 4], return 15 as we choose the numbers 3, 4, and 8 where the 8 is obtained from wrapping around.
+
+Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
+
+[Back on Top](#Process)
+
+---
+
+### #191
+
+Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
+
+Intervals can "touch", such as [0, 1] and [1, 2], but they won't be considered overlapping.
+
+For example, given the intervals (7, 9), (2, 4), (5, 8), return 1 as the last interval can be removed and the first two won't overlap.
+
+The intervals are not necessarily sorted in any order.
 
 [Back on Top](#Process)
 

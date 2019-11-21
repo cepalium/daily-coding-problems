@@ -197,6 +197,7 @@ Day | Origin | Difficulty | Python | Java
 [189](#189) | Google | Easy | [189.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/189.py)
 [190](#190) | Facebook | Medium | [190.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/190.py)
 [191](#191) | Stripe | Easy | []()
+[192](#192) | Google | Medium | [192.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/192.py)
 
 
 ## Problem descriptions
@@ -2905,6 +2906,18 @@ Intervals can "touch", such as [0, 1] and [1, 2], but they won't be considered o
 For example, given the intervals (7, 9), (2, 4), (5, 8), return 1 as the last interval can be removed and the first two won't overlap.
 
 The intervals are not necessarily sorted in any order.
+
+[Back on Top](#Process)
+
+---
+
+### #192
+
+You are given an array of nonnegative integers. Let's say you start at the beginning of the array and are trying to advance to the end. You can advance at most, the number of steps that you're currently on. Determine whether you can get to the end of the array.
+
+For example, given the array [1, 3, 1, 2, 0, 1], we can go from indices 0 -> 1 -> 3 -> 5, so return true.
+
+Given the array [1, 2, 1, 0, 0], we can't reach the end, so return false.
 
 [Back on Top](#Process)
 

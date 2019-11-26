@@ -198,6 +198,11 @@ Day | Origin | Difficulty | Python | Java
 [190](#190) | Facebook | Medium | [190.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/190.py) | [190.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/190/MaxSubarray.java)
 [191](#191) | Stripe | Easy | []()
 [192](#192) | Google | Medium | [192.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/192.py) | [192.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/192/Hopping.java)
+[193](#193) | Affirm | Hard | []()
+[194](#194) | Facebook | Easy | []()
+[195](#195) | Google | Hard | [195.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/195.py)
+[196](#196) | Apple | Easy | [196.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/196.py)
+[197](#197) | Amazon | Easy | [197.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/197.py)
 
 
 ## Problem descriptions
@@ -2918,6 +2923,80 @@ You are given an array of nonnegative integers. Let's say you start at the begin
 For example, given the array [1, 3, 1, 2, 0, 1], we can go from indices 0 -> 1 -> 3 -> 5, so return true.
 
 Given the array [1, 2, 1, 0, 0], we can't reach the end, so return false.
+
+[Back on Top](#Process)
+
+---
+
+### #193
+
+Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock. You're also given a number fee that represents a transaction fee for each buy and sell transaction.
+
+You must buy before you can sell the stock, but you can make as many transactions as you like.
+
+For example, given [1, 3, 2, 8, 4, 10] and fee = 2, you should return 9, since you could buy the stock at 1 dollar, and sell at 8 dollars, and then buy it at 4 dollars and sell it at 10 dollars. Since we did two transactions, there is a 4 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
+
+[Back on Top](#Process)
+
+---
+
+### #194
+
+Suppose you are given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+
+Upgrade to premium and get in-depth solutions to every problem, including this one.
+
+If you liked this problem, feel free to forward it along so they can subscribe here! As always, shoot us an email if there's anything we can help with!
+
+Looking to switch to Product Management? Check out Daily Product Prep for product interview problems every day!
+
+No more? Unsubscribe.
+
+
+
+[Back on Top](#Process)
+
+---
+
+### #195
+
+Let A be an N by M matrix in which every row and every column is sorted.
+
+Given i1, j1, i2, and j2, compute the number of elements of M smaller than M[i1, j1] and larger than M[i2, j2].
+
+For example, given the following matrix:
+```
+[[1, 3, 7, 10, 15, 20],
+ [2, 6, 9, 14, 22, 25],
+ [3, 8, 10, 15, 25, 30],
+ [10, 11, 12, 23, 30, 35],
+ [20, 25, 30, 35, 40, 45]]
+```
+And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
+
+[Back on Top](#Process)
+
+---
+
+### #196
+
+Given the root of a binary tree, find the most frequent subtree sum. The subtree sum of a node is the sum of all values under a node, including the node itself.
+
+For example, given the following tree:
+```
+  5
+ / \
+2  -5
+```
+Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5 - 5.
+
+[Back on Top](#Process)
+
+---
+
+### #197
+
+Given an array and a number k that's smaller than the length of the array, rotate the array to the right k elements in-place.
 
 [Back on Top](#Process)
 

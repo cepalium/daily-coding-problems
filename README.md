@@ -203,6 +203,8 @@ Day | Origin | Difficulty | Python | Java
 [195](#195) | Google | Hard | [195.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/195.py)
 [196](#196) | Apple | Easy | [196.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/196.py)
 [197](#197) | Amazon | Easy | [197.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/197.py)
+[198](#198) | Google | Medium | []()
+[199](#199) | Facebook | Hard | [199.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/199.py)
 
 
 ## Problem descriptions
@@ -2997,6 +2999,26 @@ Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5
 ### #197
 
 Given an array and a number k that's smaller than the length of the array, rotate the array to the right k elements in-place.
+
+[Back on Top](#Process)
+
+---
+
+### #198
+
+Given a set of distinct positive integers, find the largest subset such that every pair of elements in the subset (i, j) satisfies either i % j = 0 or j % i = 0.
+
+For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Given [1, 3, 6, 24], return [1, 3, 6, 24].
+
+[Back on Top](#Process)
+
+---
+
+### #199
+
+Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
+
+For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
 
 [Back on Top](#Process)
 

@@ -124,7 +124,7 @@ Day | Origin | Difficulty | Python | Java
 [116](#116) | Jane Street | Medium | []()
 [117](#117) | Facebook | Easy | [117.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/117.py)
 [118](#118) | Google | Easy | [118.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/118.py)
-[119](#119) | Google | Medium | []()
+[119](#119) | Google | Medium | [119.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/119.py)
 [120](#120) | Microsoft | Medium | []()
 [121](#121) | Google | Hard | []()
 [122](#122) | Zillow | Medium | [122.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/122.py) | [122.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/122/MaxCoin.java)
@@ -171,7 +171,7 @@ Day | Origin | Difficulty | Python | Java
 [163](#163) | Jane Street | Hard | [163.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/163.py) | [163.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/163/ReversePolishNotation.java)
 [164](#164) | Google | Medium | [164.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/164.py) | [164.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/164/FindDuplicate.java)
 [165](#165) | Google | Medium | [165.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/165.py) | [165.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/165/SmallerElementsToRight.java)
-[166](#166) | Uber | Medium | []()
+[166](#166) | Uber | Medium | [166.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/166.py)
 [167](#167) | Airbnb | Easy | [167.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/167.py)
 [168](#168) | Facebook | Medium | [168.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/168.py)
 [169](#169) | Google | Medium | []()
@@ -205,6 +205,8 @@ Day | Origin | Difficulty | Python | Java
 [197](#197) | Amazon | Easy | [197.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/197.py)
 [198](#198) | Google | Medium | []()
 [199](#199) | Facebook | Hard | [199.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/199.py)
+[200](#200) | Microsoft | Hard | [200.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/200.py)
+[201](#201) | Google | Easy | [201.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/201.py)
 
 
 ## Problem descriptions
@@ -3019,6 +3021,32 @@ For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Gi
 Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
 
 For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
+
+[Back on Top](#Process)
+
+---
+
+### #200
+
+Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
+
+For example, given the intervals [(1, 4), (4, 5), (7, 9), (9, 12)], you should return [4, 9].
+
+[Back on Top](#Process)
+
+---
+
+### #201
+
+You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. For example, [[1], [2, 3], [1, 5, 1]] represents the triangle:
+```
+  1
+ 2 3
+1 5 1
+```
+We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, 1 -> 3 -> 5. The weight of the path is the sum of the entries.
+
+Write a program that returns the weight of the maximum weight path.
 
 [Back on Top](#Process)
 

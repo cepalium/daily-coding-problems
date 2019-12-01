@@ -207,7 +207,7 @@ Day | Origin | Difficulty | Python | Java
 [199](#199) | Facebook | Hard | [199.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/199.py)
 [200](#200) | Microsoft | Hard | [200.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/200.py)
 [201](#201) | Google | Easy | [201.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/201.py)
-
+[202](#202) | Palantir | Easy | [202.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/202.py)
 
 ## Problem descriptions
 
@@ -3047,6 +3047,14 @@ You are given an array of arrays of integers, where each array corresponds to a 
 We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, 1 -> 3 -> 5. The weight of the path is the sum of the entries.
 
 Write a program that returns the weight of the maximum weight path.
+
+[Back on Top](#Process)
+
+---
+
+### #202
+
+Write a program that checks whether an integer is a palindrome. For example, 121 is a palindrome, as well as 888. 678 is not a palindrome. Do not convert the integer into a string.
 
 [Back on Top](#Process)
 

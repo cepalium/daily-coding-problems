@@ -208,6 +208,7 @@ Day | Origin | Difficulty | Python | Java
 [200](#200) | Microsoft | Hard | [200.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/200.py)
 [201](#201) | Google | Easy | [201.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/201.py)
 [202](#202) | Palantir | Easy | [202.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/202.py)
+[203](#204) | Uber | Medium | [203.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/203.py)
 
 ## Problem descriptions
 
@@ -3055,6 +3056,16 @@ Write a program that returns the weight of the maximum weight path.
 ### #202
 
 Write a program that checks whether an integer is a palindrome. For example, 121 is a palindrome, as well as 888. 678 is not a palindrome. Do not convert the integer into a string.
+
+[Back on Top](#Process)
+
+---
+
+### #203
+
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in O(log N) time. You may assume the array does not contain duplicates.
+
+For example, given [5, 7, 10, 3, 4], return 3.
 
 [Back on Top](#Process)
 

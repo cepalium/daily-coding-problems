@@ -208,7 +208,10 @@ Day | Origin | Difficulty | Python | Java
 [200](#200) | Microsoft | Hard | [200.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/200.py)
 [201](#201) | Google | Easy | [201.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/201.py)
 [202](#202) | Palantir | Easy | [202.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/202.py)
-[203](#204) | Uber | Medium | [203.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/203.py)
+[203](#203) | Uber | Medium | [203.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/203.py)
+[204](#204) | Amazon | Easy | []()
+[205](#205) | IBM | Easy | []()
+[206](#206) | Twitter | Easy | [206.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/206.py)
 
 ## Problem descriptions
 
@@ -3066,6 +3069,32 @@ Write a program that checks whether an integer is a palindrome. For example, 121
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in O(log N) time. You may assume the array does not contain duplicates.
 
 For example, given [5, 7, 10, 3, 4], return 3.
+
+[Back on Top](#Process)
+
+---
+
+### #204
+
+Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
+
+[Back on Top](#Process)
+
+---
+
+### #205
+
+Given an integer, find the next permutation of it in absolute order. For example, given 48975, the next permutation would be 49578.
+
+[Back on Top](#Process)
+
+---
+
+### #206
+
+A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation. For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
+
+Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and the permutation [2, 1, 0], return ["c", "b", "a"].
 
 [Back on Top](#Process)
 

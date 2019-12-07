@@ -212,6 +212,8 @@ Day | Origin | Difficulty | Python | Java
 [204](#204) | Amazon | Easy | []()
 [205](#205) | IBM | Easy | []()
 [206](#206) | Twitter | Easy | [206.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/206.py)
+[207](#207) | Dropbox | Medium | []()
+[208](#208) | | | [208.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/208.py)
 
 ## Problem descriptions
 
@@ -3095,6 +3097,24 @@ Given an integer, find the next permutation of it in absolute order. For example
 A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation. For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
 
 Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and the permutation [2, 1, 0], return ["c", "b", "a"].
+
+[Back on Top](#Process)
+
+---
+
+### #207
+
+Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
+
+[Back on Top](#Process)
+
+---
+
+### #208
+
+Given a linked list of numbers and a pivot k, partition the linked list so that all nodes less than k come before nodes greater than or equal to k.
+
+For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution could be 1 -> 0 -> 5 -> 8 -> 3.
 
 [Back on Top](#Process)
 

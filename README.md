@@ -213,7 +213,9 @@ Day | Origin | Difficulty | Python | Java
 [205](#205) | IBM | Easy | []()
 [206](#206) | Twitter | Easy | [206.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/206.py)
 [207](#207) | Dropbox | Medium | []()
-[208](#208) | | | [208.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/208.py)
+[208](#208) | LinkedIn | Medium | [208.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/208.py)
+[209](#209) | Youtube | Hard | []()
+[210](#210) | Apple | Easy | [210.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/210.py)
 
 ## Problem descriptions
 
@@ -3115,6 +3117,29 @@ Given an undirected graph G, check whether it is bipartite. Recall that a graph 
 Given a linked list of numbers and a pivot k, partition the linked list so that all nodes less than k come before nodes greater than or equal to k.
 
 For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution could be 1 -> 0 -> 5 -> 8 -> 3.
+
+[Back on Top](#Process)
+
+---
+
+### #209
+
+Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
+
+[Back on Top](#Process)
+
+---
+
+### #210
+
+A Collatz sequence in mathematics can be defined as follows. Starting with any positive integer:
+
+* If n is even, the next number in the sequence is n / 2
+* If n is odd, the next number in the sequence is 3n + 1 
+
+It is conjectured that every such sequence eventually reaches the number 1. Test this conjecture.
+
+Bonus: What input n <= 1000000 gives the longest sequence?
 
 [Back on Top](#Process)
 

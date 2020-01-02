@@ -216,6 +216,9 @@ Day | Origin | Difficulty | Python | Java
 [208](#208) | LinkedIn | Medium | [208.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/208.py)
 [209](#209) | Youtube | Hard | []()
 [210](#210) | Apple | Easy | [210.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/210.py)
+[232](#232) | Google | Easy | [232.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/232.py)
+[233](#233) | Apple | Easy | [233.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/233.py)
+
 
 ## Problem descriptions
 
@@ -3140,6 +3143,34 @@ A Collatz sequence in mathematics can be defined as follows. Starting with any p
 It is conjectured that every such sequence eventually reaches the number 1. Test this conjecture.
 
 Bonus: What input n <= 1000000 gives the longest sequence?
+
+[Back on Top](#Process)
+
+---
+
+### #232
+
+Implement a PrefixMapSum class with the following methods:
+
+* insert(key: str, value: int): Set a given key's value in the map. If the key already exists, overwrite the value.
+* sum(prefix: str): Return the sum of all values of keys that begin with a given prefix.
+
+For example, you should be able to run the following code:
+```
+mapsum.insert("columnar", 3)
+assert mapsum.sum("col") == 3
+
+mapsum.insert("column", 2)
+assert mapsum.sum("col") == 5
+```
+
+[Back on Top](#Process)
+
+---
+
+### #233
+
+Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
 
 [Back on Top](#Process)
 

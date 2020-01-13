@@ -236,7 +236,7 @@ Day | Origin | Difficulty | Python | Java
 [228](#228) | Twitter | Medium | []()
 [229](#229) | Flipkart| Medium | []()
 [230](#230) | Goldman Sachs| Medium | []()
-[231](#231) | IBM | Easy | []()
+[231](#231) | IBM | Easy | [231.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/231.py)
 [232](#232) | Google | Easy | [232.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/232.py)
 [233](#233) | Apple | Easy | [233.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/233.py)
 [234](#234) | Microsoft | Hard | []()

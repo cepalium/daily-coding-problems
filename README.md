@@ -250,6 +250,10 @@ Day | Origin | Difficulty | Python | Java
 [242](#242) | Twitter | Hard | [242.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/242.py)
 [243](#243) | Etsy | Medium | []()
 [244](#244) | Square | Easy | [244.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/244.py)
+[245](#245) | Yelp | Medium | []()
+[246](#246) | Dropbox | Medium | []()
+[247](#247) | Paypal | Easy | []()
+[248](#248) | Nvidia | Hard | [248.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/248.py)
 
 
 ## Problem descriptions
@@ -3590,6 +3594,42 @@ For example, to find all primes less than 100, we would first mark [4, 6, 8, ...
 Implement this algorithm.
 
 Bonus: Create a generator that produces primes indefinitely (that is, without taking N as an input).
+
+[Back on Top](#Process)
+
+---
+
+### #245
+
+You are given an array of integers, where each element represents the maximum number of steps that can be jumped going forward from that element. Write a function to return the minimum number of jumps you must take in order to get from the start to the end of the array.
+
+For example, given [6, 2, 4, 0, 5, 1, 1, 4, 2, 9], you should return 2, as the optimal solution involves jumping from 6 to 5, and then from 5 to 9.
+
+[Back on Top](#Process)
+
+---
+
+### #246
+
+Given a list of words, determine whether the words can be chained to form a circle. A word X can be placed in front of another word Y in a circle if the last character of X is same as the first character of Y.
+
+For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can form the following circle: chair --> racket --> touch --> height --> tunic --> chair
+
+[Back on Top](#Process)
+
+---
+
+### #247
+
+Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+
+[Back on Top](#Process)
+
+---
+
+### #248
+
+Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
 
 [Back on Top](#Process)
 

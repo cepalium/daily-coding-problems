@@ -254,7 +254,10 @@ Day | Origin | Difficulty | Python | Java
 [246](#246) | Dropbox | Medium | []()
 [247](#247) | Paypal | Easy | []()
 [248](#248) | Nvidia | Hard | [248.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/248.py)
-
+[249](#249) | Salesforce | Hard | []()
+[250](#250) | Google | Medium | []()
+[251](#251) | Amazon | Medium | []()
+[252](#252) | Palantir | Easy | [252.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/252.py)
 
 ## Problem descriptions
 
@@ -3630,6 +3633,53 @@ Given a binary tree, determine whether or not it is height-balanced. A height-ba
 ### #248
 
 Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+
+[Back on Top](#Process)
+
+---
+
+### #249 
+
+Given an array of integers, find the maximum XOR of any two elements.
+
+[Back on Top](#Process)
+
+---
+
+### #250
+
+A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
+
+For example, a puzzle of the form:
+```
+  SEND
++ MORE
+--------
+ MONEY
+```
+may have the solution:
+```
+{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
+```
+Given a three-word puzzle like the one above, create an algorithm that finds a solution.
+
+[Back on Top](#Process)
+
+---
+
+### #251
+
+Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
+
+[Back on Top](#Process)
+
+---
+
+### #252
+
+The ancient Egyptians used to express fractions as a sum of several terms where each numerator is one. For example, 4 / 13 can be represented as 1 / 4 + 1 / 18 + 1 / 468.
+
+Create an algorithm to turn an ordinary fraction a / b, where a < b, into an Egyptian fraction.
 
 [Back on Top](#Process)
 

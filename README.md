@@ -258,6 +258,11 @@ Day | Origin | Difficulty | Python | Java
 [250](#250) | Google | Medium | []()
 [251](#251) | Amazon | Medium | []()
 [252](#252) | Palantir | Easy | [252.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/252.py)
+[253](#253) | Paypal | Medium | []()
+[254](#254) | Yahoo | Medium | []()
+[255](#255) | Microsoft | Easy | []()
+[256](#256) | Fitbit | Medium | []()
+[257](#257) | WhapsApp | Easy | [257.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/257.py)
 
 ## Problem descriptions
 
@@ -3680,6 +3685,92 @@ Given an array of a million integers between zero and a billion, out of order, h
 The ancient Egyptians used to express fractions as a sum of several terms where each numerator is one. For example, 4 / 13 can be represented as 1 / 4 + 1 / 18 + 1 / 468.
 
 Create an algorithm to turn an ordinary fraction a / b, where a < b, into an Egyptian fraction.
+
+[Back on Top](#Process)
+
+---
+
+### #253
+
+Given a string and a number of lines k, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the kth line, then back up to top right, and so on.
+
+For example, given the sentence "thisisazigzag" and k = 4, you should print:
+```
+t     a     g
+ h   s z   a
+  i i   i z
+   s     g
+```
+
+[Back on Top](#Process)
+
+---
+
+### #254
+
+Recall that a full binary tree is one in which each node is either a leaf node, or has two children. Given a binary tree, convert it to a full one by removing nodes with only one child.
+
+For example, given the following tree:
+```
+         0
+      /     \
+    1         2
+  /            \
+3                 4
+  \             /   \
+    5          6     7
+```
+
+You should convert it to:
+```
+     0
+  /     \
+5         4
+        /   \
+       6     7
+```
+
+[Back on Top](#Process)
+
+---
+
+### #255
+
+The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix M, where M[i][j] == 1 if there is a path between vertices i and j, and otherwise 0.
+
+For example, suppose we are given the following graph in adjacency list form:
+```
+graph = [
+    [0, 1, 3],
+    [1, 2],
+    [2],
+    [3]
+]
+```
+The transitive closure of this graph would be:
+```
+[1, 1, 1, 1]
+[0, 1, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+```
+Given a graph, find its transitive closure.
+
+[Back on Top](#Process)
+
+---
+
+### #256
+
+Given a linked list, rearrange the node values such that they appear in alternating low -> high -> low -> high ... form. For example, given 1 -> 2 -> 3 -> 4 -> 5, you should return 1 -> 3 -> 2 -> 5 -> 4.
+
+[Back on Top](#Process)
+
+---
+
+### #257
+
+Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given [3, 7, 5, 6, 9], you should return (1, 3).
 
 [Back on Top](#Process)
 

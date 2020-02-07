@@ -263,6 +263,7 @@ Day | Origin | Difficulty | Python | Java
 [255](#255) | Microsoft | Easy | []()
 [256](#256) | Fitbit | Medium | []()
 [257](#257) | WhapsApp | Easy | [257.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/257.py)
+[270](#270) | Twitter | Medium | [270.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/270.py)
 
 ## Problem descriptions
 
@@ -3771,6 +3772,103 @@ Given a linked list, rearrange the node values such that they appear in alternat
 ### #257
 
 Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given [3, 7, 5, 6, 9], you should return (1, 3).
+
+[Back on Top](#Process)
+
+---
+
+### #258
+
+[Back on Top](#Process)
+
+---
+
+### #259
+
+[Back on Top](#Process)
+
+---
+
+### #260
+
+[Back on Top](#Process)
+
+---
+
+### #261
+
+[Back on Top](#Process)
+
+---
+
+### #262
+
+[Back on Top](#Process)
+
+---
+
+### #263
+
+[Back on Top](#Process)
+
+---
+
+### #264
+
+[Back on Top](#Process)
+
+---
+
+### #265
+
+[Back on Top](#Process)
+
+---
+
+### #266
+
+[Back on Top](#Process)
+
+---
+
+### #267
+
+[Back on Top](#Process)
+
+---
+
+### #268
+
+[Back on Top](#Process)
+
+---
+
+### #269
+
+[Back on Top](#Process)
+
+---
+
+### #270
+
+A network consists of nodes labeled 0 to N. You are given a list of edges (a, b, t), describing the time t it takes for a message to be sent from node a to node b. Whenever a node receives a message, it immediately passes the message on to a neighboring node, if possible.
+
+Assuming all nodes are connected, determine how long it will take for every node to receive a message that begins at node 0.
+
+For example, given N = 5, and the following edges:
+```
+edges = [
+    (0, 1, 5),
+    (0, 2, 3),
+    (0, 5, 4),
+    (1, 3, 8),
+    (2, 3, 1),
+    (3, 5, 10),
+    (3, 4, 5)
+]
+```
+
+You should return 9, because propagating the message from 0 -> 2 -> 3 -> 4 will take that much time.
 
 [Back on Top](#Process)
 

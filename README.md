@@ -263,7 +263,7 @@ Day | Origin | Difficulty | Python | Java
 [255](#255) | Microsoft | Easy | []()
 [256](#256) | Fitbit | Medium | []()
 [257](#257) | WhapsApp | Easy | [257.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/257.py)
-[270](#270) | Twitter | Medium | [270.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/270.py)
+[270](#270) | Twitter | Medium | [270.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/270.py) | [270.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/270/MinPropagationTime.java)
 
 ## Problem descriptions
 

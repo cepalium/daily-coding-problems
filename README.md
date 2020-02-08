@@ -264,6 +264,7 @@ Day | Origin | Difficulty | Python | Java
 [256](#256) | Fitbit | Medium | []()
 [257](#257) | WhapsApp | Easy | [257.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/257.py)
 [270](#270) | Twitter | Medium | [270.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/270.py) | [270.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/270/MinPropagationTime.java)
+[271](#271) | Netflix | Hard | [271.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/271.py)
 
 ## Problem descriptions
 
@@ -3779,11 +3780,37 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ### #258
 
+In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
+
+Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
+
+For example, given the following tree:
+```
+       1
+    /     \
+  2         3
+ / \       / \
+4   5     6   7
+```
+You should return [1, 3, 2, 4, 5, 6, 7].
+
 [Back on Top](#Process)
 
 ---
 
 ### #259
+
+Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
+
+* Player 1: g
+* Player 2: h
+* Player 1: o
+* Player 2: s
+* Player 1: t [loses]
+
+Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
+
+For example, if the dictionary is ["cat", "calf", "dog", "bear"], the only winning start letter would be b.
 
 [Back on Top](#Process)
 
@@ -3791,11 +3818,29 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ### #260
 
+The sequence [0, 1, ..., N] has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given [None, +, +, -, +], you could return [1, 2, 3, 0, 4].
+
 [Back on Top](#Process)
 
 ---
 
 ### #261
+
+Huffman coding is a method of encoding characters based on their frequency. Each letter is assigned a variable-length binary string, such as 0101 or 111110, where shorter lengths correspond to more common letters. To accomplish this, a binary tree is built such that the path from the root to any leaf uniquely maps to a character. When traversing the path, descending to a left child corresponds to a 0 in the prefix, while descending right corresponds to 1.
+
+Here is an example tree (note that only the leaf nodes have letters):
+```
+        *
+      /   \
+    *       *
+   / \     / \
+  *   a   t   *
+ /             \
+c               s
+```
+With this encoding, cats would be represented as 0000110111.
+
+Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
 
 [Back on Top](#Process)
 
@@ -3803,11 +3848,22 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ### #262
 
+A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+
 [Back on Top](#Process)
 
 ---
 
 ### #263
+
+Create a basic sentence checker that takes in a stream of characters and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
+
+We can consider a sentence valid if it conforms to the following rules:
+
+1. The sentence must start with a capital letter, followed by a lowercase letter or a space.
+2. All other characters must be lowercase letters, separators (,,;,:) or terminal marks (.,?,!,‽).
+3. There must be a single space between each word.
+4. The sentence must end with a terminal mark immediately following a word.
 
 [Back on Top](#Process)
 
@@ -3815,11 +3871,23 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ### #264
 
+Given a set of characters C and an integer k, a De Bruijn sequence is a cyclic sequence in which every possible k-length string of characters in C occurs exactly once.
+
+For example, suppose C = {0, 1} and k = 3. Then our sequence should contain the substrings {'000', '001', '010', '011', '100', '101', '110', '111'}, and one possible solution would be 00010111.
+
+Create an algorithm that finds a De Bruijn sequence.
+
 [Back on Top](#Process)
 
 ---
 
 ### #265
+
+MegaCorp wants to give bonuses to its employees based on how many lines of codes they have written. They would like to give the smallest positive amount to each worker consistent with the constraint that if a developer has written more lines of code than their neighbor, they should receive more money.
+
+Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid.
+
+For example, given [10, 40, 200, 1000, 60, 30], you should return [1, 2, 3, 4, 2, 1].
 
 [Back on Top](#Process)
 
@@ -3827,11 +3895,33 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ### #266
 
+A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
+
+Given a dictionary of words and an input word, create a function that returns all valid step words.
+
 [Back on Top](#Process)
 
 ---
 
 ### #267
+
+You are presented with an 8 by 8 matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
+
+For details on how each piece moves, see here.
+
+For example, given the following matrix:
+```
+...K....
+........
+.B......
+......P.
+.......R
+..N.....
+........
+.....Q..
+```
+
+You should return True, since the bishop is attacking the king diagonally.
 
 [Back on Top](#Process)
 
@@ -3839,11 +3929,25 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ### #268
 
+Given a 32-bit positive integer N, determine whether it is a power of four in faster than O(log N) time.
+
 [Back on Top](#Process)
 
 ---
 
 ### #269
+
+You are given an string representing the initial conditions of some dominoes. Each element can take one of three values:
+
+* L, meaning the domino has just been pushed to the left,
+* R, meaning the domino has just been pushed to the right, or
+* ., meaning the domino is standing still.
+
+Determine the orientation of each tile when the dominoes stop falling. Note that if a domino receives a force from the left and right side simultaneously, it will remain upright.
+
+For example, given the string .L.R....L, you should return LL.RRRLLL.
+
+Given the string ..R...L.L, you should return ..RR.LLLL.
 
 [Back on Top](#Process)
 
@@ -3869,6 +3973,16 @@ edges = [
 ```
 
 You should return 9, because propagating the message from 0 -> 2 -> 3 -> 4 will take that much time.
+
+[Back on Top](#Process)
+
+---
+
+### #271
+
+Given a sorted list of integers of length N, determine if an element x is in the list without performing any multiplication, division, or bit-shift operations.
+
+Do this in O(log N) time.
 
 [Back on Top](#Process)
 

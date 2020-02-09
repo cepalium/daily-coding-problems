@@ -263,6 +263,8 @@ Day | Origin | Difficulty | Python | Java
 [255](#255) | Microsoft | Easy | []()
 [256](#256) | Fitbit | Medium | []()
 [257](#257) | WhapsApp | Easy | [257.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/257.py)
+[266](#266) | Pivotal | Easy | [266.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/266.py)
+[268](#268) | Indeed | Medium | [268.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/268.py)
 [270](#270) | Twitter | Medium | [270.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/270.py) | [270.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/270/MinPropagationTime.java)
 [271](#271) | Netflix | Hard | [271.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/271.py)
 

@@ -267,6 +267,8 @@ Day | Origin | Difficulty | Python | Java
 [268](#268) | Indeed | Medium | [268.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/268.py)
 [270](#270) | Twitter | Medium | [270.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/270.py) | [270.java](https://github.com/TuanANg/daily-coding-problems/blob/master/java/270/MinPropagationTime.java)
 [271](#271) | Netflix | Hard | [271.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/271.py)
+[272](#272) | Spotify | Medium | []()
+[273](#273) | Apple | Easy | [273.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/273.py)
 
 ## Problem descriptions
 
@@ -3985,6 +3987,26 @@ You should return 9, because propagating the message from 0 -> 2 -> 3 -> 4 will 
 Given a sorted list of integers of length N, determine if an element x is in the list without performing any multiplication, division, or bit-shift operations.
 
 Do this in O(log N) time.
+
+[Back on Top](#Process)
+
+---
+
+### #272
+
+Write a function, throw_dice(N, faces, total), that determines how many ways it is possible to throw N dice with some number of faces each to get a specific total.
+
+For example, throw_dice(3, 6, 7) should equal 15.
+
+[Back on Top](#Process)
+
+---
+
+### #273
+
+A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return False.
+
+For example, given [-6, 0, 2, 40], you should return 2. Given [1, 5, 7, 8], you should return False.
 
 [Back on Top](#Process)
 

@@ -269,6 +269,7 @@ Day | Origin | Difficulty | Python | Java
 [271](#271) | Netflix | Hard | [271.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/271.py)
 [272](#272) | Spotify | Medium | []()
 [273](#273) | Apple | Easy | [273.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/273.py)
+[276](#276) | Dropbox | Hard | [276.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/276.py)
 
 ## Problem descriptions
 
@@ -4007,6 +4008,50 @@ For example, throw_dice(3, 6, 7) should equal 15.
 A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return False.
 
 For example, given [-6, 0, 2, 40], you should return 2. Given [1, 5, 7, 8], you should return False.
+
+[Back on Top](#Process)
+
+---
+
+### #274
+
+Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
+
+Don't use eval or a similar built-in parser.
+
+For example, given '-1 + (2 + 3)', you should return 4.
+
+[Back on Top](#Process)
+
+---
+
+### #275
+
+The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
+
+```
+1
+11
+21
+1211
+111221
+```
+
+As an example, the fourth term is 1211, since the third term consists of one 2 and one 1.
+
+Given an integer N, print the Nth term of this sequence.
+
+[Back on Top](#Process)
+
+---
+
+### #276
+
+Implement an efficient string matching algorithm.
+
+That is, given a string of length N and a pattern of length k, write a program that searches for the pattern in the string with less than O(N * k) worst-case time complexity.
+
+If the pattern is found, return the start index of its location. If not, return False.
 
 [Back on Top](#Process)
 

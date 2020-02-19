@@ -270,6 +270,7 @@ Day | Origin | Difficulty | Python | Java
 [272](#272) | Spotify | Medium | []()
 [273](#273) | Apple | Easy | [273.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/273.py)
 [276](#276) | Dropbox | Hard | [276.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/276.py)
+[282](#282) | Netflix | Easy | [282.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/282.py)
 
 ## Problem descriptions
 
@@ -4052,6 +4053,14 @@ Implement an efficient string matching algorithm.
 That is, given a string of length N and a pattern of length k, write a program that searches for the pattern in the string with less than O(N * k) worst-case time complexity.
 
 If the pattern is found, return the start index of its location. If not, return False.
+
+[Back on Top](#Process)
+
+---
+
+### #282
+
+Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
 
 [Back on Top](#Process)
 

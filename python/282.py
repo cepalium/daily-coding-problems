@@ -15,10 +15,8 @@ def pythagorean_triplet(arr):
         while l < r:
             if a[i] > a[l] + a[r]:    # c2 > a2 + b2
                 l += 1
-                continue
             elif a[i] < a[l] + a[r]:    # c2 < a2 + b2
                 r -= 1
-                continue
             else:    # find triplet
                 return True
     return False    # reach this means no pythagorean triplet found

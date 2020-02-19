@@ -1,3 +1,8 @@
+# ----------------------------
+# Author: Tuan Nguyen
+# Date created: 20200219
+#!282.py
+# ----------------------------
 """
 Given an array of integers, determine whether it contains a Pythagorean triplet. 
 Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
@@ -14,9 +19,9 @@ def pythagorean_triplet(arr):
         r = i - 1    # index of b2
         while l < r:
             if a[i] > a[l] + a[r]:    # c2 > a2 + b2
-                l += 1
+                l += 1    # l moves left 1 position to have bigger a2
             elif a[i] < a[l] + a[r]:    # c2 < a2 + b2
-                r -= 1
+                r -= 1    # r moves right 1 position to have smaller b2
             else:    # find triplet
                 return True
     return False    # reach this means no pythagorean triplet found

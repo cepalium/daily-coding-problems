@@ -271,6 +271,7 @@ Day | Origin | Difficulty | Python | Java
 [273](#273) | Apple | Easy | [273.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/273.py)
 [276](#276) | Dropbox | Hard | [276.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/276.py)
 [282](#282) | Netflix | Easy | [282.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/282.py)
+[283](#283) | Google | Easy | [283.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/283.py)
 
 ## Problem descriptions
 
@@ -4061,6 +4062,18 @@ If the pattern is found, return the start index of its location. If not, return 
 ### #282
 
 Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
+
+[Back on Top](#Process)
+
+---
+
+### #283
+
+A regular number in mathematics is defined as one which evenly divides some power of 60. Equivalently, we can say that a regular number is one whose only prime divisors are 2, 3, and 5.
+
+These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
+
+Given an integer N, write a program that returns, in order, the first N regular numbers.
 
 [Back on Top](#Process)
 

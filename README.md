@@ -272,6 +272,7 @@ Day | Origin | Difficulty | Python | Java
 [276](#276) | Dropbox | Hard | [276.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/276.py)
 [282](#282) | Netflix | Easy | [282.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/282.py)
 [283](#283) | Google | Easy | [283.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/283.py)
+[285](#285) | Mailchimp | Medium | [285.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/285.py)
 
 ## Problem descriptions
 
@@ -4059,6 +4060,89 @@ If the pattern is found, return the start index of its location. If not, return 
 
 ---
 
+### #277
+
+UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
+
+For example, the Euro sign, €, corresponds to the three bytes 11100010 10000010 10101100. The rules for mapping characters are as follows:
+
+For a single-byte character, the first bit must be zero.
+For an n-byte character, the first byte starts with n ones and a zero. The other n - 1 bytes all start with 10.
+Visually, this can be represented as follows.
+```
+ Bytes   |           Byte format
+-----------------------------------------------
+   1     | 0xxxxxxx
+   2     | 110xxxxx 10xxxxxx
+   3     | 1110xxxx 10xxxxxx 10xxxxxx
+   4     | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+   ```
+   
+Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
+
+[Back on Top](#Process)
+
+---
+
+### #278
+
+Given an integer N, construct all possible binary search trees with N nodes.
+
+[Back on Top](#Process)
+
+---
+
+### #279
+
+A classroom consists of N students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where 0 is friends with 1 and 2, 3 is friends with 6, and so on.
+```
+{0: [1, 2],
+ 1: [0, 5],
+ 2: [0],
+ 3: [6],
+ 4: [],
+ 5: [1],
+ 6: [3]} 
+ ```
+
+Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For the example above, the friend groups would be {0, 1, 2, 5}, {3, 6}, {4}.
+
+Given a friendship list such as the one above, determine the number of friend groups in the class.
+
+[Back on Top](#Process)
+
+---
+
+### #280
+
+Given an undirected graph, determine if it contains a cycle.
+
+[Back on Top](#Process)
+
+---
+
+### #281
+
+A wall consists of several rows of bricks of various integer lengths and uniform height. Your goal is to find a vertical line going from the top to the bottom of the wall that cuts through the fewest number of bricks. If the line goes through the edge between two bricks, this does not count as a cut.
+
+For example, suppose the input is as follows, where values in each row represent the lengths of bricks in that row:
+```
+[[3, 5, 1, 1],
+ [2, 3, 3, 2],
+ [5, 5],
+ [4, 4, 2],
+ [1, 3, 3, 3],
+ [1, 1, 6, 1, 1]]
+```
+
+The best we can we do here is to draw a line after the eighth brick, which will only require cutting through the bricks in the third and fifth row.
+
+Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
+
+[Back on Top](#Process)
+
+---
+
 ### #282
 
 Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
@@ -4074,6 +4158,35 @@ A regular number in mathematics is defined as one which evenly divides some powe
 These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
 
 Given an integer N, write a program that returns, in order, the first N regular numbers.
+
+[Back on Top](#Process)
+
+---
+
+### #284
+
+Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram 4 and 6 are cousins.
+```
+    1
+   / \
+  2   3
+ / \   \
+4   5   6
+```
+
+Given a binary tree and a particular node, find all cousins of that node.
+
+[Back on Top](#Process)
+
+---
+
+### #285
+
+You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street.
+
+For example, given the array [3, 7, 8, 3, 6, 1], you should return 3, since the top floors of the buildings with heights 8, 6, and 1 all have an unobstructed view to the west.
+
+Can you do this using just one forward pass through the array?
 
 [Back on Top](#Process)
 

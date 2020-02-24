@@ -273,6 +273,7 @@ Day | Origin | Difficulty | Python | Java
 [282](#282) | Netflix | Easy | [282.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/282.py)
 [283](#283) | Google | Easy | [283.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/283.py)
 [285](#285) | Mailchimp | Medium | [285.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/285.py)
+[287](#287) | Quora | Medium | [287.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/287.py)
 
 ## Problem descriptions
 
@@ -4187,6 +4188,46 @@ You are given an array representing the heights of neighboring buildings on a ci
 For example, given the array [3, 7, 8, 3, 6, 1], you should return 3, since the top floors of the buildings with heights 8, 6, and 1 all have an unobstructed view to the west.
 
 Can you do this using just one forward pass through the array?
+
+[Back on Top](#Process)
+
+---
+
+### #286
+
+The skyline of a city is composed of several buildings of various widths and heights, possibly overlapping one another when viewed from a distance. We can represent the buildings using an array of (left, right, height) tuples, which tell us where on an imaginary x-axis a building begins and ends, and how tall it is. The skyline itself can be described by a list of (x, height) tuples, giving the locations at which the height visible to a distant observer changes, and each new height.
+
+Given an array of buildings as described above, create a function that returns the skyline.
+
+For example, suppose the input consists of the buildings [(0, 15, 3), (4, 11, 5), (19, 23, 4)]. In aggregate, these buildings would create a skyline that looks like the one below.
+```
+     ______  
+    |      |        ___
+ ___|      |___    |   | 
+|   |   B  |   |   | C |
+| A |      | A |   |   |
+|   |      |   |   |   |
+------------------------
+```
+As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)].
+
+[Back on Top](#Process)
+
+---
+
+### #287
+
+You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top k pairs of websites with the greatest similarity.
+
+For example, suppose k = 1, and the list of tuples is:
+```
+[('a', 1), ('a', 3), ('a', 5),
+ ('b', 2), ('b', 6),
+ ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5)
+ ('d', 4), ('d', 5), ('d', 6), ('d', 7),
+ ('e', 1), ('e', 3), ('e', 5), ('e', 6)]
+ ```
+Then a reasonable similarity metric would most likely conclude that a and e are the most similar, so your program should return [('a', 'e')].
 
 [Back on Top](#Process)
 

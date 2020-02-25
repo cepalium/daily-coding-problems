@@ -18,28 +18,25 @@ Then a reasonable similarity metric would most likely conclude that a and e are 
 """
 import pandas as pd
 
-def k_greatest_similar_pair_websites(pairs, k):
+def k_most_similar_pair_websites(pairs, k):
     """ return top k similar pair of websites based on visiting users """
     if k == 0:    # trivial case
         return []
     visit_matrix, websites, users = build_matrix(pairs)
     similarities = build_similarity_list(visit_matrix)
-    top_k = []
-    for i in range(k):
-        top_k.append((similarities[i][0], similarities[i][1]))
+    top_k = [(similarities[i][0], similarities[i][1]) for i in range(k)]    # list of tuples (web_a, web_b) 
     return top_k
 
 def build_matrix(pairs):
     """ return 2D matrix, column = websites, index = users """
     websites = set()
     users = set()
-    for pair in pairs:    # build list of distinct websites and users
-        websites.add(pair[0])
-        users.add(pair[1])
+    for web, user in pairs:    # build list of distinct websites and users
+        websites.add(web)
+        users.add(user)
     websites, users = sorted(websites), sorted(users)    # sort websites & users
     visit_matrix = pd.DataFrame(0, columns=websites, index=users)    # visit_matrix is full of 0
-    for pair in pairs:    # fill visit of user to website to 1
-        web, user = pair[0], pair[1]
+    for web, user in pairs:    # fill visit of user to website to 1
         visit_matrix.at[user, web] = 1
     return visit_matrix, websites, users
 
@@ -65,33 +62,23 @@ def similarity(A, B):
     return counter
 
 # ----- UNIT TEST -----
+pairs = [('a', 1), ('a', 3), ('a', 5),
+        ('b', 2), ('b', 6),
+        ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5),
+        ('d', 4), ('d', 5), ('d', 6), ('d', 7),
+        ('e', 1), ('e', 3), ('e', 5), ('e', 6)]
+
 def test1():
-    assert k_greatest_similar_pair_websites(pairs=[('a', 1), ('a', 3), ('a', 5),
-                                                ('b', 2), ('b', 6),
-                                                ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5),
-                                                ('d', 4), ('d', 5), ('d', 6), ('d', 7),
-                                                ('e', 1), ('e', 3), ('e', 5), ('e', 6)], k=1) == [('a', 'e')]
+    assert k_most_similar_pair_websites(pairs=pairs, k=0) == []
 
 def test2():
-    assert k_greatest_similar_pair_websites(pairs=[('a', 1), ('a', 3), ('a', 5),
-                                                ('b', 2), ('b', 6),
-                                                ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5),
-                                                ('d', 4), ('d', 5), ('d', 6), ('d', 7),
-                                                ('e', 1), ('e', 3), ('e', 5), ('e', 6)], k=0) == []
+    assert k_most_similar_pair_websites(pairs=pairs, k=1) == [('a', 'e')]
 
 def test3():
-    assert k_greatest_similar_pair_websites(pairs=[('a', 1), ('a', 3), ('a', 5),
-                                                ('b', 2), ('b', 6),
-                                                ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5),
-                                                ('d', 4), ('d', 5), ('d', 6), ('d', 7),
-                                                ('e', 1), ('e', 3), ('e', 5), ('e', 6)], k=2) == [('a', 'e'), ('a', 'c')]
+    assert k_most_similar_pair_websites(pairs=pairs, k=2) == [('a', 'e'), ('a', 'c')]
 
 def test4():
-    assert k_greatest_similar_pair_websites(pairs=[('a', 1), ('a', 3), ('a', 5),
-                                                ('b', 2), ('b', 6),
-                                                ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5),
-                                                ('d', 4), ('d', 5), ('d', 6), ('d', 7),
-                                                ('e', 1), ('e', 3), ('e', 5), ('e', 6)], k=3) == [('a', 'e'), ('a', 'c'), ('c', 'e')]
+    assert k_most_similar_pair_websites(pairs=pairs, k=3) == [('a', 'e'), ('a', 'c'), ('c', 'e')]
 
 
 if __name__ == "__main__":

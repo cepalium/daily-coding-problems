@@ -274,6 +274,7 @@ Day | Origin | Difficulty | Python | Java
 [283](#283) | Google | Easy | [283.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/283.py)
 [285](#285) | Mailchimp | Medium | [285.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/285.py)
 [287](#287) | Quora | Medium | [287.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/287.py)
+[290](#290) | Facebook | Easy | [290.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/290.py)
 
 ## Problem descriptions
 
@@ -4228,6 +4229,67 @@ For example, suppose k = 1, and the list of tuples is:
  ('e', 1), ('e', 3), ('e', 5), ('e', 6)]
  ```
 Then a reasonable similarity metric would most likely conclude that a and e are the most similar, so your program should return [('a', 'e')].
+
+[Back on Top](#Process)
+
+---
+
+### #289
+
+The number 6174 is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
+
+For a given input x, create two new numbers that consist of the digits in x in ascending and descending order.
+Subtract the smaller number from the larger number.
+For example, this algorithm terminates in three steps when starting from 1234:
+
+* 4321 - 1234 = 3087
+* 8730 - 0378 = 8352
+* 8532 - 2358 = 6174
+
+Write a function that returns how many steps this will take for a given input N.
+
+[Back on Top](#Process)
+
+---
+
+### #288
+
+The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are 3, 4, and 5, a game could be played as shown below:
+```
+  A  |  B  |  C
+-----------------
+  3  |  4  |  5
+  3  |  1  |  3
+  3  |  1  |  3
+  0  |  1  |  3
+  0  |  1  |  0
+  0  |  0  |  0 
+  ```
+
+In other words, to start, the first player takes three items from pile B. The second player responds by removing two stones from pile C. The game continues in this way until player one takes last stone and loses.
+
+Given a list of non-zero starting values [a, b, c], and assuming optimal play, determine whether the first player has a forced win.
+
+[Back on Top](#Process)
+
+---
+
+### #290
+
+On a mysterious island there are creatures known as Quxes which come in three colors: red, green, and blue. One power of the Qux is that if two of them are standing next to each other, they can transform into a single creature of the third color.
+
+Given N Quxes standing in a line, determine the smallest number of them remaining after any possible sequence of such transformations.
+
+For example, given the input ['R', 'G', 'B', 'G', 'B'], it is possible to end up with a single Qux through the following steps:
+```
+        Arrangement       |   Change
+----------------------------------------
+['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
+['B', 'B', 'G', 'B']      | (B, G) -> R
+['B', 'R', 'B']           | (R, B) -> G
+['B', 'G']                | (B, G) -> R
+['R']                     |
+```
 
 [Back on Top](#Process)
 

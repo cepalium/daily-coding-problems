@@ -21,12 +21,12 @@ For example, given the input ['R', 'G', 'B', 'G', 'B'], it is possible to end up
 """
 def quxes_tranformation(quxes):
     """ return the smallest number of Quxes remaining after the transformation """
-    if len(quxes) == 0:    # trivial case
+    if len(quxes) == 0:    # trivial cases
         return 0
     if len(quxes) == 1:
         return 1
-    transformed = []    # queue of after-transformed Quxes
-    while quxes:
+    transformed = []    # stack of after-transformed Quxes
+    while quxes:    # deque quxes until no original input Quxes 
         top_qux = quxes.pop(0)
         while transformed and transformed[-1] != top_qux:    # loop: transform 2 different neighboring quxes
             last_transformed = transformed.pop()

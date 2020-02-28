@@ -275,6 +275,7 @@ Day | Origin | Difficulty | Python | Java
 [285](#285) | Mailchimp | Medium | [285.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/285.py)
 [287](#287) | Quora | Medium | [287.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/287.py)
 [290](#290) | Facebook | Easy | [290.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/290.py)
+[291](#290) | Glassdoor | Medium | [291.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/291.py)
 
 ## Problem descriptions
 
@@ -4290,6 +4291,16 @@ For example, given the input ['R', 'G', 'B', 'G', 'B'], it is possible to end up
 ['B', 'G']                | (B, G) -> R
 ['R']                     |
 ```
+
+[Back on Top](#Process)
+
+---
+
+### #291
+
+An imminent hurricane threatens the coastal town of Codeville. If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is k, determine how many boats will be needed to save everyone.
+
+For example, given a population with weights [100, 200, 150, 80] and a boat limit of 200, the smallest number of boats required will be three.
 
 [Back on Top](#Process)
 

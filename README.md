@@ -277,6 +277,8 @@ Day | Origin | Difficulty | Python | Java
 [290](#290) | Facebook | Easy | [290.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/290.py)
 [291](#291) | Glassdoor | Medium | [291.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/291.py)
 [295](#295) | Stitch Fix | Medium | [295.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/295.py)
+[303](#303) | Microsoft | Easy | [303.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/303.py)
+[311](#311) | Sumo Logic | Easy | [311.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/311.py)
 
 ## Problem descriptions
 
@@ -4427,6 +4429,191 @@ preferences = {
 A lazy bartender working at this bar is trying to reduce his effort by limiting the drink recipes he must memorize. Given a dictionary input such as the one above, return the fewest number of drinks he must learn in order to satisfy all customers.
 
 For the input above, the answer would be 2, as drinks 1 and 5 will satisfy everyone.
+
+[Back on Top](#Process)
+
+---
+
+### #298
+
+A girl is walking along an apple orchard with a bag in each hand. She likes to pick apples from each tree as she goes along, but is meticulous about not putting different kinds of apples in the same bag.
+
+Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
+
+For example, given the input [2, 1, 2, 3, 3, 1, 3, 5], the longest portion will involve types 1 and 3, with a length of four.
+
+[Back on Top](#Process)
+
+---
+
+### #299
+
+A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
+
+For example, here is a possible configuration, where A, B, and C are houses, and arrows represent pipes: `A <--> B <--> C <--> plant`
+
+Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
+
+In the following setup, for example, we can remove all but the pipes from plant to A, plant to B, and B to C, for a total cost of 16.
+```
+pipes = {
+    'plant': {'A': 1, 'B': 5, 'C': 20},
+    'A': {'C': 15},
+    'B': {'C': 10},
+    'C': {}
+}
+```
+
+[Back on Top](#Process)
+
+---
+
+### #300
+
+On election day, a voting machine writes data in the form (voter_id, candidate_id) to a text file. Write a program that reads this file as a stream and returns the top 3 candidates at any given time. If you find a voter voting more than once, report this as fraud.
+
+[Back on Top](#Process)
+
+---
+
+### #301
+
+Implement a data structure which carries out the following operations without resizing the underlying array:
+
+* add(value): Add a value to the set of values.
+* check(value): Check whether a value is in the set.
+
+The check method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+
+[Back on Top](#Process)
+
+---
+
+### #302
+
+You are given a 2-d matrix where each cell consists of either /, \, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
+
+For example, suppose the input for a three-by-six grid is the following:
+```
+\    /
+ \  /
+  \/
+```
+
+Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return 3.
+
+[Back on Top](#Process)
+
+---
+
+### #303
+
+Given a clock time in hh:mm format, determine, to the nearest degree, the angle between the hour and the minute hands.
+
+Bonus: When, during the course of a day, will the angle be zero?
+
+[Back on Top](#Process)
+
+---
+
+### #304
+
+A knight is placed on a given square on an 8 x 8 chessboard. It is then moved randomly several times, where each move is a standard knight move. If the knight jumps off the board at any point, however, it is not allowed to jump back on.
+
+After k moves, what is the probability that the knight remains on the board?
+
+[Back on Top](#Process)
+
+---
+
+### #305
+
+Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
+
+For example, suppose you are given the input 3 -> 4 -> -7 -> 5 -> -6 -> 6. In this case, you should first remove 3 -> 4 -> -7, then -6 -> 6, leaving only 5.
+
+[Back on Top](#Process)
+
+---
+
+### #306
+
+You are given a list of N numbers, in which each number is located at most k places away from its sorted position. For example, if k = 1, a given element at index 4 might end up at indices 3, 4, or 5.
+
+Come up with an algorithm that sorts this list in O(N log k) time.
+
+[Back on Top](#Process)
+
+---
+
+### #307
+
+Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
+
+If either value does not exist, return None.
+
+[Back on Top](#Process)
+
+---
+
+### #308
+
+You are presented with an array representing a Boolean expression. The elements are of two kinds:
+
+* T and F, representing the values True and False.
+* &, |, and ^, representing the bitwise operators for AND, OR, and XOR.
+
+Determine the number of ways to group the array elements using parentheses so that the entire expression evaluates to True.
+
+For example, suppose the input is ['F', '|', 'T', '&', 'T']. In this case, there are two acceptable groupings: (F | T) & T and F | (T & T).
+
+[Back on Top](#Process)
+
+---
+
+### #309
+
+There are M people sitting in a row of N seats, where M < N. Your task is to redistribute people such that there are no gaps between any of them, while keeping overall movement to a minimum.
+
+For example, suppose you are faced with an input of [0, 1, 1, 0, 1, 0, 0, 0, 1], where 0 represents an empty seat and 1 represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be five.
+
+Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
+
+[Back on Top](#Process)
+
+---
+
+### #310
+
+Write an algorithm that finds the total number of set bits in all integers between 1 and N.
+
+[Back on Top](#Process)
+
+---
+
+### #311
+
+Given an unsorted array, in which all elements are distinct, find a "peak" element in O(log N) time.
+
+An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
+
+[Back on Top](#Process)
+
+---
+
+### #312
+
+You are given a 2 x N board, and instructed to completely cover the board with the following shapes:
+
+Dominoes, or 2 x 1 rectangles.
+Trominoes, or L-shapes.
+For example, if N = 4, here is one possible configuration, where A is a domino, and B and C are trominoes.
+```
+A B B C
+A B C C
+```
+
+Given an integer N, determine in how many ways this task is possible.
 
 [Back on Top](#Process)
 

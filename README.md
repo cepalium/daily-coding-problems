@@ -279,6 +279,7 @@ Day | Origin | Difficulty | Python | Java
 [295](#295) | Stitch Fix | Medium | [295.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/295.py)
 [303](#303) | Microsoft | Easy | [303.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/303.py)
 [311](#311) | Sumo Logic | Easy | [311.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/311.py)
+[314](#314) | Spotify | Medium | [314.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/314.py)
 
 ## Problem descriptions
 
@@ -4614,6 +4615,30 @@ A B C C
 ```
 
 Given an integer N, determine in how many ways this task is possible.
+
+[Back on Top](#Process)
+
+---
+
+### #313
+
+You are given a circular lock with three wheels, each of which display the numbers 0 through 9 in order. Each of these wheels rotate clockwise and counterclockwise.
+
+In addition, the lock has a certain number of "dead ends", meaning that if you turn the wheels to one of these combinations, the lock becomes stuck in that state and cannot be opened.
+
+Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to 000, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or None if this is impossible.
+
+[Back on Top](#Process)
+
+---
+
+### #314
+
+You are the technical director of WSPT radio, serving listeners nationwide. For simplicity's sake we can consider each listener to live along a horizontal line stretching from 0 (west) to 1000 (east).
+
+Given a list of N listeners, and a list of M radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
+
+For example, suppose listeners = [1, 5, 11, 20], and towers = [4, 8, 15]. In this case the minimum range would be 5, since that would be required for the tower at position 15 to reach the listener at position 20.
 
 [Back on Top](#Process)
 

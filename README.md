@@ -280,6 +280,7 @@ Day | Origin | Difficulty | Python | Java
 [303](#303) | Microsoft | Easy | [303.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/303.py)
 [311](#311) | Sumo Logic | Easy | [311.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/311.py)
 [314](#314) | Spotify | Medium | [314.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/314.py)
+[315](#315) | Google | Easy | [315.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/315.py)
 
 ## Problem descriptions
 
@@ -297,7 +298,8 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 Given an array of integers , return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
 
-For example, 
+For example,
+
 * if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]
 * If our input was [3, 2, 1], the expected output would be [2, 3, 6]
 
@@ -310,6 +312,7 @@ For example,
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
 Example: given a Node class <br/>
+
 ```
 class Node:
     def __init__(self, val, left=None, right=None):
@@ -317,6 +320,7 @@ class Node:
         self.left = left
         self.right = right
 ```
+
 The following test should pass: <br/>
 >node = Node('root', Node('left', Node('left.left')), Node('right'))<br/>
 >assert deserialize(serialize(node)).left.left.val == 'left.left'
@@ -4639,6 +4643,24 @@ You are the technical director of WSPT radio, serving listeners nationwide. For 
 Given a list of N listeners, and a list of M radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
 
 For example, suppose listeners = [1, 5, 11, 20], and towers = [4, 8, 15]. In this case the minimum range would be 5, since that would be required for the tower at position 15 to reach the listener at position 20.
+
+[Back on Top](#Process)
+
+---
+
+### #315
+
+In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
+
+Here is an example:
+```
+1 2 3 4 8
+5 1 2 3 4
+4 5 1 2 3
+7 4 5 1 2
+```
+
+Write a program to determine whether a given input is a Toeplitz matrix.
 
 [Back on Top](#Process)
 

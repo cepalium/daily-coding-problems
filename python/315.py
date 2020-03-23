@@ -26,8 +26,6 @@ def is_toeplitz_matrix(matrix):
     # else:
     for i in range(n-1):  # all rows
         for j in range(m-1):  # all columns
-            if i + 1 >= n or j + 1 >= m:  # next diagonal element does not exist
-                break
             if matrix[i][j] != matrix[i+1][j+1]:  # next diagonal element is not same
                 return False
     return True  # reach this -> all elements in each diagonal are equal

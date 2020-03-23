@@ -24,13 +24,12 @@ def is_toeplitz_matrix(matrix):
     if n == 1 or m == 1:  # trivial case: input is an vector
         return True
     # else:
-    for i in range(n-1):  # all column indices
-        for j in range(m-1):  # all row indices
-            for k in range(1, max(n, m)):  # all diagonal elements possible
-                if i + k >= n or j + k >= m:  # out of bound
-                    break
-                if matrix[i][j] != matrix[i+k][j+k]:
-                    return False
+    for i in range(n-1):  # all rows
+        for j in range(m-1):  # all columns
+            if i + 1 >= n or j + 1 >= m:  # next diagonal element does not exist
+                break
+            if matrix[i][j] != matrix[i+1][j+1]:  # next diagonal element is not same
+                return False
     return True  # reach this -> all elements in each diagonal are equal
 
 def test1():

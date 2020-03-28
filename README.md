@@ -4665,3 +4665,51 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 [Back on Top](#Process)
 
 ---
+
+### #316
+
+You are given an array of length N, where each element i represents the number of ways we can produce i units of change. For example, [1, 0, 1, 1, 2] would indicate that there is only one way to make 0, 2, or 3 units, and two ways of making 4 units.
+
+Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value 2, 3, and 4.
+
+[Back on Top](#Process)
+
+---
+
+### #317
+
+Write a function that returns the bitwise AND of all integers between M and N, inclusive.
+
+[Back on Top](#Process)
+
+---
+
+### #318
+
+You are going on a road trip, and would like to create a suitable music playlist. The trip will require N songs, though you only have M songs downloaded, where M < N. A valid playlist should select each song at least once, and guarantee a buffer of B songs between repeats.
+
+Given N, M, and B, determine the number of valid playlists.
+
+[Back on Top](#Process)
+
+---
+
+### #319
+
+An 8-puzzle is a game played on a 3 x 3 board of tiles, with the ninth tile missing. The remaining tiles are labeled 1 through 8 but shuffled randomly. Tiles may slide horizontally or vertically into an empty space, but may not be removed from the board.
+
+Design a class to represent the board, and find a series of steps to bring the board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
+
+[Back on Top](#Process)
+
+---
+
+### #320
+
+Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
+
+For example, given "jiujitsu", you should return 5, corresponding to the final five letters.
+
+[Back on Top](#Process)
+
+---

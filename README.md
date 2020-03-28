@@ -281,6 +281,7 @@ Day | Origin | Difficulty | Python | Java
 [311](#311) | Sumo Logic | Easy | [311.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/311.py)
 [314](#314) | Spotify | Medium | [314.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/314.py)
 [315](#315) | Google | Easy | [315.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/315.py)
+[320](#320) | Amazon | Medium | [320.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/320.py)
 
 ## Problem descriptions
 

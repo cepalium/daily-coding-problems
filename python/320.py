@@ -11,7 +11,7 @@ For example, given "jiujitsu", you should return 5, corresponding to the final f
 """
 def smallest_distinct_window(string):
     """ return the length of the smallest window that contains every distinct character """
-    #trivial cases
+    # trivial cases
     if len(string) == 0:
         return 0
     if len(string) == 1:

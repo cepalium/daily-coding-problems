@@ -282,6 +282,7 @@ Day | Origin | Difficulty | Python | Java
 [314](#314) | Spotify | Medium | [314.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/314.py)
 [315](#315) | Google | Easy | [315.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/315.py)
 [320](#320) | Amazon | Medium | [320.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/320.py)
+[321](#321) | PagerDuty | Easy | [321.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/321.py)
 
 ## Problem descriptions
 
@@ -4710,6 +4711,21 @@ Design a class to represent the board, and find a series of steps to bring the b
 Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
 
 For example, given "jiujitsu", you should return 5, corresponding to the final five letters.
+
+[Back on Top](#Process)
+
+---
+
+### #321
+
+Given a positive integer N, find the smallest number of steps it will take to reach 1.
+
+There are two kinds of permitted steps:
+
+* You may decrement N to N - 1.
+* If a * b = N, you may decrement N to the larger of a and b.
+
+For example, given 100, you can reach 1 in five steps with the following route: 100 -> 10 -> 9 -> 3 -> 2 -> 1.
 
 [Back on Top](#Process)
 

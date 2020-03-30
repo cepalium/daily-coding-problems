@@ -51,7 +51,7 @@ def test5():
     assert fewest_jump_path(N=-2) == [0, -1, 1, -2]
 
 def test6():
-    assert fewest_jump_path(N=-5) == [0, -1, -2, 0, -4, 1, -5]
+    assert fewest_jump_path(N=-5) == [0, -1, -3, 0, -4, 1, -5]
 
 if __name__ == "__main__":
     test1()
@@ -59,3 +59,4 @@ if __name__ == "__main__":
     test3()
     test4()
     test5()
+    test6()

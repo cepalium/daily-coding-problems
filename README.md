@@ -177,6 +177,7 @@ Day | Origin | Difficulty | Python | Java
 [315](#315) | Google | Easy | [315.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/315.py)
 [320](#320) | Amazon | Medium | [320.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/320.py)
 [321](#321) | PagerDuty | Easy | [321.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/321.py)
+[322](#322) | Flipkart | Medium | [322.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/322.py)
 
 ## Problems
 
@@ -4621,6 +4622,18 @@ There are two kinds of permitted steps:
 * If a * b = N, you may decrement N to the larger of a and b.
 
 For example, given 100, you can reach 1 in five steps with the following route: 100 -> 10 -> 9 -> 3 -> 2 -> 1.
+
+[Back on Top](#Process)
+
+---
+
+### #322
+
+Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
+
+On the ith jump, you may move exactly i places to the left or right.
+
+Find a path with the fewest number of jumps required to get from 0 to N.
 
 [Back on Top](#Process)
 

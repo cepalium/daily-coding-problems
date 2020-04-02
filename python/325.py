@@ -14,7 +14,7 @@ class ImperialMetrics:
     """ A data structure that can efficiently convert one unit to another unit in imperical metrics system """
     def __init__(self):
         """ create a basic look up table """
-        self._look_up = {'in': 1, 'ft': 12, 'yd': 36}
+        self._look_up = {'in': 1, 'ft': 12}  # inch is the base unit, e.g 1 ft = 12 in
     
     def convert(self, amount, from_unit, to_unit):
         """ return the correct quantity after converting a certain quantity from a unit to a new unit """
@@ -24,14 +24,16 @@ class ImperialMetrics:
             raise ValueError("Target unit does not exist")
         return amount * self._look_up[from_unit] / self._look_up[to_unit]
 
-    def add(self, new_unit, amount, reference_unit):
-        if reference_unit not in self._look_up.keys():
+    def add(self, new_unit, amount, ref_unit):
+        if ref_unit not in self._look_up.keys():
             raise ValueError("Reference unit does not exist")
-        self._look_up[new_unit] = amount * self._look_up[reference_unit]
+        self._look_up[new_unit] = amount * self._look_up[ref_unit]
 
 def main():
     imperial_system = ImperialMetrics()
-    assert imperial_system.convert(10, 'ft', 'in') == 120
+    assert imperial_system.convert(5, 'ft', 'in') == 60
+    imperial_system.add('yd', 3, 'ft')
+    assert imperial_system.convert(10, 'yd', 'in') == 360
     imperial_system.add('chain', 22, 'yd')
     assert imperial_system.convert(1, 'chain', 'in') == 792
     imperial_system.add('mi', 1760, 'yd')

@@ -180,6 +180,7 @@ Day | Origin | Difficulty | Python | Java
 [322](#322) | Flipkart | Medium | [322.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/322.py)
 [324](#324) | Amazon | Easy | [324.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/324.py)
 [325](#325) | Jane Street | Easy | [325.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/325.py)
+[328](#328) | Facebook | Medium | [328.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/328.py)
 
 ## Problems
 
@@ -4668,6 +4669,47 @@ For example, suppose the mice are positioned at [1, 4, 9, 15], and the holes are
 The United States uses the imperial system of weights and measures, which means that there are many different, seemingly arbitrary units to measure distance. There are 12 inches in a foot, 3 feet in a yard, 22 yards in a chain, and so on.
 
 Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
+
+[Back on Top](#Process)
+
+---
+
+### #326
+
+A Cartesian tree with sequence S is a binary tree defined by the following two properties:
+
+It is heap-ordered, so that each parent value is strictly less than that of its children. An in-order traversal of the tree produces nodes with values that correspond exactly to S. For example, given the sequence [3, 2, 6, 1, 9], the resulting Cartesian tree would be:
+```
+      1
+    /   \   
+  2       9
+ / \
+3   6
+```
+
+Given a sequence S, construct the corresponding Cartesian tree.
+
+[Back on Top](#Process)
+
+---
+
+### #327
+
+Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
+
+If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+
+[Back on Top](#Process)
+
+---
+
+### #328
+
+In chess, the Elo rating system is used to calculate player strengths based on game results.
+
+A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
+
+Implement this system.
 
 [Back on Top](#Process)
 

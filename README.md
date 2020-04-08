@@ -181,6 +181,7 @@ Day | Origin | Difficulty | Python | Java
 [324](#324) | Amazon | Easy | [324.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/324.py)
 [325](#325) | Jane Street | Easy | [325.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/325.py)
 [328](#328) | Facebook | Medium | [328.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/328.py)
+[331](#331) | LinkedIn | Medium | [331.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/331.py)
 
 ## Problems
 
@@ -4710,6 +4711,63 @@ In chess, the Elo rating system is used to calculate player strengths based on g
 A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
 
 Implement this system.
+
+[Back on Top](#Process)
+
+---
+
+### #329
+
+The stable marriage problem is defined as follows:
+
+Suppose you have N men and N women, and each person has ranked their prospective opposite-sex partners in order of preference.
+
+For example, if N = 3, the input could be something like this:
+```
+guy_preferences = {
+    'andrew': ['caroline', 'abigail', 'betty'],
+    'bill': ['caroline', 'betty', 'abigail'],
+    'chester': ['betty', 'caroline', 'abigail'],
+}
+
+gal_preferences = {
+    'abigail': ['andrew', 'bill', 'chester'],
+    'betty': ['bill', 'andrew', 'chester'],
+    'caroline': ['bill', 'chester', 'andrew']
+}
+```
+
+Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
+
+[Back on Top](#Process)
+
+---
+
+### #330
+
+A Boolean formula can be said to be satisfiable if there is a way to assign truth values to each variable such that the entire formula evaluates to true.
+
+For example, suppose we have the following formula, where the symbol ¬ is used to denote negation:
+
+```
+(¬c OR b) AND (b OR c) AND (¬b OR c) AND (¬c OR ¬a)
+```
+
+One way to satisfy this formula would be to let a = False, b = True, and c = True.
+
+This type of formula, with AND statements joining tuples containing exactly one OR, is known as 2-CNF.
+
+Given a 2-CNF formula, find a way to assign truth values to satisfy it, or return False if this is impossible.
+
+[Back on Top](#Process)
+
+---
+
+### #331
+
+You are given a string consisting of the letters x and y, such as xyxxxyxyy. In addition, you have an operation called flip, which changes a single x to y or vice versa.
+
+Determine how many times you would need to apply this operation to ensure that all x's come before all y's. In the preceding example, it suffices to flip the second and sixth characters, so you should return 2.
 
 [Back on Top](#Process)
 

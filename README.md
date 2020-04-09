@@ -192,7 +192,7 @@ Given a list of numbers and a number k, return whether any two numbers from the 
 
 For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -205,7 +205,7 @@ For example,
 * if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]
 * If our input was [3, 2, 1], the expected output would be [2, 3, 6]
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -228,7 +228,7 @@ The following test should pass:
 >node = Node('root', Node('left', Node('left.left')), Node('right'))<br/>
 >assert deserialize(serialize(node)).left.left.val == 'left.left'
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -239,7 +239,7 @@ Given an array of integers (The array can contain duplicates and negative number
 For example, the input [3, 4, -1, 1] should give 2. <br/>
 The input [1, 2, 0] should give 3.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -256,7 +256,7 @@ def cons(a, b):
 ```
 Implement car and cdr.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -266,7 +266,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and dereference_pointer functions that converts between nodes and memory addresses.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -278,7 +278,7 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -299,7 +299,7 @@ For example, the following tree has 5 unival subtrees:
  1   1
  ```
 
- [Back on Top](#Process)
+ [Progress](#Progress)
 
  ---
 
@@ -311,7 +311,7 @@ write a function that returns the largest sum of non-adjacent numbers. Numbers c
 For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. 
 [5, 1, 1, 5] should return 10, since we pick 5 and 5.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -319,7 +319,7 @@ For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5.
 
 Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -329,7 +329,7 @@ Implement an autocomplete system. That is, given a query string s and a set of a
 
 For example, given the query string de and the set of strings [dog, deer, deal], return [deer, deal].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -349,7 +349,7 @@ For example, if N is 4, then there are 5 unique ways:
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? 
 For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -359,7 +359,7 @@ Given an integer k and a string s, find the length of the longest substring that
 
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -369,7 +369,7 @@ The area of a circle is defined as πr<sup>2</sup>. Estimate π to 3 decimal pla
 
 Hint: The basic equation of a circle is x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -377,7 +377,7 @@ Hint: The basic equation of a circle is x<sup>2</sup> + y<sup>2</sup> = r<sup>2<
 
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -390,7 +390,7 @@ You run an e-commerce website and want to record the last N order ids in a log. 
 
 You should be as efficient with time and space as possible.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -427,7 +427,7 @@ We are interested in finding the longest (number of characters) absolute path to
 
 Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -444,7 +444,7 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 ```
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -454,7 +454,7 @@ A builder is looking to build a row of N houses that can be of K different color
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -468,7 +468,7 @@ In this example, assume nodes with the same value are the exact same node object
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -478,7 +478,7 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -490,7 +490,7 @@ For example, given the set of words 'quick', 'brown', 'the', 'fox', and the stri
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -509,7 +509,7 @@ For example, given the following board:
 ```
 and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -525,7 +525,7 @@ lock, which attempts to lock the node. If it cannot be locked, then it should re
 
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -541,7 +541,7 @@ For example, given the regular expression "ra." and the string "ray", your funct
 
 Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -553,7 +553,7 @@ The list is very long, so making more than one pass is prohibitively expensive.
 
 Do this in constant space and in one pass.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -565,7 +565,7 @@ For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -586,7 +586,7 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -596,7 +596,7 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -610,7 +610,7 @@ For example, given the input [2, 1, 2], we can hold 1 unit of water in the middl
 
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -620,7 +620,7 @@ The edit distance between two strings refers to the minimum number of character 
 
 Given two strings, compute the edit distance between them.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -630,7 +630,7 @@ Suppose you are given a table of currency exchange rates, represented as a 2D ar
 
 There are no transaction costs and you can trade fractional quantities.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -651,7 +651,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -663,7 +663,7 @@ For example, given the string "race", you should return "ecarace", since we can 
 
 As another example, given the string "google", you should return "elgoogle".
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -675,7 +675,7 @@ Do this in linear time and in-place.
 
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -683,7 +683,7 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 
 Given the root to a binary search tree, find the second largest node in the tree.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -695,7 +695,7 @@ For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2
 
 You may also use a list or array to represent a set.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -703,7 +703,7 @@ You may also use a list or array to represent a set.
 
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -721,7 +721,7 @@ Implement Conway's Game of Life. It should be able to be initialized with a star
 
 You can represent a live cell with an asterisk (*) and a dead cell with a dot (.).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -733,7 +733,7 @@ For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], retu
 
 Do this in O(N) time and O(1) space.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -747,7 +747,7 @@ Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 
 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -771,7 +771,7 @@ Implement a stack that has the following methods:
 
 Each method should run in constant time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -785,7 +785,7 @@ You may assume each element in the array is distinct.
 
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -793,7 +793,7 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -803,7 +803,7 @@ Given a string, find the longest palindromic contiguous substring. If there are 
 
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -813,7 +813,7 @@ Given a array of numbers representing the stock prices of a company in chronolog
 
 For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -838,7 +838,7 @@ You should return the following tree:
 d  e f  g
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -852,7 +852,7 @@ Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not
 
 Do this in O(N) time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -873,7 +873,7 @@ For example, given the following tree:
 
 You should return 45, as it is (3 + 2) * (4 + 5).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -885,7 +885,7 @@ It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -896,7 +896,7 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
 get(key): gets the value at key. If no such key exists, return null.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -904,7 +904,7 @@ get(key): gets the value at key. If no such key exists, return null.
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -914,7 +914,7 @@ Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits
 
 Implement an efficient sudoku solver.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -927,7 +927,7 @@ Implement a URL shortener with the following methods:
 
 Hint: What if we enter the same URL twice?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -935,7 +935,7 @@ Hint: What if we enter the same URL twice?
 
 Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -947,7 +947,7 @@ You can assume that there are no spaces at the ends of the string and that there
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -961,7 +961,7 @@ For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 
 
 You can assume all the integers in the array are unique.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -969,7 +969,7 @@ You can assume all the integers in the array are unique.
 
 Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -981,7 +981,7 @@ For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return tru
 
 Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -993,7 +993,7 @@ Do this faster than the naive method of repeated multiplication.
 
 For example, pow(2, 10) should return 1024.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1007,7 +1007,7 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1026,7 +1026,7 @@ For example, given the following matrix:
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 ### #64
@@ -1035,7 +1035,7 @@ A knight's tour is a sequence of moves by a knight on a chessboard such that all
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 ### #65
@@ -1074,7 +1074,7 @@ You should print out the following:
 12
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1084,7 +1084,7 @@ Assume you have access to a function toss_biased() which returns 0 or 1 with a p
 
 Write a function to simulate an unbiased coin toss.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1097,7 +1097,7 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 
 Each operation should run in O(1) time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1124,7 +1124,7 @@ The board would look like this:
 ```
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1136,7 +1136,7 @@ For example, if the list is [-10, -10, 5, 2], we should return 500, since that's
 
 You can assume the list has at least three integers.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1148,7 +1148,7 @@ Given a positive integer n, return the n-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1156,7 +1156,7 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 
 Using a function rand7() that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function rand5() that returns an integer from 1 to 5 (inclusive).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1187,7 +1187,7 @@ The following input graph:
 ```
 Should return null, since we have an infinite loop.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1195,7 +1195,7 @@ Should return null, since we have an infinite loop.
 
 Given the head of a singly linked list, reverse it in-place.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1221,7 +1221,7 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 
 And there are 4 12's in the table.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1231,7 +1231,7 @@ Given an array of numbers, find the length of the longest increasing subsequence
 
 For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1267,7 +1267,7 @@ tsr
 ```
 Your function should return 3, since we would need to remove all the columns to order it.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1279,7 +1279,7 @@ The input list is not necessarily ordered in any way.
 
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1287,7 +1287,7 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1299,7 +1299,7 @@ For example, given the array [10, 5, 7], you should return true, since we can mo
 
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1314,7 +1314,7 @@ Given the root of a binary tree, return a deepest node. For example, in the foll
 d
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1324,7 +1324,7 @@ Given a mapping of digits to letters (as in a phone number), and a digit string,
 
 For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1334,7 +1334,7 @@ Using a read7() method that returns 7 characters from a file, implement readN(n)
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1359,7 +1359,7 @@ should become:
   f e  d
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1377,7 +1377,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1385,7 +1385,7 @@ For example, this matrix has 4 islands.
 
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1395,7 +1395,7 @@ Given a string of parentheses, write a function to compute the minimum number of
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1424,7 +1424,7 @@ A N B
 ```
 is considered valid.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1432,7 +1432,7 @@ is considered valid.
 
 Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1442,7 +1442,7 @@ Determine whether a tree is a valid binary search tree.
 
 A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1450,7 +1450,7 @@ A binary search tree is a tree with two children, left and right, and satisfies 
 
 Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1467,7 +1467,7 @@ for f in functions:
     print(f())
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1479,7 +1479,7 @@ Return null if there is no such ordering.
 
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1489,7 +1489,7 @@ Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1497,7 +1497,7 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1509,7 +1509,7 @@ For example, the list [1,2,3] should return [1,3,2]. The list [1,3,2] should ret
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1520,7 +1520,7 @@ Given a number in the form of a list of digits, return all possible permutations
 For example, given [1,2,3], return 
 > [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1553,7 +1553,7 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1573,7 +1573,7 @@ For example, given the following board:
 ```
 exists(board, "ABCCED") returns true, exists(board, "SEE") returns true, exists(board, "ABCB") returns false.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1585,7 +1585,7 @@ For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element seque
 
 Your algorithm should run in O(n) complexity.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1612,7 +1612,7 @@ Output: 2
 ```
 It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1635,7 +1635,7 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 
 If a < c OR a==c AND b < d.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1645,7 +1645,7 @@ Given a list of integers and a number K, return which contiguous elements of the
 
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1657,7 +1657,7 @@ For example, given the string "figehaeci" and the set of characters {a, e, i}, y
 
 If there is no substring containing all the characters in the set, return null.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1667,7 +1667,7 @@ Determine whether a doubly linked list is a palindrome. What if it’s singly li
 
 For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1677,7 +1677,7 @@ Given a function f, and N return a debounced f of N milliseconds.
 
 That is, as long as the debounced f continues to be invoked, f itself will not be called for N milliseconds.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1687,7 +1687,7 @@ Given an integer list where each number represents the number of hops you can ma
 
 For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1702,7 +1702,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
   4   5
 ```  
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1712,7 +1712,7 @@ Given two strings A and B, return whether or not A can be shifted some number of
 
 For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb, return false.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1724,7 +1724,7 @@ For example, 10101010 should be 01010101. 11100010 should be 11010001.
 
 Bonus: Can you do this in one line?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1743,7 +1743,7 @@ For example, given the tree:
 
 Return [[1, 2], [1, 3, 4], [1, 3, 5]].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1753,7 +1753,7 @@ Given a word W and a string S, find all starting indices in S which are anagrams
 
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1763,7 +1763,7 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1773,7 +1773,7 @@ Given a string of words delimited by spaces, reverse the words in string. For ex
 
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1783,7 +1783,7 @@ Given a string and a set of delimiters, reverse the words in the string while ma
 
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1791,7 +1791,7 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 
 Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1801,7 +1801,7 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, generate() should return a tree whose size is unbounded but finite.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1809,7 +1809,7 @@ That is, generate() should return a tree whose size is unbounded but finite.
 
 Given a binary tree, return the level of the tree with minimum sum.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1819,7 +1819,7 @@ Given a sorted list of integers, square the elements and give the output in sort
 
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1829,7 +1829,7 @@ Given a set of closed intervals, find the smallest set of numbers that covers al
 
 For example, given the intervals [0, 3], [2, 6], [3, 4], [6, 9], one set of numbers that covers all these intervals is {3, 6}.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1837,7 +1837,7 @@ For example, given the intervals [0, 3], [2, 6], [3, 4], [6, 9], one set of numb
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of getInstance(), return the first instance and in every odd call of getInstance(), return the second instance.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1847,7 +1847,7 @@ Given a string which we can delete at most k, return whether you can make a pali
 
 For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1864,7 +1864,7 @@ For example, in this matrix
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1883,7 +1883,7 @@ And here are examples of non-numbers:
 * "a -2"
 * "-"
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1893,7 +1893,7 @@ You have n fair coins and you flip them all at the same time. Any that come up t
 
 Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1911,7 +1911,7 @@ For example, given the following tree and K of 20
 ```
 Return the nodes 5 and 15.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1919,7 +1919,7 @@ Return the nodes 5 and 15.
 
 Write a function that rotates a list by k elements. For example, [1, 2, 3, 4, 5, 6] rotated by two becomes [3, 4, 5, 6, 1, 2]. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1944,7 +1944,7 @@ return 124 (99 + 25) as:
 
 > 4 -> 2 -> 1
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1973,7 +1973,7 @@ Move 2 to 3
 Move 1 to 3
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1981,7 +1981,7 @@ Move 1 to 3
 
 Given a real number n, find the square root of n. For example, given n = 9, return 3.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1991,7 +1991,7 @@ Given an array of numbers representing the stock prices of a company in chronolo
 
 For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -1999,7 +1999,7 @@ For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
 
 Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2013,7 +2013,7 @@ Design and implement a HitCounter class that keeps track of requests (or hits). 
 
 Follow-up: What if our system has limited memory?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2032,7 +2032,7 @@ For example, the inorder successor of 22 is 30.
 
 You can assume each node has a parent pointer.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2046,7 +2046,7 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 * set(i, val): updates index at i with val.
 * get(i): gets the value at index i.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2065,7 +2065,7 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
      -1
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2081,7 +2081,7 @@ For example, given the following matrix:
 ```
 Return 4.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2096,7 +2096,7 @@ A bit array is a space efficient array that holds a value of 1 or 0 at each inde
 * get(i): gets the value at index i.
 
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2108,7 +2108,7 @@ You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 
 For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2132,7 +2132,7 @@ class PeekableInterface(object):
         pass
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 ### #140
@@ -2143,7 +2143,7 @@ For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The ord
 
 Follow-up: Can you do this in linear time and constant space?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2163,7 +2163,7 @@ class Stack:
         pass
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2173,7 +2173,7 @@ You're given a string consisting solely of (, ), and *. * can represent either a
 
 For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2187,7 +2187,7 @@ Given a pivot x, and a list lst, partition the list into three parts.
 
 For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2201,7 +2201,7 @@ If two distances to larger numbers are the equal, then return any one of them. I
 
 Follow-up: If you can preprocess the array, can you do this in constant time?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2211,7 +2211,7 @@ Given the head of a singly linked list, swap every two nodes and return its head
 
 For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2239,7 +2239,7 @@ should be pruned to:
 ```
 We do not remove the tree at the root or its left child because it still has a 1 as a descendant.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2247,7 +2247,7 @@ We do not remove the tree at the root or its left child because it still has a 1
 
 Given a list, sort it using this method: reverse(lst, i, j), which reverses lst from i to j.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2259,7 +2259,7 @@ Given a number of bits n, generate a possible gray code for it.
 
 For example, for n = 2, one gray code would be [00, 01, 11, 10].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2271,7 +2271,7 @@ For example, given L = [1, 2, 3, 4, 5], sum(1, 3) should return sum([2, 3]), whi
 
 You can assume that you can do some pre-processing. sum() should be optimized over the pre-processing step.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2281,7 +2281,7 @@ Given a list of points, a central point, and an integer k, find the nearest k po
 
 For example, given the list of points [(0, 0), (5, 4), (3, 1)], the central point (1, 2), and k = 2, return [(0, 0), (3, 1)].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2304,7 +2304,7 @@ G G G
 B B B
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2316,7 +2316,7 @@ For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2,
 
 You can generate random numbers between 0 and 1 uniformly.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2326,7 +2326,7 @@ Find an efficient algorithm to find the smallest distance (measured in number of
 
 For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2342,7 +2342,7 @@ Recall that a heap has the following operations:
 * push(item), which adds a new key to the heap
 * pop(), which removes and returns the max value of the heap
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2354,7 +2354,7 @@ You can assume that such element exists.
 
 For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2366,7 +2366,7 @@ For example, given n = 13, return 2 since 13 = 32 + 22 = 9 + 4.
 
 Given n = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2376,7 +2376,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 
 For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2398,7 +2398,7 @@ Right, down, down, right
 Down, right, down, right
 The top left corner and bottom right corner will always be 0.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2408,7 +2408,7 @@ Given a string, return the first recurring character in it, or null if there is 
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2430,7 +2430,7 @@ and the weights: `a-b: 3`, `a-c: 5`, `a-d: 8`, `d-e: 2`, `d-f: 4`, `e-g: 1`, `e-
 
 The path does not have to pass through the root, and each node can have any amount of children.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2440,7 +2440,7 @@ Given a 32-bit integer, return the number with its bits reversed.
 
 For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2463,7 +2463,7 @@ apr
 f
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2477,7 +2477,7 @@ For example, [15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-'] should
 
 You can assume the given expression is always valid.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2485,7 +2485,7 @@ You can assume the given expression is always valid.
 
 You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2501,7 +2501,7 @@ For example, given the array [3, 4, 9, 6, 1], return [1, 1, 2, 1, 0], since:
 * There is 1 smaller element to the right of 6
 * There are no smaller elements to the right of 1
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2516,7 +2516,7 @@ For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling next() repeat
 
 Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2526,7 +2526,7 @@ Given a list of words, find all pairs of unique indices such that the concatenat
 
 For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2548,7 +2548,7 @@ you should return:
 ```
 Follow-up: What if you couldn't use any extra space?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2558,7 +2558,7 @@ Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2570,7 +2570,7 @@ For example, given start = "dog", end = "cat", and dictionary = {"dot", "dop", "
 
 Given start = "dog", end = "cat", and dictionary = {"dot", "tod", "dat", "dar"}, return null as there is no possible transformation from dog to cat.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2588,7 +2588,7 @@ This means that 2 people exited the building. timestamp is in Unix time.
 
 Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of (start, end) timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2602,7 +2602,7 @@ Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there a
 
 The order of the indices does not matter.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2632,7 +2632,7 @@ it should become:
 ```
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2644,7 +2644,7 @@ Describe and give an example of each of the following types of polymorphism:
 * Parametric polymorphism
 * Subtype polymorphism
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2668,7 +2668,7 @@ For example, given the starting state a, number of steps 5000, and the following
 ```
 One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656, 'c': 332 }.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2680,7 +2680,7 @@ For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b
 
 Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2692,7 +2692,7 @@ For example, given the linked list 7 -> 7 -> 3 -> 5 and k = 2, it should become 
 
 Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 2, it should become 3 -> 4 -> 5 -> 1 -> 2.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 ### #178
@@ -2705,7 +2705,7 @@ The second game: same, except that the stopping condition is a five followed by 
 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2722,7 +2722,7 @@ For example, given the sequence 2, 4, 3, 8, 7, 5, you should construct the follo
 2   4   8
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2736,7 +2736,7 @@ For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. 
 
 Hint: Try working backwards from the end state.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2748,7 +2748,7 @@ For example, given the input string racecarannakayak, return ["racecar", "anna",
 
 Given the input string abc, return ["a", "b", "c"].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2758,7 +2758,7 @@ A graph is minimally-connected if it is connected and there is no edge that can 
 
 Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2766,7 +2766,7 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 
 Describe what happens when you type a URL into your browser and press Enter.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2776,7 +2776,7 @@ Given n numbers, find the greatest common denominator between them.
 
 For example, given the numbers [42, 56, 14], return 14.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2800,7 +2800,7 @@ and
 ```
 return 6.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2810,7 +2810,7 @@ Given an array of positive integers, divide the array into two subsets such that
 
 For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20}, which has a difference of 5, which is the smallest possible difference.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2835,7 +2835,7 @@ For example, given the following rectangles:
 ```
 return `true` as the first and third rectangle overlap each other.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2859,7 +2859,7 @@ for f in functions:
 ```
 How can we make it print out what we apparently want?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2869,7 +2869,7 @@ Given an array of elements, return the length of the longest subarray where all 
 
 For example, given the array [5, 1, 3, 5, 2, 3, 4, 1], return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2881,7 +2881,7 @@ For example, given [8, -1, 3, 4], return 15 as we choose the numbers 3, 4, and 8
 
 Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2895,7 +2895,7 @@ For example, given the intervals (7, 9), (2, 4), (5, 8), return 1 as the last in
 
 The intervals are not necessarily sorted in any order.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2907,7 +2907,7 @@ For example, given the array [1, 3, 1, 2, 0, 1], we can go from indices 0 -> 1 -
 
 Given the array [1, 2, 1, 0, 0], we can't reach the end, so return false.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2919,7 +2919,7 @@ You must buy before you can sell the stock, but you can make as many transaction
 
 For example, given [1, 3, 2, 8, 4, 10] and fee = 2, you should return 9, since you could buy the stock at 1 dollar, and sell at 8 dollars, and then buy it at 4 dollars and sell it at 10 dollars. Since we did two transactions, there is a 4 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2937,7 +2937,7 @@ No more? Unsubscribe.
 
 
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2957,7 +2957,7 @@ For example, given the following matrix:
 ```
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2973,7 +2973,7 @@ For example, given the following tree:
 ```
 Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5 - 5.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2981,7 +2981,7 @@ Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5
 
 Given an array and a number k that's smaller than the length of the array, rotate the array to the right k elements in-place.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -2991,7 +2991,7 @@ Given a set of distinct positive integers, find the largest subset such that eve
 
 For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Given [1, 3, 6, 24], return [1, 3, 6, 24].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3001,7 +3001,7 @@ Given a string of parentheses, find the balanced string that can be produced fro
 
 For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3011,7 +3011,7 @@ Let X be a set of n intervals on the real line. We say that a set of points P "s
 
 For example, given the intervals [(1, 4), (4, 5), (7, 9), (9, 12)], you should return [4, 9].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3027,7 +3027,7 @@ We define a path in the triangle to start at the top and go down one row at a ti
 
 Write a program that returns the weight of the maximum weight path.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3035,7 +3035,7 @@ Write a program that returns the weight of the maximum weight path.
 
 Write a program that checks whether an integer is a palindrome. For example, 121 is a palindrome, as well as 888. 678 is not a palindrome. Do not convert the integer into a string.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3045,7 +3045,7 @@ Suppose an array sorted in ascending order is rotated at some pivot unknown to y
 
 For example, given [5, 7, 10, 3, 4], return 3.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3053,7 +3053,7 @@ For example, given [5, 7, 10, 3, 4], return 3.
 
 Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3061,7 +3061,7 @@ Given a complete binary tree, count the number of nodes in faster than O(n) time
 
 Given an integer, find the next permutation of it in absolute order. For example, given 48975, the next permutation would be 49578.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3071,7 +3071,7 @@ A permutation can be specified by an array P, where P[i] represents the location
 
 Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and the permutation [2, 1, 0], return ["c", "b", "a"].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3079,7 +3079,7 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 
 Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3089,7 +3089,7 @@ Given a linked list of numbers and a pivot k, partition the linked list so that 
 
 For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution could be 1 -> 0 -> 5 -> 8 -> 3.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3097,7 +3097,7 @@ For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution
 
 Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3112,7 +3112,7 @@ It is conjectured that every such sequence eventually reaches the number 1. Test
 
 Bonus: What input n <= 1000000 gives the longest sequence?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3120,7 +3120,7 @@ Bonus: What input n <= 1000000 gives the longest sequence?
 
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return [0, 7].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3130,7 +3130,7 @@ Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C"
 
 Given a column number, return its alphabetical column id. For example, given 1, return "A". Given 27, return "AA".
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3142,7 +3142,7 @@ IP addresses must follow the format A.B.C.D, where A, B, C, and D are numbers be
 
 For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.123'].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3152,7 +3152,7 @@ Given an integer n, return the length of the longest consecutive run of 1s in it
 
 For example, given 156, you should return 3.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3182,7 +3182,7 @@ For this tree, for example, the bottom view could be [0, 1, 3, 6, 8, 9].
 
 Given the root to a binary tree, return its bottom view.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3206,7 +3206,7 @@ In addition, note that the Roman numeral system uses subtractive notation for nu
 
 For the input XIV, for instance, you should return 14.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3216,7 +3216,7 @@ We say a number is sparse if there are no adjacent ones in its binary representa
 
 Do this in faster than O(N log N) time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3224,7 +3224,7 @@ Do this in faster than O(N log N) time.
 
 Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of A -> B -> C, it should become A <- B <- C.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3234,7 +3234,7 @@ Connect 4 is a game where opponents take turns dropping red or black discs into 
 
 Design and implement Connect 4.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3246,7 +3246,7 @@ You are asked to play the following game. You and an opponent take turns choosin
 
 Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3254,7 +3254,7 @@ Write a program that returns the maximum amount of money you can win with certai
 
 Let's define a "sevenish" number to be one which is either a power of 7, or the sum of unique powers of 7. The first few sevenish numbers are 1, 7, 8, 49, and so on. Create an algorithm to find the nth sevenish number.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3264,7 +3264,7 @@ Given an absolute pathname that may have . or .. as part of it, return the short
 
 For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3272,7 +3272,7 @@ For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 
 Typically, an implementation of in-order traversal of a binary tree has O(h) space complexity, where h is the height of the tree. Write a program to compute the in-order traversal of a binary tree using O(1) space.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3284,7 +3284,7 @@ For example, for the input [1, 2, 3, 10], you should return 7.
 
 Do this in O(N) time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3298,7 +3298,7 @@ For example, if N = 5 and k = 2, the order of executions would be [2, 4, 1, 5, 3
 
 Bonus: Find an O(log N) solution if k = 2.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3308,7 +3308,7 @@ You come across a dictionary of sorted words in a language you've never seen bef
 
 For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'], you should return ['x', 'z', 'w', 'y'].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3316,7 +3316,7 @@ For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'], you should return ['x'
 
 Boggle is a game played on a 4 x 4 grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3324,7 +3324,7 @@ Boggle is a game played on a 4 x 4 grid of letters. The goal is to find as many 
 
 Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given [10, 7, 76, 415], you should return 77641510.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3340,7 +3340,7 @@ snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75,
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3352,7 +3352,7 @@ Write an algorithm that finds the minimum number of trial drops it will take, in
 
 For example, if N = 1 and k = 5, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be 5.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3362,7 +3362,7 @@ Given a string with repeated characters, rearrange the string so that no two adj
 
 For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3382,7 +3382,7 @@ mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3390,7 +3390,7 @@ assert mapsum.sum("col") == 5
 
 Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3398,7 +3398,7 @@ Implement the function fib(n), which returns the nth number in the Fibonacci seq
 
 Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3406,7 +3406,7 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 
 Given an array of numbers of length N, find both the minimum and maximum using less than 2 * (N - 2) comparisons.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3416,7 +3416,7 @@ You are given a list of N points (x1, y1), (x2, y2), ..., (xN, yN) representing 
 
 Determine if a new point p lies inside this polygon. (If p is on the boundary of the polygon, you should return False).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3433,7 +3433,7 @@ A tree is symmetric if its data and shape remain unchanged when it is reflected 
 
 Given a k-ary tree, determine whether it is symmetric.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3450,7 +3450,7 @@ For this problem, cards values are counted as follows: each card between 2 and 1
 
 Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3467,7 +3467,7 @@ For example, 4 - 2 - 1 - 7 is a valid pattern, whereas 2 - 1 - 7 is not.
 
 Find the total number of valid unlock patterns of length N, where 1 <= N <= 9.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3477,7 +3477,7 @@ There are N couples sitting in a row of length 2 * N. They are currently ordered
 
 What is the minimum number of swaps necessary for this to happen?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3489,7 +3489,7 @@ A researcher has index h if at least h of her N papers have h citations each. If
 
 For example, suppose N = 5, and the respective citations of each paper are [4, 3, 0, 1, 5]. Then the h-index would be 3, since the researcher has 3 papers with at least 3 citations.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3503,7 +3503,7 @@ update(hour: int, value: int): Increment the element at index hour by value.
 query(start: int, end: int): Retrieve the number of subscribers that have signed up between start and end (inclusive).
 You can assume that all values get cleared at the end of the day, and that you will not be asked for start and end values that wrap around midnight.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3513,7 +3513,7 @@ Given an array of numbers N and an integer k, your task is to split N into k par
 
 For example, given N = [5, 1, 2, 7, 3, 4] and k = 3, you should return 8, since the optimal partition is [5, 1, 2], [7], [3, 4].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3527,7 +3527,7 @@ Implement this algorithm.
 
 Bonus: Create a generator that produces primes indefinitely (that is, without taking N as an input).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3537,7 +3537,7 @@ You are given an array of integers, where each element represents the maximum nu
 
 For example, given [6, 2, 4, 0, 5, 1, 1, 4, 2, 9], you should return 2, as the optimal solution involves jumping from 6 to 5, and then from 5 to 9.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3547,7 +3547,7 @@ Given a list of words, determine whether the words can be chained to form a circ
 
 For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can form the following circle: chair --> racket --> touch --> height --> tunic --> chair
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3555,7 +3555,7 @@ For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can form t
 
 Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3563,7 +3563,7 @@ Given a binary tree, determine whether or not it is height-balanced. A height-ba
 
 Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3571,7 +3571,7 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 Given an array of integers, find the maximum XOR of any two elements.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3592,7 +3592,7 @@ may have the solution:
 ```
 Given a three-word puzzle like the one above, create an algorithm that finds a solution.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3600,7 +3600,7 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3610,7 +3610,7 @@ The ancient Egyptians used to express fractions as a sum of several terms where 
 
 Create an algorithm to turn an ordinary fraction a / b, where a < b, into an Egyptian fraction.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3626,7 +3626,7 @@ t     a     g
    s     g
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3654,7 +3654,7 @@ You should convert it to:
        6     7
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3680,7 +3680,7 @@ The transitive closure of this graph would be:
 ```
 Given a graph, find its transitive closure.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3688,7 +3688,7 @@ Given a graph, find its transitive closure.
 
 Given a linked list, rearrange the node values such that they appear in alternating low -> high -> low -> high ... form. For example, given 1 -> 2 -> 3 -> 4 -> 5, you should return 1 -> 3 -> 2 -> 5 -> 4.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3696,7 +3696,7 @@ Given a linked list, rearrange the node values such that they appear in alternat
 
 Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given [3, 7, 5, 6, 9], you should return (1, 3).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3716,7 +3716,7 @@ For example, given the following tree:
 ```
 You should return [1, 3, 2, 4, 5, 6, 7].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3734,7 +3734,7 @@ Given a dictionary of words, determine the letters the first player should start
 
 For example, if the dictionary is ["cat", "calf", "dog", "bear"], the only winning start letter would be b.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3742,7 +3742,7 @@ For example, if the dictionary is ["cat", "calf", "dog", "bear"], the only winni
 
 The sequence [0, 1, ..., N] has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given [None, +, +, -, +], you could return [1, 2, 3, 0, 4].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3764,7 +3764,7 @@ With this encoding, cats would be represented as 0000110111.
 
 Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3772,7 +3772,7 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 
 A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3787,7 +3787,7 @@ We can consider a sentence valid if it conforms to the following rules:
 3. There must be a single space between each word.
 4. The sentence must end with a terminal mark immediately following a word.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3799,7 +3799,7 @@ For example, suppose C = {0, 1} and k = 3. Then our sequence should contain the 
 
 Create an algorithm that finds a De Bruijn sequence.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3811,7 +3811,7 @@ Given an array representing a line of seats of employees at MegaCorp, determine 
 
 For example, given [10, 40, 200, 1000, 60, 30], you should return [1, 2, 3, 4, 2, 1].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3821,7 +3821,7 @@ A step word is formed by taking a given word, adding a letter, and anagramming t
 
 Given a dictionary of words and an input word, create a function that returns all valid step words.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3845,7 +3845,7 @@ For example, given the following matrix:
 
 You should return True, since the bishop is attacking the king diagonally.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3853,7 +3853,7 @@ You should return True, since the bishop is attacking the king diagonally.
 
 Given a 32-bit positive integer N, determine whether it is a power of four in faster than O(log N) time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3871,7 +3871,7 @@ For example, given the string .L.R....L, you should return LL.RRRLLL.
 
 Given the string ..R...L.L, you should return ..RR.LLLL.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3896,7 +3896,7 @@ edges = [
 
 You should return 9, because propagating the message from 0 -> 2 -> 3 -> 4 will take that much time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3906,7 +3906,7 @@ Given a sorted list of integers of length N, determine if an element x is in the
 
 Do this in O(log N) time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3916,7 +3916,7 @@ Write a function, throw_dice(N, faces, total), that determines how many ways it 
 
 For example, throw_dice(3, 6, 7) should equal 15.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3926,7 +3926,7 @@ A fixed point in an array is an element whose value is equal to its index. Given
 
 For example, given [-6, 0, 2, 40], you should return 2. Given [1, 5, 7, 8], you should return False.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3938,7 +3938,7 @@ Don't use eval or a similar built-in parser.
 
 For example, given '-1 + (2 + 3)', you should return 4.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3958,7 +3958,7 @@ As an example, the fourth term is 1211, since the third term consists of one 2 a
 
 Given an integer N, print the Nth term of this sequence.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3970,7 +3970,7 @@ That is, given a string of length N and a pattern of length k, write a program t
 
 If the pattern is found, return the start index of its location. If not, return False.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -3994,7 +3994,7 @@ Visually, this can be represented as follows.
    
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4002,7 +4002,7 @@ Write a program that takes in an array of integers representing byte values, and
 
 Given an integer N, construct all possible binary search trees with N nodes.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4023,7 +4023,7 @@ Each student can be placed in a friend group, which can be defined as the transi
 
 Given a friendship list such as the one above, determine the number of friend groups in the class.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4031,7 +4031,7 @@ Given a friendship list such as the one above, determine the number of friend gr
 
 Given an undirected graph, determine if it contains a cycle.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4053,7 +4053,7 @@ The best we can we do here is to draw a line after the eighth brick, which will 
 
 Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4061,7 +4061,7 @@ Given an input consisting of brick lengths for each row such as the one above, r
 
 Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4073,7 +4073,7 @@ These numbers have had many applications, from helping ancient Babylonians keep 
 
 Given an integer N, write a program that returns, in order, the first N regular numbers.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4090,7 +4090,7 @@ Two nodes in a binary tree can be called cousins if they are on the same level o
 
 Given a binary tree and a particular node, find all cousins of that node.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4102,7 +4102,7 @@ For example, given the array [3, 7, 8, 3, 6, 1], you should return 3, since the 
 
 Can you do this using just one forward pass through the array?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4124,7 +4124,7 @@ For example, suppose the input consists of the buildings [(0, 15, 3), (4, 11, 5)
 ```
 As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4142,7 +4142,7 @@ For example, suppose k = 1, and the list of tuples is:
  ```
 Then a reasonable similarity metric would most likely conclude that a and e are the most similar, so your program should return [('a', 'e')].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4160,7 +4160,7 @@ For example, this algorithm terminates in three steps when starting from 1234:
 
 Write a function that returns how many steps this will take for a given input N.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4182,7 +4182,7 @@ In other words, to start, the first player takes three items from pile B. The se
 
 Given a list of non-zero starting values [a, b, c], and assuming optimal play, determine whether the first player has a forced win.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4203,7 +4203,7 @@ For example, given the input ['R', 'G', 'B', 'G', 'B'], it is possible to end up
 ['R']                     |
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4213,7 +4213,7 @@ An imminent hurricane threatens the coastal town of Codeville. If at most two pe
 
 For example, given a population with weights [100, 200, 150, 80] and a boat limit of 200, the smallest number of boats required will be three.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4247,7 +4247,7 @@ students = {
 }
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4259,7 +4259,7 @@ You can change the height of any stone by paying a cost of 1 unit to lower its h
 
 For example, given the stones [1, 1, 3, 3, 2, 1], the optimal solution is to pay 2 to create [0, 1, 2, 3, 2, 1].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4286,7 +4286,7 @@ paths = {
 
 In this case, the shortest valid path would be 0 -> 2 -> 4 -> 0, with a distance of 28.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4309,7 +4309,7 @@ Given an input k, return the kth row of Pascal's triangle.
 
 Bonus: Can you do this using only O(k) space?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4317,7 +4317,7 @@ Bonus: Can you do this using only O(k) space?
 
 Given a sorted array, convert it into a height-balanced binary search tree.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4338,7 +4338,7 @@ A lazy bartender working at this bar is trying to reduce his effort by limiting 
 
 For the input above, the answer would be 2, as drinks 1 and 5 will satisfy everyone.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4350,7 +4350,7 @@ Given an input describing the types of apples she will pass on her path, in orde
 
 For example, given the input [2, 1, 2, 3, 3, 1, 3, 5], the longest portion will involve types 1 and 3, with a length of four.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4372,7 +4372,7 @@ pipes = {
 }
 ```
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4380,7 +4380,7 @@ pipes = {
 
 On election day, a voting machine writes data in the form (voter_id, candidate_id) to a text file. Write a program that reads this file as a stream and returns the top 3 candidates at any given time. If you find a voter voting more than once, report this as fraud.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4393,7 +4393,7 @@ Implement a data structure which carries out the following operations without re
 
 The check method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4410,7 +4410,7 @@ For example, suppose the input for a three-by-six grid is the following:
 
 Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return 3.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4420,7 +4420,7 @@ Given a clock time in hh:mm format, determine, to the nearest degree, the angle 
 
 Bonus: When, during the course of a day, will the angle be zero?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4430,7 +4430,7 @@ A knight is placed on a given square on an 8 x 8 chessboard. It is then moved ra
 
 After k moves, what is the probability that the knight remains on the board?
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4440,7 +4440,7 @@ Given a linked list, remove all consecutive nodes that sum to zero. Print out th
 
 For example, suppose you are given the input 3 -> 4 -> -7 -> 5 -> -6 -> 6. In this case, you should first remove 3 -> 4 -> -7, then -6 -> 6, leaving only 5.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4450,7 +4450,7 @@ You are given a list of N numbers, in which each number is located at most k pla
 
 Come up with an algorithm that sorts this list in O(N log k) time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4460,7 +4460,7 @@ Given a binary search tree, find the floor and ceiling of a given integer. The f
 
 If either value does not exist, return None.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4475,7 +4475,7 @@ Determine the number of ways to group the array elements using parentheses so th
 
 For example, suppose the input is ['F', '|', 'T', '&', 'T']. In this case, there are two acceptable groupings: (F | T) & T and F | (T & T).
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4487,7 +4487,7 @@ For example, suppose you are faced with an input of [0, 1, 1, 0, 1, 0, 0, 0, 1],
 
 Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4495,7 +4495,7 @@ Given an input such as the one above, return the lowest possible cost of moving 
 
 Write an algorithm that finds the total number of set bits in all integers between 1 and N.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4505,7 +4505,7 @@ Given an unsorted array, in which all elements are distinct, find a "peak" eleme
 
 An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4523,7 +4523,7 @@ A B C C
 
 Given an integer N, determine in how many ways this task is possible.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4535,7 +4535,7 @@ In addition, the lock has a certain number of "dead ends", meaning that if you t
 
 Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to 000, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or None if this is impossible.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4547,7 +4547,7 @@ Given a list of N listeners, and a list of M radio towers, each placed at variou
 
 For example, suppose listeners = [1, 5, 11, 20], and towers = [4, 8, 15]. In this case the minimum range would be 5, since that would be required for the tower at position 15 to reach the listener at position 20.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4565,7 +4565,7 @@ Here is an example:
 
 Write a program to determine whether a given input is a Toeplitz matrix.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4575,7 +4575,7 @@ You are given an array of length N, where each element i represents the number o
 
 Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value 2, 3, and 4.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4583,7 +4583,7 @@ Given such an array, determine the denominations that must be in use. In the cas
 
 Write a function that returns the bitwise AND of all integers between M and N, inclusive.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4593,7 +4593,7 @@ You are going on a road trip, and would like to create a suitable music playlist
 
 Given N, M, and B, determine the number of valid playlists.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4603,7 +4603,7 @@ An 8-puzzle is a game played on a 3 x 3 board of tiles, with the ninth tile miss
 
 Design a class to represent the board, and find a series of steps to bring the board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4613,7 +4613,7 @@ Given a string, find the length of the smallest window that contains every disti
 
 For example, given "jiujitsu", you should return 5, corresponding to the final five letters.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4628,7 +4628,7 @@ There are two kinds of permitted steps:
 
 For example, given 100, you can reach 1 in five steps with the following route: 100 -> 10 -> 9 -> 3 -> 2 -> 1.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4640,7 +4640,7 @@ On the ith jump, you may move exactly i places to the left or right.
 
 Find a path with the fewest number of jumps required to get from 0 to N.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4650,7 +4650,7 @@ Create an algorithm to efficiently compute the approximate median of a list of n
 
 More precisely, given an unordered list of N numbers, find an element whose rank is between N / 4 and 3 * N / 4, with a high level of certainty, in less than O(N) time.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4662,7 +4662,7 @@ Each move consists of moving one mouse one unit to the left or right, and only o
 
 For example, suppose the mice are positioned at [1, 4, 9, 15], and the holes are located at [10, -5, 0, 16]. In this case, the best pairing would require us to send the mouse at 1 to the hole at -5, so our function should return 6.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4672,7 +4672,7 @@ The United States uses the imperial system of weights and measures, which means 
 
 Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4691,7 +4691,7 @@ It is heap-ordered, so that each parent value is strictly less than that of its 
 
 Given a sequence S, construct the corresponding Cartesian tree.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4701,7 +4701,7 @@ Write a program to merge two binary trees. Each node in the new tree should hold
 
 If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4713,7 +4713,7 @@ A simplified description of the Elo system is as follows. Every player begins at
 
 Implement this system.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4740,7 +4740,7 @@ gal_preferences = {
 
 Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4760,7 +4760,7 @@ This type of formula, with AND statements joining tuples containing exactly one 
 
 Given a 2-CNF formula, find a way to assign truth values to satisfy it, or return False if this is impossible.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4770,7 +4770,7 @@ You are given a string consisting of the letters x and y, such as xyxxxyxyy. In 
 
 Determine how many times you would need to apply this operation to ensure that all x's come before all y's. In the preceding example, it suffices to flip the second and sixth characters, so you should return 2.
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---
 
@@ -4781,6 +4781,6 @@ Given integers M and N, write a program that counts how many positive integer pa
 * a + b = M
 * a XOR b = N
 
-[Back on Top](#Process)
+[Progress](#Progress)
 
 ---

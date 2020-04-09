@@ -182,6 +182,7 @@ Day | Origin | Difficulty | Python | Java
 [325](#325) | Jane Street | Easy | [325.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/325.py)
 [328](#328) | Facebook | Medium | [328.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/328.py)
 [331](#331) | LinkedIn | Medium | [331.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/331.py)
+[332](#332) | Jane Street | Easy | [332.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/332.py)
 
 ## Problems
 
@@ -4768,6 +4769,17 @@ Given a 2-CNF formula, find a way to assign truth values to satisfy it, or retur
 You are given a string consisting of the letters x and y, such as xyxxxyxyy. In addition, you have an operation called flip, which changes a single x to y or vice versa.
 
 Determine how many times you would need to apply this operation to ensure that all x's come before all y's. In the preceding example, it suffices to flip the second and sixth characters, so you should return 2.
+
+[Back on Top](#Process)
+
+---
+
+### #332
+
+Given integers M and N, write a program that counts how many positive integer pairs (a, b) satisfy the following conditions:
+
+* a + b = M
+* a XOR b = N
 
 [Back on Top](#Process)
 

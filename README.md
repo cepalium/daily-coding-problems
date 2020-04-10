@@ -183,6 +183,7 @@ Day | Origin | Difficulty | Python | Java
 [328](#328) | Facebook | Medium | [328.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/328.py)
 [331](#331) | LinkedIn | Medium | [331.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/331.py)
 [332](#332) | Jane Street | Easy | [332.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/332.py)
+[333](#333) | Pinterest | Medium | [333.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/333.py)
 
 ## Problems
 
@@ -4780,6 +4781,16 @@ Given integers M and N, write a program that counts how many positive integer pa
 
 * a + b = M
 * a XOR b = N
+
+[Progress](#Progress)
+
+---
+
+### #333
+
+At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To help figure out who this is, you have access to an O(1) method called knows(a, b), which returns True if person a knows person b, else False.
+
+Given a list of N people and the above operation, find a way to identify the celebrity in O(N) time.
 
 [Progress](#Progress)
 

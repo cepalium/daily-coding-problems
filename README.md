@@ -185,6 +185,7 @@ Day | Origin | Difficulty | Python | Java
 [332](#332) | Jane Street | Easy | [332.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/332.py)
 [333](#333) | Pinterest | Medium | [333.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/333.py)
 [339](#339) | Microsoft | Easy | [339.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/339.py)
+[340](#340) | Google | Easy | [340.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/340.py)
 
 ## Problems
 
@@ -4860,6 +4861,14 @@ Given an integer n, find the next biggest integer with the same number of 1-bits
 ### #339
 
 Given an array of numbers and a number k, determine if there are three entries in the array which add up to the specified number k. For example, given [20, 303, 3, 4, 25] and k = 49, return true as 20 + 4 + 25 = 49.
+
+[Progress](#Progress)
+
+---
+
+### #340
+
+Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points [(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)], return [(-1, -1), (1, 1)].
 
 [Progress](#Progress)
 

@@ -186,6 +186,7 @@ Day | Origin | Difficulty | Python | Java
 [333](#333) | Pinterest | Medium | [333.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/333.py)
 [339](#339) | Microsoft | Easy | [339.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/339.py)
 [340](#340) | Google | Easy | [340.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/340.py)
+[345](#345) | Google | Medium | [345.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/345.py)
 
 ## Problems
 
@@ -4869,6 +4870,114 @@ Given an array of numbers and a number k, determine if there are three entries i
 ### #340
 
 Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points [(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)], return [(-1, -1), (1, 1)].
+
+[Progress](#Progress)
+
+---
+
+### #341
+
+You are given an N by N matrix of random letters and a dictionary of words. Find the maximum number of words that can be packed on the board from the given dictionary.
+
+A word is considered to be able to be packed on the board if:
+
+* It can be found in the dictionary
+* It can be constructed from untaken letters by other words found so far on the board
+* The letters are adjacent to each other (vertically and horizontally, not diagonally).
+* Each tile can be visited only once by any word.
+
+For example, given the following dictionary:
+```
+{ 'eat', 'rain', 'in', 'rat' }
+```
+
+and matrix:
+```
+[['e', 'a', 'n'],
+ ['t', 't', 'i'],
+ ['a', 'r', 'a']]
+```
+
+Your function should return 3, since we can make the words 'eat', 'in', and 'rat' without them touching each other. We could have alternatively made 'eat' and 'rain', but that would be incorrect since that's only 2 words.
+
+[Progress](#Progress)
+
+---
+
+### #342
+
+`reduce` (also known as fold) is a function that takes in an array, a combining function, and an initial value and builds up a result by calling the combining function on each element of the array, left to right. For example, we can write sum() in terms of reduce:
+
+```
+def add(a, b):
+    return a + b
+
+def sum(lst):
+    return reduce(lst, add, 0)
+````
+
+This should call add on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
+
+Implement your own version of reduce.
+
+[Progress](#Progress)
+
+---
+
+### #343
+
+Given a binary search tree and a range [a, b] (inclusive), return the sum of the elements of the binary search tree within the range.
+
+For example, given the following tree:
+```
+    5
+   / \
+  3   8
+ / \ / \
+2  4 6  10
+```
+
+and the range [4, 9], return `23` (5 + 4 + 6 + 8).
+
+[Progress](#Progress)
+
+---
+
+### #344
+
+You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
+
+For example, suppose your input was the following tree:
+```
+   1
+  / \ 
+ 2   3
+    / \ 
+   4   5
+ / | \
+6  7  8
+```
+
+In this case, removing the edge (3, 4) satisfies our requirement.
+
+Write a function that returns the maximum number of edges you can remove while still satisfying this requirement.
+
+[Progress](#Progress)
+
+---
+
+### #345
+
+You are given a set of synonyms, such as (big, large) and (eat, consume). Using this set, determine if two sentences with the same number of words are equivalent.
+
+For example, the following two sentences are equivalent:
+
+* "He wants to eat food."
+* "He wants to consume food."
+
+Note that the synonyms (a, b) and (a, c) do not necessarily imply (b, c): consider the case of (coach, bus) and (coach, teacher).
+
+Follow-up: what if we can assume that (a, b) and (a, c) do in fact imply (b, c)?
 
 [Progress](#Progress)
 

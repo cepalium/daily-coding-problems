@@ -1,7 +1,7 @@
 # --------------------------
 # Author: Tuan Nguyen
-# Date created: 20200417
-#!340.py
+# Date created: 20200422
+#!345.py
 # --------------------------
 """
 You are given a set of synonyms, such as (big, large) and (eat, consume). 

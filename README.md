@@ -187,6 +187,7 @@ Day | Origin | Difficulty | Python | Java
 [339](#339) | Microsoft | Easy | [339.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/339.py)
 [340](#340) | Google | Easy | [340.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/340.py)
 [345](#345) | Google | Medium | [345.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/345.py)
+[347](#347) | Yahoo | Easy | [347.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/347.py)
 
 ## Problems
 
@@ -4978,6 +4979,43 @@ For example, the following two sentences are equivalent:
 Note that the synonyms (a, b) and (a, c) do not necessarily imply (b, c): consider the case of (coach, bus) and (coach, teacher).
 
 Follow-up: what if we can assume that (a, b) and (a, c) do in fact imply (b, c)?
+
+[Progress](#Progress)
+
+---
+
+### #346
+
+You are given a huge list of airline ticket prices between different cities around the world on a given day. These are all direct flights. Each element in the list has the format (source_city, destination, price).
+
+Consider a user who is willing to take up to k connections from their origin city A to their destination B. Find the cheapest fare possible for this journey and print the itinerary for that journey.
+
+For example, our traveler wants to go from JFK to LAX with up to 3 connections, and our input flights are as follows:
+```
+[
+    ('JFK', 'ATL', 150),
+    ('ATL', 'SFO', 400),
+    ('ORD', 'LAX', 200),
+    ('LAX', 'DFW', 80),
+    ('JFK', 'HKG', 800),
+    ('ATL', 'ORD', 90),
+    ('JFK', 'LAX', 500),
+]
+```
+
+Due to some improbably low flight prices, the cheapest itinerary would be JFK -> ATL -> ORD -> LAX, costing $440.
+
+[Progress](#Progress)
+
+---
+
+### #347
+
+You are given a string of length N and a parameter k. The string can be manipulated by taking one of the first k letters and moving it to the end.
+
+Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
+
+For example, suppose we are given the string daily and k = 1. The best we can create in this case is ailyd.
 
 [Progress](#Progress)
 

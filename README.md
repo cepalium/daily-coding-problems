@@ -188,6 +188,7 @@ Day | Origin | Difficulty | Python | Java
 [340](#340) | Google | Easy | [340.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/340.py)
 [345](#345) | Google | Medium | [345.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/345.py)
 [347](#347) | Yahoo | Easy | [347.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/347.py)
+[349](#349) | Grammarly | Hard | [349.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/349.py)
 
 ## Problems
 
@@ -4915,7 +4916,7 @@ def add(a, b):
 
 def sum(lst):
     return reduce(lst, add, 0)
-````
+```
 
 This should call add on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
 
@@ -5016,6 +5017,61 @@ You are given a string of length N and a parameter k. The string can be manipula
 Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
 
 For example, suppose we are given the string daily and k = 1. The best we can create in this case is ailyd.
+
+[Progress](#Progress)
+
+---
+
+### #348
+
+A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words code, cob, be, ax, war, and we.
+```
+       c
+    /  |  \
+   b   o   w
+ / |   |   |
+a  e   d   a
+|    / |   | \ 
+x   b  e   r  e
+```
+
+The tree is structured according to the following rules:
+
+* left child nodes link to words lexicographically earlier than the parent prefix
+* right child nodes link to words lexicographically later than the parent prefix
+* middle child nodes continue the current word
+
+For instance, since code is the first word inserted in the tree, and cob lexicographically precedes cod, cob is represented as a left child extending from cod.
+
+Implement insertion and search functions for a ternary search tree.
+
+[Progress](#Progress)
+
+---
+
+### #349
+
+Soundex is an algorithm used to categorize phonetically, such that two names that sound alike but are spelled differently have the same representation.
+
+Soundex maps every name to a string consisting of one letter and three numbers, like M460.
+
+One version of the algorithm is as follows:
+
+1. Remove consecutive consonants with the same sound (for example, change ck -> c).
+2. Keep the first letter. The remaining steps only apply to the rest of the string.
+3. Remove all vowels, including y, w, and h.
+4. Replace all consonants with the following digits:
+    * b, f, p, v → 1
+    * c, g, j, k, q, s, x, z → 2
+    * d, t → 3
+    * l → 4
+    * m, n → 5
+    * r → 6
+5. If you don't have three numbers yet, append zeros until you do. Keep the first three numbers.
+
+Using this scheme, Jackson and Jaxen both map to J250.
+
+Implement Soundex.
 
 [Progress](#Progress)
 

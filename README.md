@@ -190,6 +190,8 @@ Day | Origin | Difficulty | Python | Java
 [347](#347) | Yahoo | Easy | [347.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/347.py)
 [349](#349) | Grammarly | Hard | [349.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/349.py)
 [353](#353) | Square | Medium | [353.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/353.py)
+[355](#355) | Airbnb | Hard | [355.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/355.py)
+
 
 ## Problems
 
@@ -5137,6 +5139,38 @@ You are given a histogram consisting of rectangles of different heights. These h
 x x x x
 ```
 Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the 2 x 3 area at the bottom right.
+
+[Progress](#Progress)
+
+---
+
+### #354
+
+Design a system to crawl and copy all of Wikipedia using a distributed network of machines.
+
+More specifically, suppose your server has access to a set of client machines. Your client machines can execute code you have written to access Wikipedia pages, download and parse their data, and write the results to a database.
+
+Some questions you may want to consider as part of your solution are:
+
+* How will you reach as many pages as possible?
+* How can you keep track of pages that have already been visited?
+* How will you deal with your client machines being blacklisted?
+* How can you update your database when Wikipedia pages are added or * updated?
+
+[Progress](#Progress)
+
+---
+
+### #355
+
+You are given an array X of floating-point numbers x1, x2, ... xn. These can be rounded up or down to create a corresponding array Y of integers y1, y2, ... yn.
+
+Write an algorithm that finds an appropriate Y array with the following properties:
+
+* The rounded sums of both arrays should be equal.
+* The absolute pairwise difference between elements is minimized. In other words, |x1- y1| + |x2- y2| + ... + |xn- yn| should be as small as possible.
+
+For example, suppose your input is [1.3, 2.3, 4.4]. In this case you cannot do better than [1, 2, 5], which has an absolute difference of |1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1.
 
 [Progress](#Progress)
 

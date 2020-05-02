@@ -10,7 +10,8 @@ These can be rounded up or down to create a corresponding array Y of integers y1
 Write an algorithm that finds an appropriate Y array with the following properties:
 
 * The rounded sums of both arrays should be equal.
-* The absolute pairwise difference between elements is minimized. In other words, |x1- y1| + |x2- y2| + ... + |xn- yn| should be as small as possible.
+* The absolute pairwise difference between elements is minimized. 
+In other words, |x1- y1| + |x2- y2| + ... + |xn- yn| should be as small as possible.
 
 For example, suppose your input is [1.3, 2.3, 4.4]. 
 In this case you cannot do better than [1, 2, 5], 
@@ -20,7 +21,7 @@ def find_Y(X):
     Y_list = find_all_possible_rounded_arrays(X)
     Y_list = find_equal_sum_arrays(X, Y_list)
     Y = get_min_pairwise_absolute_difference_array(X, Y_list)
-    return Y  # set data structure because itertools.product returns sets
+    return Y  # Y is a set data structure
 
 def find_all_possible_rounded_arrays(X):
     from itertools import product

@@ -191,6 +191,7 @@ Day | Origin | Difficulty | Python | Java
 [349](#349) | Grammarly | Hard | [349.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/349.py)
 [353](#353) | Square | Medium | [353.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/353.py)
 [355](#355) | Airbnb | Hard | [355.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/355.py)
+[356](#356) | Netflix | Hard | [356.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/356.py)
 
 
 ## Problems
@@ -5171,6 +5172,16 @@ Write an algorithm that finds an appropriate Y array with the following properti
 * The absolute pairwise difference between elements is minimized. In other words, |x1- y1| + |x2- y2| + ... + |xn- yn| should be as small as possible.
 
 For example, suppose your input is [1.3, 2.3, 4.4]. In this case you cannot do better than [1, 2, 5], which has an absolute difference of |1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1.
+
+[Progress](#Progress)
+
+---
+
+### #356
+
+Implement a queue using a set of fixed-length arrays.
+
+The queue should support enqueue, dequeue, and get_size operations.
 
 [Progress](#Progress)
 

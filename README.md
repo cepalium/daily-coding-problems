@@ -192,7 +192,7 @@ Day | Origin | Difficulty | Python | Java
 [353](#353) | Square | Medium | [353.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/353.py)
 [355](#355) | Airbnb | Hard | [355.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/355.py)
 [356](#356) | Netflix | Hard | [356.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/356.py)
-
+[360](#360) | Spotify | Medium | [360.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/360.py)
 
 ## Problems
 
@@ -5182,6 +5182,61 @@ For example, suppose your input is [1.3, 2.3, 4.4]. In this case you cannot do b
 Implement a queue using a set of fixed-length arrays.
 
 The queue should support enqueue, dequeue, and get_size operations.
+
+[Progress](#Progress)
+
+---
+
+### #357
+
+You are given a binary tree in a peculiar string representation. Each node is written in the form (lr), where l corresponds to the left child and r corresponds to the right child.
+
+If either l or r is null, it will be represented as a zero. Otherwise, it will be represented by a new (lr) pair.
+
+Here are a few examples:
+
+* A root node with no children: (00)
+* A root node with two children: ((00)(00))
+* An unbalanced tree with three consecutive left children: ((((00)0)0)0)
+
+Given this representation, determine the depth of the tree.
+
+[Progress](#Progress)
+
+---
+
+### #358
+
+Create a data structure that performs all the following operations in O(1) time:
+
+* plus: Add a key with value 1. If the key already exists, increment its value by one.
+* minus: Decrement the value of a key. If the key's value is currently 1, remove it.
+* get_max: Return a key with the highest value.
+* get_min: Return a key with the lowest value.
+
+[Progress](#Progress)
+
+---
+
+### #359
+
+You are given a string formed by concatenating several words corresponding to the integers zero through nine and then anagramming.
+
+For example, the input could be 'niesevehrtfeev', which is an anagram of 'threefiveseven'. Note that there can be multiple instances of each integer.
+
+Given this string, return the original integers in sorted order. In the example above, this would be 357.
+
+[Progress](#Progress)
+
+---
+
+### #360
+
+You have access to ranked lists of songs for various users. Each song is represented as an integer, and more preferred songs appear earlier in each list. For example, the list [4, 1, 7] indicates that a user likes song 4 the best, followed by songs 1 and 7.
+
+Given a set of these ranked lists, interleave them to create a playlist that satisfies everyone's priorities.
+
+For example, suppose your input is {[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}. In this case a satisfactory playlist could be [2, 1, 6, 7, 3, 9, 5].
 
 [Progress](#Progress)
 

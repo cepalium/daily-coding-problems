@@ -193,6 +193,7 @@ Day | Origin | Difficulty | Python | Java
 [355](#355) | Airbnb | Hard | [355.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/355.py)
 [356](#356) | Netflix | Hard | [356.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/356.py)
 [360](#360) | Spotify | Medium | [360.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/360.py)
+[362](#362) | Twitter | Easy | [362.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/362.py)
 
 ## Problems
 
@@ -5237,6 +5238,52 @@ You have access to ranked lists of songs for various users. Each song is represe
 Given a set of these ranked lists, interleave them to create a playlist that satisfies everyone's priorities.
 
 For example, suppose your input is {[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}. In this case a satisfactory playlist could be [2, 1, 6, 7, 3, 9, 5].
+
+[Progress](#Progress)
+
+---
+
+### #361
+
+Mastermind is a two-player game in which the first player attempts to guess the secret code of the second. In this version, the code may be any six-digit number with all distinct digits.
+
+Each turn the first player guesses some number, and the second player responds by saying how many digits in this number correctly matched their location in the secret code. For example, if the secret code were 123456, then a guess of 175286 would score two, since 1 and 6 were correctly placed.
+
+Write an algorithm which, given a sequence of guesses and their scores, determines whether there exists some secret code that could have produced them.
+
+For example, for the following scores you should return True, since they correspond to the secret code 123456:
+```
+{175286: 2, 293416: 3, 654321: 0}
+```
+However, it is impossible for any key to result in the following scores, so in this case you should return False:
+```
+{123456: 4, 345678: 4, 567890: 4}
+```
+
+[Progress](#Progress)
+
+---
+
+### #362
+
+A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, 16891 is strobogrammatic.
+
+Create a program that finds all strobogrammatic numbers with N digits.
+
+[Progress](#Progress)
+
+---
+
+### #363
+
+Write a function, add_subtract, which alternately adds and subtracts curried arguments. Here are some sample operations:
+```
+add_subtract(7) -> 7
+
+add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
+
+add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
+```
 
 [Progress](#Progress)
 

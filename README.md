@@ -194,6 +194,7 @@ Day | Origin | Difficulty | Python | Java
 [356](#356) | Netflix | Hard | [356.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/356.py)
 [360](#360) | Spotify | Medium | [360.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/360.py)
 [362](#362) | Twitter | Easy | [362.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/362.py)
+[365](#365) | Google | Hard | [365.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/365.py)
 
 ## Problems
 
@@ -5284,6 +5285,29 @@ add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
 
 add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 ```
+
+[Progress](#Progress)
+
+---
+
+### #364
+
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in O(n log n) time.
+
+[Progress](#Progress)
+
+---
+
+### #365
+
+A quack is a data structure combining properties of both stacks and queues. It can be viewed as a list of elements written left to right such that three operations are possible:
+
+* push(x): add a new item x to the left end of the list
+* pop(): remove and return the item on the left end of the list
+* pull(): remove the item on the right end of the list.
+
+Implement a quack using three stacks and O(1) additional memory, so that the amortized time for any push, pop, or pull operation is O(1).
+
 
 [Progress](#Progress)
 

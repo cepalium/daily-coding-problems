@@ -195,6 +195,7 @@ Day | Origin | Difficulty | Python | Java
 [360](#360) | Spotify | Medium | [360.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/360.py)
 [362](#362) | Twitter | Easy | [362.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/362.py)
 [365](#365) | Google | Hard | [365.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/365.py)
+[366](#366) | Flexport | Medium | [366.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/366.py)
 
 ## Problems
 
@@ -5308,6 +5309,15 @@ A quack is a data structure combining properties of both stacks and queues. It c
 
 Implement a quack using three stacks and O(1) additional memory, so that the amortized time for any push, pop, or pull operation is O(1).
 
+[Progress](#Progress)
+
+---
+
+### #366
+
+Given a string s, rearrange the characters so that any two adjacent characters are not the same. If this is not possible, return null.
+
+For example, if s = yyz then return yzy. If s = yyy then return null.
 
 [Progress](#Progress)
 

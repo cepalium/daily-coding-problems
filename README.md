@@ -5322,3 +5322,86 @@ For example, if s = yyz then return yzy. If s = yyy then return null.
 [Progress](#Progress)
 
 ---
+
+### #367
+Given two sorted iterators, merge it into one iterator.
+
+For example, given these two iterators:
+```
+foo = iter([5, 10, 15])
+bar = iter([3, 8, 9])
+```
+
+You should be able to do:
+```
+for num in merge_iterators(foo, bar):
+    print(num)
+
+# 3
+# 5
+# 8
+# 9
+# 10
+# 15
+```
+
+Bonus: Make it work without pulling in the contents of the iterators in memory.
+
+[Progress](#Progress)
+
+---
+
+### #368
+
+Implement a key value store, where keys and values are integers, with the following methods:
+
+* update(key, vl): updates the value at key to val, or sets it if doesn't exist
+* get(key): returns the value with key, or None if no such value exists
+* max_key(val): returns the largest key with value val, or None if no key with that value exists
+
+For example, if we ran the following calls:
+```
+kv.update(1, 1)
+kv.update(2, 1)
+```
+
+And then called kv.max_key(1), it should return 2, since it's the largest key with value 1.
+
+[Progress](#Progress)
+
+---
+
+### 369
+
+You’re tracking stock price at a given instance of time. Implement an API with the following functions: add(), update(), remove(), which adds/updates/removes a datapoint for the stock price you are tracking. The data is given as (timestamp, price), where timestamp is specified in unix epoch time.
+
+Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
+
+[Progress](#Progress)
+
+---
+
+### #370
+
+The “active time” of a courier is the time between the pickup and dropoff of a delivery. Given a set of data formatted like the following:
+```
+(delivery id, timestamp, pickup/dropoff)
+```
+
+Calculate the total active time in seconds. A courier can pick up multiple orders before dropping them off. The timestamp is in unix epoch seconds.
+
+For example, if the input is the following:
+```
+(1, 1573280047, 'pickup')
+(1, 1570320725, 'dropoff')
+(2, 1570321092, 'pickup')
+(3, 1570321212, 'pickup')
+(3, 1570322352, 'dropoff')
+(2, 1570323012, 'dropoff')
+```
+
+The total active time would be 1260 seconds.
+
+[Progress](#Progress)
+
+---

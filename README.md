@@ -196,6 +196,8 @@ Day | Origin | Difficulty | Python | Java
 [362](#362) | Twitter | Easy | [362.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/362.py)
 [365](#365) | Google | Hard | [365.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/365.py)
 [366](#366) | Flexport | Medium | [366.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/366.py)
+[368](#368) | Google | Hard | [368.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/368.py)
+[370](#370) | Postmates | Easy | [370.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/370.py)
 
 ## Problems
 
@@ -5401,6 +5403,28 @@ For example, if the input is the following:
 ```
 
 The total active time would be 1260 seconds.
+
+[Progress](#Progress)
+
+---
+
+### #371
+
+You are given a series of arithmetic equations as a string, such as:
+```
+y = x + 1
+5 = x + 3
+10 = z + y + 2
+```
+
+The equations use addition only and are separated by newlines. Return a mapping of all variables to their values. If it's not possible, then return null. In this example, you should return:
+```
+{
+  x: 2,
+  y: 3,
+  z: 5
+}
+```
 
 [Progress](#Progress)
 

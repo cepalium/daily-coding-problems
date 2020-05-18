@@ -52,8 +52,8 @@ class Delivery:
 
 def courier_active_time(orders):
     deliveries = create_deliveries(orders)
-    active_tive = total_active_time_from_deliveries(deliveries)
-    return active_tive
+    active_time = total_active_time_from_deliveries(deliveries)
+    return active_time
 
 def create_deliveries(orders):
     deliveries = dict()

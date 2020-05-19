@@ -198,6 +198,7 @@ Day | Origin | Difficulty | Python | Java
 [366](#366) | Flexport | Medium | [366.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/366.py)
 [368](#368) | Google | Hard | [368.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/368.py)
 [370](#370) | Postmates | Easy | [370.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/370.py)
+[372](#372) | Amazon | Easy | [372.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/372.py)
 
 ## Problems
 
@@ -5425,6 +5426,16 @@ The equations use addition only and are separated by newlines. Return a mapping 
   z: 5
 }
 ```
+
+[Progress](#Progress)
+
+---
+
+### #372
+
+Write a function that takes a natural number as input and returns the number of digits the input has.
+
+Constraint: don't use any loops.
 
 [Progress](#Progress)
 

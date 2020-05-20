@@ -199,6 +199,7 @@ Day | Origin | Difficulty | Python | Java
 [368](#368) | Google | Hard | [368.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/368.py)
 [370](#370) | Postmates | Easy | [370.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/370.py)
 [372](#372) | Amazon | Easy | [372.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/372.py)
+[373](#373) | Facebook | Hard | [373.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/373.py)
 
 ## Problems
 
@@ -229,8 +230,7 @@ For example,
 
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
-Example: given a Node class <br/>
-
+Example: given a Node class
 ```
 class Node:
     def __init__(self, val, left=None, right=None):
@@ -252,8 +252,7 @@ The following test should pass:
 
 Given an array of integers (The array can contain duplicates and negative numbers as well.), find the first missing positive integer in linear time and constant space, i.e find the lowest positive integer that does not exist in the array.
 
-For example, the input [3, 4, -1, 1] should give 2. <br/>
-The input [1, 2, 0] should give 3.
+For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 
 [Progress](#Progress)
 
@@ -319,13 +318,11 @@ For example, the following tree has 5 unival subtrees:
 
  ---
 
- ### #9
+### #9
 
-Given a list of integers, 
-write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
+Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
 
-For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. 
-[5, 1, 1, 5] should return 10, since we pick 5 and 5.
+For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
 
 [Progress](#Progress)
 
@@ -351,19 +348,17 @@ For example, given the query string de and the set of strings [dog, deer, deal],
 
 ### #12
 
-There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time. 
-Given N, write a function that returns the number of unique ways you can climb the staircase. 
-The order of the steps matters.
+There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time. Given N, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
 
 For example, if N is 4, then there are 5 unique ways:
+
 * 1, 1, 1, 1
 * 2, 1, 1
 * 1, 2, 1
 * 1, 1, 2
 * 2, 2
 
-What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? 
-For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
+What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
 [Progress](#Progress)
 
@@ -523,6 +518,7 @@ For example, given the following board:
 [f, f, f, f],
 [f, f, f, f]]
 ```
+
 and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
 
 [Progress](#Progress)
@@ -536,7 +532,7 @@ Implement locking in a binary tree. A binary tree node can be locked or unlocked
 Design a binary tree node class with the following methods:
 
 * is_locked, which returns whether the node is locked
-lock, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
+* lock, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
 * unlock, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
 
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
@@ -549,8 +545,9 @@ You may augment the node to add parent pointers or any other property you would 
 
 Implement regular expression matching with the following special characters:
 
-'.' (period) which matches any single character <br/>
-'*' (asterisk) which matches zero or more of the preceding element
+* '.' (period) which matches any single character
+* '*' (asterisk) which matches zero or more of the preceding element
+
 That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
 
 For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
@@ -727,11 +724,11 @@ You have an N by N board. Write a function that, given N, returns the number of 
 
 Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
 
-Any live cell with less than two live neighbours dies.
-Any live cell with two or three live neighbours remains living.
-Any live cell with more than three live neighbours dies.
-Any dead cell with exactly three live neighbours becomes a live cell.
-A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
+* Any live cell with less than two live neighbours dies.
+* Any live cell with two or three live neighbours remains living.
+* Any live cell with more than three live neighbours dies.
+* Any dead cell with exactly three live neighbours becomes a live cell.
+* A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
 
 Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
 
@@ -5436,6 +5433,16 @@ The equations use addition only and are separated by newlines. Return a mapping 
 Write a function that takes a natural number as input and returns the number of digits the input has.
 
 Constraint: don't use any loops.
+
+[Progress](#Progress)
+
+---
+
+### #373
+
+Given a list of integers L, find the maximum length of a sequence of consecutive numbers that can be formed using elements from L.
+
+For example, given L = [5, 2, 99, 3, 4, 1, 100], return 5 as we can build a sequence [1, 2, 3, 4, 5] which has length 5.
 
 [Progress](#Progress)
 

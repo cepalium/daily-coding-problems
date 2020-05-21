@@ -200,6 +200,7 @@ Day | Origin | Difficulty | Python | Java
 [370](#370) | Postmates | Easy | [370.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/370.py)
 [372](#372) | Amazon | Easy | [372.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/372.py)
 [373](#373) | Facebook | Hard | [373.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/373.py)
+[374](#374) | Amazon | Hard | [374.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/374.py)
 
 ## Problems
 
@@ -5443,6 +5444,16 @@ Constraint: don't use any loops.
 Given a list of integers L, find the maximum length of a sequence of consecutive numbers that can be formed using elements from L.
 
 For example, given L = [5, 2, 99, 3, 4, 1, 100], return 5 as we can build a sequence [1, 2, 3, 4, 5] which has length 5.
+
+[Progress](#Progress)
+
+---
+
+### #374
+
+Given a sorted array arr of distinct integers, return the lowest index i for which arr[i] == i. Return null if there is no such index.
+
+For example, given the array [-5, -3, 2, 3], return 2 since arr[2] == 2. Even though arr[3] == 3, we return 2 since it's the lowest index.
 
 [Progress](#Progress)
 

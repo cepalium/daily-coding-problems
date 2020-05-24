@@ -201,6 +201,9 @@ Day | Origin | Difficulty | Python | Java
 [372](#372) | Amazon | Easy | [372.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/372.py)
 [373](#373) | Facebook | Hard | [373.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/373.py)
 [374](#374) | Amazon | Hard | [374.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/374.py)
+[375](#375) | Google | Medium | [375.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/375.py)
+[376](#376) | Google | Easy | [376.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/376.py)
+[377](#377) | | | [377.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/377.py)
 
 ## Problems
 
@@ -5454,6 +5457,79 @@ For example, given L = [5, 2, 99, 3, 4, 1, 100], return 5 as we can build a sequ
 Given a sorted array arr of distinct integers, return the lowest index i for which arr[i] == i. Return null if there is no such index.
 
 For example, given the array [-5, -3, 2, 3], return 2 since arr[2] == 2. Even though arr[3] == 3, we return 2 since it's the lowest index.
+
+[Progress](#Progress)
+
+---
+
+### #375
+
+The h-index is a metric used to measure the impact and productivity of a scientist or researcher.
+
+A scientist has index h if h of their N papers have at least h citations each, and the other N - h papers have no more than h citations each. If there are multiple possible values for h, the maximum value is used.
+
+Given an array of natural numbers, with each value representing the number of citations of a researcher's paper, return the h-index of that researcher.
+
+For example, if the array was:
+```
+[4, 0, 0, 2, 3]
+```
+
+This means the researcher has 5 papers with 4, 1, 0, 2, and 3 citations respectively. The h-index for this researcher is 2, since they have 2 papers with at least 2 citations and the remaining 3 papers have no more than 2 citations.
+
+[Progress](#Progress)
+
+---
+
+### #376
+
+You are writing an AI for a 2D map game. You are somewhere in a 2D grid, and there are coins strewn about over the map.
+
+Given the position of all the coins and your current position, find the closest coin to you in terms of Manhattan distance. That is, you can move around up, down, left, and right, but not diagonally. If there are multiple possible closest coins, return any of them.
+
+For example, given the following map, where you are x, coins are o, and empty spaces are . (top left is 0, 0):
+```
+---------------------
+| . | . | x | . | o |
+---------------------
+| o | . | . | . | . |
+---------------------
+| o | . | . | . | o |
+---------------------
+| . | . | o | . | . |
+---------------------
+```
+
+return (0, 4), since that coin is closest. This map would be represented in our question as:
+```
+Our position: (0, 2)
+Coins: [(0, 4), (1, 0), (2, 0), (3, 2)]
+```
+
+[Progress](#Progress)
+
+---
+
+### #377
+
+Given an array of numbers arr and a window of size k, print out the median of each window of size k starting from the left and moving right by one position each time.
+
+For example, given the following array and k = 3:
+```
+[-1, 5, 13, 8, 2, 3, 3, 1]
+```
+
+Your function should print out the following:
+```
+5 <- median of [-1, 5, 13]
+8 <- median of [5, 13, 8]
+8 <- median of [13, 8, 2]
+3 <- median of [8, 2, 3]
+3 <- median of [2, 3, 3]
+3 <- median of [3, 3, 1]
+```
+
+Recall that the median of an even-sized list is the average of the two middle numbers.
 
 [Progress](#Progress)
 

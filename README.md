@@ -203,7 +203,9 @@ Day | Origin | Difficulty | Python | Java
 [374](#374) | Amazon | Hard | [374.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/374.py)
 [375](#375) | Google | Medium | [375.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/375.py)
 [376](#376) | Google | Easy | [376.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/376.py)
-[377](#377) | | | [377.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/377.py)
+[377](#377) | Microsoft | Hard | [377.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/377.py)
+[378](#378) | Coinbase | Medium | [378.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/378.py)
+[379](#379) | Microsoft | Easy | [379.py](https://github.com/TuanANg/daily-coding-problems/blob/master/python/379.py)
 
 ## Problems
 
@@ -5530,6 +5532,44 @@ Your function should print out the following:
 ```
 
 Recall that the median of an even-sized list is the average of the two middle numbers.
+
+[Progress](#Progress)
+
+---
+
+### #378
+
+Write a function that takes in a number, string, list, or dictionary and returns its JSON encoding. It should also handle nulls.
+
+For example, given the following input:
+```
+[None, 123, ["a", "b"], {"c":"d"}]
+```
+You should return the following, as a string:
+```
+'[null, 123, ["a", "b"], {"c": "d"}]'
+```
+
+[Progress](#Progress)
+
+---
+
+### #379
+
+Given a string, generate all possible subsequences of the string.
+
+For example, given the string xyz, return an array or set with the following strings:
+```
+x
+y
+z
+xy
+xz
+yz
+xyz
+```
+
+Note that zx is not a valid subsequence since it is not in the order of the given string.
 
 [Progress](#Progress)
 

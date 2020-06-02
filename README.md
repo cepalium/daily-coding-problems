@@ -206,6 +206,7 @@ Day | Origin | Difficulty | Python | Java
 [377](#377) | Microsoft | Hard | [377.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/377.py)
 [378](#378) | Coinbase | Medium | [378.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/378.py)
 [379](#379) | Microsoft | Easy | [379.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/379.py)
+[386](#386) | Twitter | Easy | [386.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/386.py)
 
 ## Problems
 
@@ -5570,6 +5571,112 @@ xyz
 ```
 
 Note that zx is not a valid subsequence since it is not in the order of the given string.
+
+[Progress](#Progress)
+
+---
+
+### #380
+
+Implement integer division without using the division operator. Your function should return a tuple of (dividend, remainder) and it should take two numbers, the product and divisor.
+
+For example, calling divide(10, 3) should return (3, 1) since the divisor is 3 and the remainder is 1.
+
+Bonus: Can you do it in O(log n) time?
+
+[Progress](#Progress)
+
+---
+
+### #381
+
+Read this Wikipedia article on Base64 encoding.
+
+Implement a function that converts a hex string to base64.
+
+For example, the string:
+```
+deadbeef
+```
+
+should produce:
+```
+3q2+7w==
+```
+
+[Progress](#Progress)
+
+---
+
+### #382
+
+Yesterday you implemented a function that encodes a hexadecimal string into Base64.
+
+Write a function to decode a Base64 string back to a hexadecimal string.
+
+For example, the following string:
+```
+3q2+7w==
+```
+
+should produce:
+```
+deadbeef
+```
+
+[Progress](#Progress)
+
+---
+
+### #383
+
+Implement the function embolden(s, lst) which takes in a string s and list of substrings lst, and wraps all substrings in s with an HTML bold tag <b> and </b>.
+
+If two bold tags overlap or are contiguous, they should be merged.
+
+For example, given s = abcdefg and lst = ["bc", "ef"], return the string a<b>bc</b>d<b>ef</b>g.
+
+Given s = abcdefg and lst = ["bcd", "def"], return the string a<b>bcdef</b>g, since they overlap.
+
+[Progress](#Progress)
+
+---
+
+### #384
+
+You are given an array of integers representing coin denominations and a total amount of money. Write a function to compute the fewest number of coins needed to make up that amount. If it is not possible to make that amount, return null.
+
+For example, given an array of [1, 5, 10] and an amount 56, return 7 since we can use 5 dimes, 1 nickel, and 1 penny.
+
+Given an array of [5, 8] and an amount 15, return 3 since we can use 5 5-cent coins.
+
+[Progress](#Progress)
+
+---
+
+### #385
+
+You are given a hexadecimal-encoded string that has been XOR'd against a single char.
+
+Decrypt the message. For example, given the string:
+```
+7a575e5e5d12455d405e561254405d5f1276535b5e4b12715d565b5c551262405d505e575f
+```
+
+You should be able to decrypt it and get:
+```
+Hello world from Daily Coding Problem
+```
+
+[Progress](#Progress)
+
+---
+
+### #386
+
+Given a string, sort it in decreasing order based on the frequency of characters. If there are multiple possible solutions, return any of them.
+
+For example, given the string tweet, return tteew. eettw would also be acceptable.
 
 [Progress](#Progress)
 

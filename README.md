@@ -206,6 +206,7 @@ Day | Origin | Difficulty | Python | Java
 [377](#377) | Microsoft | Hard | [377.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/377.py)
 [378](#378) | Coinbase | Medium | [378.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/378.py)
 [379](#379) | Microsoft | Easy | [379.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/379.py)
+[384](#384) | WeWork | Hard | [384.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/384.py)
 [386](#386) | Twitter | Easy | [386.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/386.py)
 
 ## Problems
@@ -5677,6 +5678,14 @@ Hello world from Daily Coding Problem
 Given a string, sort it in decreasing order based on the frequency of characters. If there are multiple possible solutions, return any of them.
 
 For example, given the string tweet, return tteew. eettw would also be acceptable.
+
+[Progress](#Progress)
+
+---
+
+### #387
+
+How would you explain the difference between an API and SDK to a non-technical person?
 
 [Progress](#Progress)
 

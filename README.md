@@ -208,6 +208,7 @@ Day | Origin | Difficulty | Python | Java
 [379](#379) | Microsoft | Easy | [379.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/379.py)
 [384](#384) | WeWork | Hard | [384.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/384.py)
 [386](#386) | Twitter | Easy | [386.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/386.py)
+[393](#393) | Airbnb | Medium | [393.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/393.py)
 
 ## Problems
 
@@ -5686,6 +5687,85 @@ For example, given the string tweet, return tteew. eettw would also be acceptabl
 ### #387
 
 How would you explain the difference between an API and SDK to a non-technical person?
+
+[Progress](#Progress)
+
+---
+
+### #388
+
+How would you explain web cookies to someone non-technical?
+
+[Progress](#Progress)
+
+---
+
+### #389
+
+Explain the difference between composition and inheritance. In which cases would you use each?
+
+[Progress](#Progress)
+
+---
+
+### #390
+
+You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000,000. Find the missing 1000 numbers. What is the computational and space complexity of your solution?
+
+[Progress](#Progress)
+
+---
+
+### #391
+
+We have some historical clickstream data gathered from our site anonymously using cookies. The histories contain URLs that users have visited in chronological order.
+
+Write a function that takes two users' browsing histories as input and returns the longest contiguous sequence of URLs that appear in both.
+
+For example, given the following two users' histories:
+```
+user1 = ['/home', '/register', '/login', '/user', '/one', '/two']
+user2 = ['/home', '/red', '/login', '/user', '/one', '/pink']
+```
+
+You should return the following:
+```
+['/login', '/user', '/one']
+```
+
+[Progress](#Progress)
+
+---
+
+### #392
+
+You are given a 2D matrix of 1s and 0s where 1 represents land and 0 represents water.
+
+Grid cells are connected horizontally orvertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).
+
+An island is a group is cells connected horizontally or vertically, but not diagonally. There is guaranteed to be exactly one island in this grid, and the island doesn't have water inside that isn't connected to the water around the island. Each cell has a side length of 1.
+
+Determine the perimeter of this island.
+
+For example, given the following matrix:
+```
+[[0, 1, 1, 0],
+[1, 1, 1, 0],
+[0, 1, 1, 0],
+[0, 0, 1, 0]]
+```
+
+Return 14.
+
+[Progress](#Progress)
+
+---
+
+### #393
+
+Given an array of integers, return the largest range, inclusive, of integers that are all included in the array.
+
+For example, given the array [9, 6, 1, 3, 8, 10, 12, 11], return (8, 12) since 8, 9, 10, 11, and 12 are all in the array.
 
 [Progress](#Progress)
 

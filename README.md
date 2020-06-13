@@ -206,9 +206,12 @@ Day | Origin | Difficulty | Python | Java
 [377](#377) | Microsoft | Hard | [377.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/377.py)
 [378](#378) | Coinbase | Medium | [378.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/378.py)
 [379](#379) | Microsoft | Easy | [379.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/379.py)
+[381](#381) | Paypal | Easy | [381.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/381.py)
+[382](#382) | Google | Easy | [382.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/382.py)
 [384](#384) | WeWork | Hard | [384.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/384.py)
 [386](#386) | Twitter | Easy | [386.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/386.py)
 [393](#393) | Airbnb | Medium | [393.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/393.py)
+[395](#395) | Robinhood | Medium | [395.py](https://github.com/cepalium/daily-coding-problems/blob/master/python/395.py)
 
 ## Problems
 
@@ -5766,6 +5769,62 @@ Return 14.
 Given an array of integers, return the largest range, inclusive, of integers that are all included in the array.
 
 For example, given the array [9, 6, 1, 3, 8, 10, 12, 11], return (8, 12) since 8, 9, 10, 11, and 12 are all in the array.
+
+[Progress](#Progress)
+
+---
+
+### #394
+
+Given a binary tree and an integer k, return whether there exists a root-to-leaf path that sums up to k.
+
+For example, given k = 18 and the following binary tree:
+```
+    8
+   / \
+  4   13
+ / \   \
+2   6   19
+```
+
+Return True since the path 8 -> 4 -> 6 sums to 18.
+
+[Progress](#Progress)
+
+---
+
+### #395
+
+Given an array of strings, group anagrams together.
+
+For example, given the following array:
+```
+['eat', 'ate', 'apt', 'pat', 'tea', 'now']
+```
+
+Return:
+```
+[['eat', 'ate', 'tea'],
+ ['apt', 'pat'],
+ ['now']]
+```
+
+[Progress](#Progress)
+
+---
+
+### #396
+
+Given a string, return the length of the longest palindromic subsequence in the string.
+
+For example, given the following string:
+```
+MAPTPTMTPA
+```
+
+Return 7, since the longest palindromic subsequence in the string is APTMTPA. Recall that a subsequence of a string does not have to be contiguous!
+
+Your algorithm should run in O(n^2) time and space.
 
 [Progress](#Progress)
 

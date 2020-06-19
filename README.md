@@ -5829,3 +5829,64 @@ Your algorithm should run in O(n^2) time and space.
 [Progress](#Progress)
 
 ---
+
+### #397
+
+You are given a list of jobs to be done, where each job is represented by a start time and end time. Two jobs are compatible if they don't overlap. Find the largest subset of compatible jobs.
+
+For example, given the following jobs (there is no guarantee that jobs will be sorted):
+```
+[(0, 6),
+(1, 4),
+(3, 5),
+(3, 8),
+(4, 7),
+(5, 9),
+(6, 10),
+(8, 11)]
+```
+
+Return:
+```
+[(1, 4),
+(4, 7),
+(8, 11)]
+```
+
+[Progress](#Progress)
+
+---
+
+### #398
+
+Given a linked list and an integer k, remove the k-th node from the end of the list and return the head of the list.
+
+k is guaranteed to be smaller than the length of the list.
+
+Do this in one pass.
+
+[Progress](#Progress)
+
+---
+
+### #399
+
+Given a list of strictly positive integers, partition the list into 3 contiguous partitions which each sum up to the same value. If not possible, return null.
+
+For example, given the following list:
+```
+[3, 5, 8, 0, 8]
+```
+
+Return the following 3 partitions:
+```
+[[3, 5],
+ [8, 0],
+ [8]]
+```
+
+Which each add up to 8.
+
+[Progress](#Progress)
+
+---

@@ -1,7 +1,7 @@
 # ------------------------------------
 # Author: Tuan Nguyen
-# Date: 20190623
-#!solutions/41.py
+# Date created: 20200726
+#!41.py
 # ------------------------------------
 """
 Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, 
@@ -21,33 +21,33 @@ you should return the list ['A', 'B', 'C', 'A', 'C']
 even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. 
 However, the first one is lexicographically smaller.
 """
-
-def computeItinerary(flights, start):
-# input: list 'flights' of flights(start, destination) & starting airport 'start'
-# output: return the lexicographically smallest itineriries
-# e.g flights = [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')], start = 'A' 
-# ~> return ['A', 'B', 'C', 'A', 'C'] // ['A', 'C', 'A', 'B', 'C'] is also valid but a bigger one
-    route = []  # init itinerary
-    source = dest = start   # init source
+def compute_itinerary(flights, start):
+    itinerary = []
+    source = start   # init source
     while flights:  # loop until list 'flights' has no flight
-        route.append(source)
-        destList = [flight[1] for flight in flights if flight[0] == source]
-        if not destList:    # if no flight availble from source, then break loop
+        itinerary.append(source)
+        destinations = [dest for (src, dest) in flights if src == source]
+        if not destinations:    # if no flight availble from source, then break loop
             break
-        dest = min(destList)    # else, then choose the lexicographically smallest destnation
-        flights.remove((source, dest))  # remove this flight from list 'flights'
-        source = dest
-    if not flights: # make up the iterary successully w/ all flights
-        return route
-    return 'No itinerary available' # else
+        min_dest = min(destinations)  # lexicographically smallest destnation
+        flights.remove((source, min_dest))
+        source = min_dest
+    itinerary.append(source)  # add the destination of the last flight
+    if not flights:  # make up the iterary successully w/ all flights
+        return itinerary
+    return None
 
 
-def computeItinerary_test(flights, start):
-    print('flights: ', flights, ', start: ', start, end =' ')
-    print(' -> Itinerary: ', computeItinerary(flights, start))
+def test1():
+    assert compute_itinerary([('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')], 'YUL') == ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD']
 
+def test2():
+    assert compute_itinerary([('SFO', 'COM'), ('COM', 'YYZ')], 'COM') == None
+
+def test3():
+    assert compute_itinerary([('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')], 'A') == ['A', 'B', 'C', 'A', 'C']
 
 if __name__ == "__main__":
-    computeItinerary_test([('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')], 'YUL') # return ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD']
-    computeItinerary_test([('SFO', 'COM'), ('COM', 'YYZ')], 'COM')  # return null
-    computeItinerary_test([('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')], 'A')    # return ['A', 'B', 'C', 'A', 'C']
+    test1()
+    test2()
+    test3()

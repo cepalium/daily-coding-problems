@@ -13,28 +13,28 @@ For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
 
 
 def cons(a, b):
-# input: 2 ints a&b
-# output: 
-    return lambda f: f(a,b)
+    # input: 2 ints a&b
+    # output:
+    return lambda f: f(a, b)
 
 
 def car(f):
-# input:
-# output: first element of a pair
-    return f(lambda a,b: a)
+    # input:
+    # output: first element of a pair
+    return f(lambda a, b: a)
 
 
 def cdr(f):
-# input:
-# output: last element of a pair
-    return f(lambda a,b: b) 
+    # input:
+    # output: last element of a pair
+    return f(lambda a, b: b)
 
 
 def car_cdr_test(a, b):
-    print((a,b), car(cons(a,b)), cdr(cons(a,b)))
+    print((a, b), car(cons(a, b)), cdr(cons(a, b)))
 
 
 if __name__ == "__main__":
-    car_cdr_test(3,4)   # return 3, 4
-    car_cdr_test(5,6)   # return 5, 6
-    car_cdr_test(-1,1)  # return -1, 1
+    car_cdr_test(3, 4)  # return 3, 4
+    car_cdr_test(5, 6)  # return 5, 6
+    car_cdr_test(-1, 1)  # return -1, 1

@@ -13,12 +13,13 @@ where the 8 is obtained from wrapping around.
 Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 """
 
+
 def max_subarray_sum_naive(arr):
-    """ return max subarray sum from a circular array in O(n^2) time """
+    """return max subarray sum from a circular array in O(n^2) time"""
     best_max = None
     n = len(arr)
     for i in range(n):
-        s = arr[i:] + arr[:i]   # rotated array
+        s = arr[i:] + arr[:i]  # rotated array
         current_max = kadane(s)
         if (best_max is None) or (current_max > best_max):
             best_max = current_max
@@ -26,18 +27,20 @@ def max_subarray_sum_naive(arr):
 
 
 def max_subarray_sum_smart(arr):
-    """ return max subarray sum from a curcular array in O(n) time """
+    """return max subarray sum from a curcular array in O(n) time"""
     max_kadane = kadane(arr)
 
-    max_wrap = sum(arr) + kadane([-e for e in arr]) # array sum + kadane(invert-positive-negative input array)
+    max_wrap = sum(arr) + kadane(
+        [-e for e in arr]
+    )  # array sum + kadane(invert-positive-negative input array)
 
     return max_kadane if max_kadane > max_wrap else max_wrap
 
 
 def kadane(arr):
-    """ return max subarray sum in O(n) time """
+    """return max subarray sum in O(n) time"""
     n = len(arr)
-    if n == 0:      # trivial case
+    if n == 0:  # trivial case
         return 0
     if is_all_negative(arr):
         return max(arr)
@@ -54,7 +57,7 @@ def kadane(arr):
 
 
 def is_all_negative(arr):
-    """ return True if all elements in array are negative """
+    """return True if all elements in array are negative"""
     for e in arr:
         if e >= 0:
             return False
@@ -70,6 +73,7 @@ def test_maxSubarraySum():
     arr = [-4, 5, 1, 0]
     assert max_subarray_sum_naive(arr) == 6
     assert max_subarray_sum_smart(arr) == 6
+
 
 if __name__ == "__main__":
     test_maxSubarraySum()

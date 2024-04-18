@@ -31,6 +31,8 @@ This map would be represented in our question as:
 Our position: (0, 2)
 Coins: [(0, 4), (1, 0), (2, 0), (3, 2)]
 """
+
+
 def closest_coin(position, coins):
     n = len(coins)
     if n == 0:
@@ -44,6 +46,7 @@ def closest_coin(position, coins):
             closest = coins[i]
     return closest
 
+
 def get_manhattan_distance(p1, p2):
     x1, y1 = p1[0], p1[1]
     x2, y2 = p2[0], p2[1]
@@ -51,7 +54,13 @@ def get_manhattan_distance(p1, p2):
 
 
 def test1():
-    assert closest_coin(position=(0, 2), coins=[(0, 4), (1, 0), (2, 0), (3, 2)]) == (0, 4)
+    assert closest_coin(
+        position=(0, 2), coins=[(0, 4), (1, 0), (2, 0), (3, 2)]
+    ) == (
+        0,
+        4,
+    )
+
 
 if __name__ == "__main__":
     test1()

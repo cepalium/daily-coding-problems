@@ -18,18 +18,20 @@ return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
 
 def reconstructSentence(s, words):
-# input: string 's' & list 'words' of words
-# output: list of words constructing string s if all words in l
-    reconstructWords = []   # init output list if reconstructing successfully
+    # input: string 's' & list 'words' of words
+    # output: list of words constructing string s if all words in l
+    reconstructWords = []  # init output list if reconstructing successfully
     pivot = 0
     while pivot <= len(s):
-        if s[:pivot] in words:  # check if from s[0] to s[pivot] match any word in words
+        if (
+            s[:pivot] in words
+        ):  # check if from s[0] to s[pivot] match any word in words
             reconstructWords.append(s[:pivot])
-            s = s[pivot:]   # substract word from input string
-            pivot = 0       # begin process again
+            s = s[pivot:]  # substract word from input string
+            pivot = 0  # begin process again
         else:
             pivot += 1
-    if not s:   # s is reconstructed successfully
+    if not s:  # s is reconstructed successfully
         return reconstructWords
     return []
 
@@ -39,6 +41,10 @@ def reconstructSentence_test(s, words):
 
 
 if __name__ == "__main__":
-    reconstructSentence_test("thequickbrownfox", ['quick', 'brown', 'the', 'fox'])  # return ['the', 'quick', 'brown', 'fox']
-    reconstructSentence_test("bedbathandbeyond", ['bed', 'bath', 'bedbath', 'and', 'beyond']) # return ['bed', 'bath', 'and', 'beyond]
-    reconstructSentence_test("abc", ['d', 'e', 'f'])    # return []
+    reconstructSentence_test(
+        "thequickbrownfox", ["quick", "brown", "the", "fox"]
+    )  # return ['the', 'quick', 'brown', 'fox']
+    reconstructSentence_test(
+        "bedbathandbeyond", ["bed", "bath", "bedbath", "and", "beyond"]
+    )  # return ['bed', 'bath', 'and', 'beyond]
+    reconstructSentence_test("abc", ["d", "e", "f"])  # return []

@@ -21,41 +21,41 @@ import random
 
 
 def checkAround(x, y, islands):
-# input: 2D matrix
-# output: 0 if
+    # input: 2D matrix
+    # output: 0 if
     rows = len(islands)
     cols = len(islands[0])
-    for i in range(y-1, y+2):
-        for j in range(x-1, x+2):
+    for i in range(y - 1, y + 2):
+        for j in range(x - 1, x + 2):
             if (0 <= i < rows) and (0 <= j < cols) and islands[i][j]:
                 return islands[i][j]
     return 0
 
 
 def listNeighborCells(x, y, matrix):
-# input:
-# output:
+    # input:
+    # output:
     #
     rows = len(matrix)
     cols = len(matrix[0])
     #
     neighbors = []
     #
-    for i in range(y-1, y+2):
-        for j in range(x-1, x+2):
+    for i in range(y - 1, y + 2):
+        for j in range(x - 1, x + 2):
             if (0 <= i < rows) and (0 <= j < cols) and matrix[i][j]:
                 neighbors.append((j, i))
     return neighbors
 
 
 def numberIslands(matrix):
-# input:
-# output:
+    # input:
+    # output:
     #
     rows = len(matrix)
     cols = len(matrix[0])
     #
-    islands = [[0 for i in range(cols)] for j in range(rows)] 
+    islands = [[0 for i in range(cols)] for j in range(rows)]
     islandsNr = 0
     #
     for i in range(rows):
@@ -67,7 +67,7 @@ def numberIslands(matrix):
             # check = checkAround(j, i, islands)
             # if check:
             #     islands[i][j] = check
-            # else: 
+            # else:
             #     islandsNr += 1
             #     islands[i][j] = islandsNr
             """
@@ -91,24 +91,32 @@ def numberIslands_test(matrix):
     print("Input matrix:")
     for i in range(len(matrix)):
         for j in range(len(matrix[0])):
-            print(matrix[i][j], end=' ')
+            print(matrix[i][j], end=" ")
         print("\n")
 
     print("No. islands: {}".format(islandNr))
     print("Island map:")
     for i in range(len(islandMap)):
         for j in range(len(islandMap[0])):
-            print(islandMap[i][j], end=' ')
+            print(islandMap[i][j], end=" ")
         print("\n")
 
 
 if __name__ == "__main__":
-    numberIslands_test(matrix=  [[1, 0, 0, 0, 0],
-                                [0, 0, 1, 1, 0],
-                                [0, 1, 1, 0, 0],
-                                [0, 0, 0, 0, 0],
-                                [1, 1, 0, 0, 1],
-                                [1, 1, 0, 0, 1]])   # return 4
-    
+    numberIslands_test(
+        matrix=[
+            [1, 0, 0, 0, 0],
+            [0, 0, 1, 1, 0],
+            [0, 1, 1, 0, 0],
+            [0, 0, 0, 0, 0],
+            [1, 1, 0, 0, 1],
+            [1, 1, 0, 0, 1],
+        ]
+    )  # return 4
+
     side = 7
-    numberIslands_test(matrix= [[random.randint(0,1) for i in range(side)] for j in range(side)])
+    numberIslands_test(
+        matrix=[
+            [random.randint(0, 1) for i in range(side)] for j in range(side)
+        ]
+    )

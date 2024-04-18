@@ -28,37 +28,48 @@ You should return 2, since bishops 1 and 3 attack each other, as well as bishops
 
 
 def printChessboard(M, bishops):
-# input: int M as size of M*M chessboard & list 'bishops' as positions of bishops on chessboard
-# output: print M*M chessboard with 'b' as bishop, '.' as non-bishop
-    chessboard = [['.' for i in range(M)] for j in range(M)]    # init chessboard w/ all non-bishops
+    # input: int M as size of M*M chessboard & list 'bishops' as positions of bishops on chessboard
+    # output: print M*M chessboard with 'b' as bishop, '.' as non-bishop
+    chessboard = [
+        ["." for i in range(M)] for j in range(M)
+    ]  # init chessboard w/ all non-bishops
     for bishop in bishops:
-        y, x = bishop[0], bishop[1] # get coordinates of bishop
-        chessboard[y][x] = 'b'  # mark cell with bishop
+        y, x = bishop[0], bishop[1]  # get coordinates of bishop
+        chessboard[y][x] = "b"  # mark cell with bishop
     # print chessboard
     for row in chessboard:
         for e in row:
-            print(e, end='\t')
+            print(e, end="\t")
         print("\n")
 
 
 def pairsBishopsAttack(M, bishops):
-# input: int M as size of M*M chessboard & list 'bishops' as positions of bishops on chessboard
-# output: no. pairs of bishops which can attack each other
+    # input: int M as size of M*M chessboard & list 'bishops' as positions of bishops on chessboard
+    # output: no. pairs of bishops which can attack each other
     noAttackingBishopPairs = 0  # init output=0
-    for i in range(len(bishops) - 1):   # check every pair of bishops
-        y1, x1 = bishops[i][0], bishops[i][1]   # get coordinates of 1st bishop
-        for j in range(i+1, len(bishops)):
-            y2, x2 = bishops[j][0], bishops[j][1]   # get coordinates of 2nd bishop
-            if abs(x1 - x2) == abs(y1 - y2):    # check if 2 bishops are on the same diagonal
-                noAttackingBishopPairs += 1 # then increase no. pairs by 1
+    for i in range(len(bishops) - 1):  # check every pair of bishops
+        y1, x1 = bishops[i][0], bishops[i][1]  # get coordinates of 1st bishop
+        for j in range(i + 1, len(bishops)):
+            y2, x2 = (
+                bishops[j][0],
+                bishops[j][1],
+            )  # get coordinates of 2nd bishop
+            if abs(x1 - x2) == abs(
+                y1 - y2
+            ):  # check if 2 bishops are on the same diagonal
+                noAttackingBishopPairs += 1  # then increase no. pairs by 1
     return noAttackingBishopPairs
 
 
 def pairsBishopsAttack_test(M, bishops):
     printChessboard(M, bishops)
-    print('No. pairs of attacking bishops:', pairsBishopsAttack(M, bishops))
+    print("No. pairs of attacking bishops:", pairsBishopsAttack(M, bishops))
 
 
 if __name__ == "__main__":
-    pairsBishopsAttack_test(M=5, bishops=[(0, 0), (1, 2), (2, 2), (4, 0)])  # return 2
-    pairsBishopsAttack_test(M=5, bishops=[(0, 4), (1, 2), (2, 2), (4, 0)])  # return 3, b/c bishops can attack through pieces
+    pairsBishopsAttack_test(
+        M=5, bishops=[(0, 0), (1, 2), (2, 2), (4, 0)]
+    )  # return 2
+    pairsBishopsAttack_test(
+        M=5, bishops=[(0, 4), (1, 2), (2, 2), (4, 0)]
+    )  # return 3, b/c bishops can attack through pieces

@@ -15,11 +15,11 @@ return [deer, deal].
 
 
 def autoComplete(li, s):
-# input: list of strs & a query string s
-# output: list of strs in the set that have s as a prefix
+    # input: list of strs & a query string s
+    # output: list of strs in the set that have s as a prefix
     queryList = []
     for str in li:
-        if str[:len(s)] == s:
+        if str[: len(s)] == s:
             queryList.append(str)
     return queryList
 
@@ -29,4 +29,4 @@ def autoComplete_test(li, s):
 
 
 if __name__ == "__main__":
-    autoComplete_test(['dog', 'deer', 'deal'], 'de')    # return ['deer', 'deal]
+    autoComplete_test(["dog", "deer", "deal"], "de")  # return ['deer', 'deal]

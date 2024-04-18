@@ -18,26 +18,30 @@ mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 """
 
+
 class PrefixMapSum:
     """ """
 
     def __init__(self):
-        """ intialize empty map sum """
+        """intialize empty map sum"""
         self.map_sum = dict()
-    
+
     def insert(self, key, value):
-        """ set value for given key; overwrite if key exists """
+        """set value for given key; overwrite if key exists"""
         self.map_sum[key] = value
 
     def sum(self, prefix):
-        """ return the sum of all values of keys that begin with a given prefix """
+        """return the sum of all values of keys that begin with a given prefix"""
         total = 0
         n = len(prefix)
         for k, v in self.map_sum.items():
             if k[:n] == prefix:
                 total += v
         return total
+
+
 # ----- end of PrefixMapSum class -----
+
 
 def test_PrefixMapSum():
     mapsum = PrefixMapSum()

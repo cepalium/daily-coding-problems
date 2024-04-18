@@ -18,6 +18,8 @@ xyz
 
 Note that zx is not a valid subsequence since it is not in the order of the given string.
 """
+
+
 def all_possible_subsequences(string):
     n = len(string)
     if n == 0:
@@ -30,11 +32,13 @@ def all_possible_subsequences(string):
         subsequences.append(subseq)
     return subsequences
 
+
 def get_inverse_bit_map(n):
     string_bin_n = bin(n).split("b")[1]
     inverse_string_bin_n = string_bin_n[::-1]
     inverse_bit_map = [int(d) for d in inverse_string_bin_n]
     return inverse_bit_map
+
 
 def get_mapping_characters(string, bit_map):
     n = min(len(string), len(bit_map))
@@ -44,11 +48,22 @@ def get_mapping_characters(string, bit_map):
 def test1():
     assert all_possible_subsequences("") == []
 
+
 def test2():
-    assert all_possible_subsequences("ab") == ['a', 'b', 'ab']
+    assert all_possible_subsequences("ab") == ["a", "b", "ab"]
+
 
 def test3():
-    assert all_possible_subsequences("xyz") == ['x', 'y', 'xy', 'z', 'xz', 'yz', 'xyz']
+    assert all_possible_subsequences("xyz") == [
+        "x",
+        "y",
+        "xy",
+        "z",
+        "xz",
+        "yz",
+        "xyz",
+    ]
+
 
 if __name__ == "__main__":
     test1()

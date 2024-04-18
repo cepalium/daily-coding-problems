@@ -16,14 +16,21 @@ You should return the following, as a string:
 """
 import json
 
+
 def test1():
     assert json.dumps(123) == "123"
 
+
 def test2():
-    assert json.dumps(["a", "b"]) == '''["a", "b"]'''
+    assert json.dumps(["a", "b"]) == """["a", "b"]"""
+
 
 def test3():
-    assert json.dumps([None, 123, ["a", "b"], {"c": "d"}]) == '''[null, 123, ["a", "b"], {"c": "d"}]'''
+    assert (
+        json.dumps([None, 123, ["a", "b"], {"c": "d"}])
+        == """[null, 123, ["a", "b"], {"c": "d"}]"""
+    )
+
 
 if __name__ == "__main__":
     test1()

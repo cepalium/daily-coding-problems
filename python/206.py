@@ -11,12 +11,21 @@ Given an array and a permutation, apply the permutation to the array.
 For example, given the array ["a", "b", "c"] and the permutation [2, 1, 0], return ["c", "b", "a"].
 """
 
+
 def apply_permutation_to_array(array, permutation):
-    """ return the array after applying the permutation order """
+    """return the array after applying the permutation order"""
     return [array[i] for i in permutation]
 
+
 def test_array_permutation():
-    assert apply_permutation_to_array(array=["a", "b", "c"], permutation=[2, 1, 0]) == ["c", "b", "a"]
+    assert apply_permutation_to_array(
+        array=["a", "b", "c"], permutation=[2, 1, 0]
+    ) == [
+        "c",
+        "b",
+        "a",
+    ]
+
 
 if __name__ == "__main__":
     test_array_permutation()

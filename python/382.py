@@ -12,8 +12,11 @@ For example, the following string:
 should produce:
 deadbeef
 """
+
+
 def base64_string_to_hex_string(base64_string):
     import base64
+
     byte = base64.b64decode(base64_string)
     hex_string = byte.hex()
     return hex_string
@@ -21,6 +24,7 @@ def base64_string_to_hex_string(base64_string):
 
 def test1():
     assert base64_string_to_hex_string("3q2+7w==") == "deadbeef"
+
 
 if __name__ == "__main__":
     test1()

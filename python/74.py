@@ -27,42 +27,47 @@ since the multiplication table looks like this:
 And there are 4 12's in the table.
 """
 
+
 def printMultiplicationTable(N):
-# input: int N
-# output: multiplication table N*N
+    # input: int N
+    # output: multiplication table N*N
     for i in range(N):
-        r = i + 1   # row number, start from 1
+        r = i + 1  # row number, start from 1
         for j in range(N):
-            c = j + 1   # column number, start from 1
-            print(r * c, end=' ')   # print cell value, i.e product of row & column
+            c = j + 1  # column number, start from 1
+            print(
+                r * c, end=" "
+            )  # print cell value, i.e product of row & column
         print("\n")
 
 
 def countX_inMultiplicationTable(N, X):
-# input: int N as multiplication table N*N & int X
-# output: no. times X appears in multiplication table N*N
-# running time: O(n^2)
-    counter = 0 # init output
+    # input: int N as multiplication table N*N & int X
+    # output: no. times X appears in multiplication table N*N
+    # running time: O(n^2)
+    counter = 0  # init output
     for i in range(N):  # iterate in rows, max: N
-        r = i + 1   # row number, start from 1
+        r = i + 1  # row number, start from 1
         for j in range(r):  # iteratin in columns, max: current row number
-            c = j + 1   # column number, start from 1
-            p = r * c   # cell value, i.e product of row & column
-            if (p == X) and (r == c):  # p=X & is in diagonal of multiplication table
-                counter += 1    # increase by 1
-            if (p == X) and (r != c):   # p=X & is not in diagonal
-                counter += 2    # increase by 2 b/c mirroring via diagonal
+            c = j + 1  # column number, start from 1
+            p = r * c  # cell value, i.e product of row & column
+            if (p == X) and (
+                r == c
+            ):  # p=X & is in diagonal of multiplication table
+                counter += 1  # increase by 1
+            if (p == X) and (r != c):  # p=X & is not in diagonal
+                counter += 2  # increase by 2 b/c mirroring via diagonal
     return counter
 
 
 def countX_inMultiplicationTable_test(N, X):
     printMultiplicationTable(N)
-    print('X:', X, '~> count:', countX_inMultiplicationTable(N, X))
+    print("X:", X, "~> count:", countX_inMultiplicationTable(N, X))
 
 
 if __name__ == "__main__":
-    countX_inMultiplicationTable_test(N=6, X=12) # return 4
-    countX_inMultiplicationTable_test(N=6, X=11) # return 0
-    countX_inMultiplicationTable_test(N=6, X=1) # return 1
-    countX_inMultiplicationTable_test(N=6, X=25) # return 1
-    countX_inMultiplicationTable_test(N=6, X=6) # return 4
+    countX_inMultiplicationTable_test(N=6, X=12)  # return 4
+    countX_inMultiplicationTable_test(N=6, X=11)  # return 0
+    countX_inMultiplicationTable_test(N=6, X=1)  # return 1
+    countX_inMultiplicationTable_test(N=6, X=25)  # return 1
+    countX_inMultiplicationTable_test(N=6, X=6)  # return 4

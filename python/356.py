@@ -8,6 +8,8 @@ Implement a queue using a set of fixed-length arrays.
 
 The queue should support enqueue, dequeue, and get_size operations.
 """
+
+
 class ArrayQueue:
     def __init__(self):
         self.capacity = 3
@@ -15,35 +17,35 @@ class ArrayQueue:
         self.head = -1
         self.tail = -1
         self.size = 0
-    
+
     def is_empty(self):
         return self.size == 0
 
     def get_size(self):
         return self.size
-    
+
     def first(self):
         if self.is_empty():
             return None
         return self.data[self.head]
-    
+
     def last(self):
         if self.is_empty():
             return None
         return self.data[self.tail]
-    
+
     def enqueue(self, e):
         if self.is_full():
-            self.resize(2*self.capacity)
+            self.resize(2 * self.capacity)
         self.tail = (self.tail + 1) % self.capacity
         self.data[self.tail] = e
         if self.is_empty():
             self.head = 0
         self.size += 1
-    
+
     def is_full(self):
         return self.size == self.capacity
-    
+
     def dequeue(self):
         if self.is_empty():
             return None
@@ -52,7 +54,7 @@ class ArrayQueue:
         self.head = (self.head + 1) % self.capacity
         self.size -= 1
         return item
-    
+
     def resize(self, new_capacity):
         self.new_array = [None for i in range(new_capacity)]
         for i in range(self.capacity):
@@ -63,7 +65,6 @@ class ArrayQueue:
         self.capacity = new_capacity
 
 
-
 # ----- unit tests -----
 def test_enqueue():
     q = ArrayQueue()
@@ -71,6 +72,7 @@ def test_enqueue():
     assert q.get_size() == 1
     assert q.first() == 5
     assert q.last() == 5
+
 
 def test_dequeue():
     q = ArrayQueue()
@@ -85,6 +87,7 @@ def test_dequeue():
     assert q.first() == 3
     assert q.last() == 3
 
+
 def test_resize():
     q = ArrayQueue()
     assert q.capacity == 3
@@ -96,6 +99,7 @@ def test_resize():
     assert q.get_size() == 4
     assert q.first() == 1
     assert q.last() == 4
+
 
 if __name__ == "__main__":
     test_enqueue()

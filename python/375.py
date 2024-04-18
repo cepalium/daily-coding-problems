@@ -25,6 +25,8 @@ The h-index for this researcher is 2, since they have
 2 papers with at least 2 citations and the remaining 
 3 papers have no more than 2 citations.
 """
+
+
 def h_index(papers):
     N = len(papers)
     papers = sorted(papers, reverse=True)
@@ -36,6 +38,7 @@ def h_index(papers):
 
 def test1():
     assert h_index([4, 0, 0, 2, 3]) == 2
+
 
 if __name__ == "__main__":
     test1()

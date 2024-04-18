@@ -43,34 +43,46 @@ If there is no file in the system, return 0.
 
 
 def longestDirectoryPath(string):
-# input: a string representing directories
-# output: longest directory path to file and its length
-	paths = []
-	directories = string.split("\n")	# e.g string="dir\n\tsubdir1\n\t\tfile.ext" -> directories=["dir", "\tsubdir1", "\t\tfile.ext"]
-	files = [d for d in directories if "." in d]	# above example -> files=["\t\tfile.ext"]
-	for f in files:
-		subLevel = f.count("\t")	# locate file in which subsection
-		fIndex = directories.index(f)	# index of file in list directories[]
-		j = fIndex - 1					# previous index of file in list directories[]
-		path = f.replace("\t", "")		# init str path of file name
-		while j >= 0:	# loop in list directories[]
-			if directories[j].count("\t") == subLevel - 1:	# if file is in that folder
-				path = directories[j].replace("\t", "") + "/" + path 	# add folder to path
-				subLevel -= 1	# decrease subsection level -> 0 := root folder
-			j -= 1
-		paths.append(path)	# add 1 possible path
-	# return
-	if paths:
-		return max(paths), len(max(paths))
-	return "", 0
+    # input: a string representing directories
+    # output: longest directory path to file and its length
+    paths = []
+    directories = string.split(
+        "\n"
+    )  # e.g string="dir\n\tsubdir1\n\t\tfile.ext" -> directories=["dir", "\tsubdir1", "\t\tfile.ext"]
+    files = [
+        d for d in directories if "." in d
+    ]  # above example -> files=["\t\tfile.ext"]
+    for f in files:
+        subLevel = f.count("\t")  # locate file in which subsection
+        fIndex = directories.index(f)  # index of file in list directories[]
+        j = fIndex - 1  # previous index of file in list directories[]
+        path = f.replace("\t", "")  # init str path of file name
+        while j >= 0:  # loop in list directories[]
+            if (
+                directories[j].count("\t") == subLevel - 1
+            ):  # if file is in that folder
+                path = (
+                    directories[j].replace("\t", "") + "/" + path
+                )  # add folder to path
+                subLevel -= 1  # decrease subsection level -> 0 := root folder
+            j -= 1
+        paths.append(path)  # add 1 possible path
+    # return
+    if paths:
+        return max(paths), len(max(paths))
+    return "", 0
 
 
 def longestDirectoryPath_test(string):
-	print(string)
-	print(longestDirectoryPath(string))
+    print(string)
+    print(longestDirectoryPath(string))
 
 
-if __name__ == '__main__':
-	longestDirectoryPath_test("dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext")	# return ('dir/subdir2/file.ext', 20)
-	longestDirectoryPath_test("dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext")	
-	# return ('dir/subdir2/subsubdir2/file2.ext', 32)
+if __name__ == "__main__":
+    longestDirectoryPath_test(
+        "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"
+    )  # return ('dir/subdir2/file.ext', 20)
+    longestDirectoryPath_test(
+        "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"
+    )
+    # return ('dir/subdir2/subsubdir2/file2.ext', 32)

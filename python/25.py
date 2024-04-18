@@ -22,22 +22,26 @@ The same regular expression on the string "chats" should return false.
 
 
 def regexMatch(string, pattern):
-# input: 2 strings string & pattern (pattern w/ rules of "." and "*")
-# output: True/False if string matches w/ pattern
+    # input: 2 strings string & pattern (pattern w/ rules of "." and "*")
+    # output: True/False if string matches w/ pattern
     pivot = 0
     for i in range(len(pattern)):
-        if (i == len(pattern) - 1) and (0 < pivot < len(string) - 1) and (pattern[i] != "*"):   # end of pattern but string still has character(s) which is not "*" 
+        if (
+            (i == len(pattern) - 1)
+            and (0 < pivot < len(string) - 1)
+            and (pattern[i] != "*")
+        ):  # end of pattern but string still has character(s) which is not "*"
             return False
-        if pattern[i] == ".":   # '.' matches any single character
+        if pattern[i] == ".":  # '.' matches any single character
             pivot += 1
             continue
-        if pattern[i] == "*":   # '*' matches >=0 preceding elements
+        if pattern[i] == "*":  # '*' matches >=0 preceding elements
             # skip pivot to the remained character index in pattern
             # e.g pattern "ab*cd" -> after "*" in pattern, there remains 2 characters left -> pivot in string = -2
             # no. characters left in pattern = len(pattern) - 1 - i
             pivot = i + 1 - len(pattern)
             continue
-        if (string[pivot] != pattern[i]):   # normal case: not match a character
+        if string[pivot] != pattern[i]:  # normal case: not match a character
             return False
         else:
             pivot += 1

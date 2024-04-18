@@ -15,19 +15,22 @@ You can generate random numbers between 0 and 1 uniformly.
 
 import random
 
+
 class CustomizedRandom:
-    """ constructor """
+    """constructor"""
+
     def __init__(self, numbers, prob):
         assert len(numbers) == len(prob)
         n = len(numbers)
-        self.pdf = {}       # map PDF initialized {number: max pdf}
+        self.pdf = {}  # map PDF initialized {number: max pdf}
         for i in range(n):
             if i == 0:
                 self.pdf[numbers[i]] = prob[i]
             else:
-                self.pdf[numbers[i]] = prob[i] + self.pdf[numbers[i-1]]
+                self.pdf[numbers[i]] = prob[i] + self.pdf[numbers[i - 1]]
 
     """ generate one number from numbers with corresponding probability """
+
     def random(self):
         r = random.uniform(0, 1)
         for k, v in self.pdf.items():
@@ -39,12 +42,12 @@ def customRandom_test(numbers, prob):
     print("numbers={}, prob={}".format(numbers, prob))
     randomGenerator = CustomizedRandom(numbers, prob)
     iterations = 10000
-    freq = {i:0 for i in numbers}   # frequency of each numbers initialized
+    freq = {i: 0 for i in numbers}  # frequency of each numbers initialized
     for i in range(iterations):
         r = randomGenerator.random()
         freq[r] += 1
     for k, v in freq.items():
-        print("{}: {}".format(k, v/iterations))
+        print("{}: {}".format(k, v / iterations))
 
 
 if __name__ == "__main__":

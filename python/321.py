@@ -12,8 +12,10 @@ If a * b = N, you may decrement N to the larger of a and b.
 
 For example, given 100, you can reach 1 in five steps with the following route: 100 -> 10 -> 9 -> 3 -> 2 -> 1.
 """
+
+
 def smallest_steps_to_1(N):
-    """ return the smallest number of steps for N to reach 1 """
+    """return the smallest number of steps for N to reach 1"""
     # handle error and trivial case
     if N < 1:
         raise ValueError("N must be greater or equal to 1")
@@ -27,13 +29,13 @@ def smallest_steps_to_1(N):
     """
     num_step = 0
     while N > 1:
-        if N == 2: # 2 -> 1: 1 step from 2 to 1
+        if N == 2:  # 2 -> 1: 1 step from 2 to 1
             num_step += 1
             break
         if N == 3:  # 3 -> 2 -> 1: 2 steps from 3 to 1
             num_step += 2
             break
-        sqrt_N = N ** 0.5
+        sqrt_N = N**0.5
         if sqrt_N == int(sqrt_N):  # N is a perfect square
             N = int(sqrt_N)
         else:
@@ -45,21 +47,27 @@ def smallest_steps_to_1(N):
         num_step += 1
     return num_step
 
+
 # ----- UNIT TESTS -----
 def test1():
     assert smallest_steps_to_1(N=1) == 0
 
+
 def test2():
     assert smallest_steps_to_1(N=2) == 1
+
 
 def test3():
     assert smallest_steps_to_1(N=3) == 2
 
+
 def test4():
     assert smallest_steps_to_1(N=99) == 5
 
+
 def test5():
     assert smallest_steps_to_1(N=100) == 5
+
 
 if __name__ == "__main__":
     test1()

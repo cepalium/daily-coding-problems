@@ -18,24 +18,31 @@ you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"].
 No string in the list has a length of more than 10.
 """
 
+
 def breakUpString(string, k):
-# input: string 'string' and int k
-# output: list of lines s.t each line has length <= k, and no word break across lines
+    # input: string 'string' and int k
+    # output: list of lines s.t each line has length <= k, and no word break across lines
     lines = []  # init output list of lines
-    words = list(string.split())    # split input string input words
+    words = list(string.split())  # split input string input words
     pivot = 0
-    r = pivot   # r as a forward-moving pivot 
-    line = ''   # init new line of words
+    r = pivot  # r as a forward-moving pivot
+    line = ""  # init new line of words
     while pivot <= r < len(words):
-        if len(words[r]) > k:   # if a single word has length > k ~> impossible to break lines
+        if (
+            len(words[r]) > k
+        ):  # if a single word has length > k ~> impossible to break lines
             return None
-        longerLine = line + ' ' + words[r] if line else words[r]    # try to add as many as possible words into lines
-        if len(longerLine) <= k:    # if (line + next word) still has length within k
+        longerLine = (
+            line + " " + words[r] if line else words[r]
+        )  # try to add as many as possible words into lines
+        if (
+            len(longerLine) <= k
+        ):  # if (line + next word) still has length within k
             line = longerLine
             r += 1
-        else:   # if (line + next word) has length > k  
+        else:  # if (line + next word) has length > k
             lines.append(line)
-            line = ''
+            line = ""
             pivot = r
             r = pivot
     lines.append(line)  # add the last line
@@ -43,10 +50,16 @@ def breakUpString(string, k):
 
 
 def breakUpString_test(string, k):
-    print(string, '&', k, '~>', breakUpString(string, k))
+    print(string, "&", k, "~>", breakUpString(string, k))
 
 
 if __name__ == "__main__":
-    breakUpString_test("the quick brown fox jumps over the lazy dog", k=10) # return ['the quick', 'brown fox', 'jumps over', 'the lazy', 'dog']
-    breakUpString_test("the quick brown fox jumps over the lazy dog", k=5)  # return ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
-    breakUpString_test("the quick brown fox jumps over the lazy dog", k=3)  # return None
+    breakUpString_test(
+        "the quick brown fox jumps over the lazy dog", k=10
+    )  # return ['the quick', 'brown fox', 'jumps over', 'the lazy', 'dog']
+    breakUpString_test(
+        "the quick brown fox jumps over the lazy dog", k=5
+    )  # return ['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+    breakUpString_test(
+        "the quick brown fox jumps over the lazy dog", k=3
+    )  # return None

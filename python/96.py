@@ -11,10 +11,11 @@ For example, given [1,2,3], return [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2
 
 import itertools
 
+
 def permutations(li):
-# input: list of digits
-# output: all possible permutations from input list
-# method: itertools.permutations
+    # input: list of digits
+    # output: all possible permutations from input list
+    # method: itertools.permutations
     return list(itertools.permutations(li))
 
 
@@ -23,4 +24,4 @@ def permutations_test(li):
 
 
 if __name__ == "__main__":
-    permutations_test([1,2,3])
+    permutations_test([1, 2, 3])

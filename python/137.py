@@ -14,26 +14,32 @@ A bit array is a space efficient array that holds a value of 1 or 0 at each inde
 """
 
 """ A bit array is a space efficient array that holds a value of 1 or 0 at each index. """
+
+
 class BitArray:
-    """ constructor """
+    """constructor"""
+
     def __init__(self):
         self.data = list()
         self.size = 0
 
     """ initialize the array with size """
+
     def init(self, size):
         self.data = [0 for j in range(size)]
         self.size = size
-    
+
     """ updates index at i with val where val is either 1 or 0 """
+
     def set(self, i, val):
         if i < 0 or i >= self.size:
             raise Exception("Invalid index: " + str(i))
         if val != 0 and val != 1:
             raise Exception("Invalid value: " + str(val))
         self.data[i] = val
-    
+
     """ gets the value at index i """
+
     def get(self, i):
         if i < 0 or i >= self.size:
             raise Exception("Invalid index: " + str(i))

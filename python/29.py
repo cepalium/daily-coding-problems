@@ -15,17 +15,17 @@ You can assume the string to be decoded is valid.
 
 
 def runLengthEncoding(string):
-# input: string string
-# output: run-length encoding string encodingString
-    encodingString = ""     # init output string
-    curLetter = string[0]   # init current letter
-    pivot = 0               # init pivot
+    # input: string string
+    # output: run-length encoding string encodingString
+    encodingString = ""  # init output string
+    curLetter = string[0]  # init current letter
+    pivot = 0  # init pivot
     for i in range(1, len(string)):
         if string[i] != curLetter:
-            encodingString += str(i - pivot) + curLetter    # count & character
+            encodingString += str(i - pivot) + curLetter  # count & character
             pivot = i
             curLetter = string[i]
-        if i == len(string) - 1:    # last letter in string
+        if i == len(string) - 1:  # last letter in string
             encodingString += str(len(string) - pivot) + curLetter
     return encodingString
 

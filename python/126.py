@@ -10,26 +10,31 @@ Try solving this without creating a copy of the list.
 How many swap or move operations do you need?
 """
 
+
 def pythonicRotate(l, k):
-# input: list l & int k
-# output: returns a list after k rotation
-# method: concat list
+    # input: list l & int k
+    # output: returns a list after k rotation
+    # method: concat list
     return l[k:] + l[:k]
 
 
 def rorate(l, k):
-# input: list l & int k
-# output: returns a list after k rotation
-# method: swap elements for each rotation
-# need [len(l) - 1] * k swap operation ~> O(n*k) swap operations, with n = len(l)
+    # input: list l & int k
+    # output: returns a list after k rotation
+    # method: swap elements for each rotation
+    # need [len(l) - 1] * k swap operation ~> O(n*k) swap operations, with n = len(l)
     for _ in range(k):
         for j in range(len(l) - 1):
-            l[j], l[j+1] = l[j+1], l[j]
+            l[j], l[j + 1] = l[j + 1], l[j]
     return l
 
 
 def rotate_test(l, k):
-    print("l={}, k={} ~> {} | {}".format(l, k, pythonicRotate(l, k), rorate(l, k)))
+    print(
+        "l={}, k={} ~> {} | {}".format(
+            l, k, pythonicRotate(l, k), rorate(l, k)
+        )
+    )
 
 
 if __name__ == "__main__":

@@ -19,43 +19,54 @@ For example, given the input ['R', 'G', 'B', 'G', 'B'], it is possible to end up
 ['B', 'G']                | (B, G) -> R
 ['R']                     |
 """
+
+
 def quxes_tranformation(quxes):
-    """ return the smallest number of Quxes remaining after the transformation """
-    if len(quxes) == 0:    # trivial cases
+    """return the smallest number of Quxes remaining after the transformation"""
+    if len(quxes) == 0:  # trivial cases
         return 0
     if len(quxes) == 1:
         return 1
-    transformed = []    # stack of after-transformed Quxes
-    while quxes:    # deque quxes until no original input Quxes 
+    transformed = []  # stack of after-transformed Quxes
+    while quxes:  # deque quxes until no original input Quxes
         top_qux = quxes.pop(0)
-        while transformed and transformed[-1] != top_qux:    # loop: transform 2 different neighboring quxes
+        while (
+            transformed and transformed[-1] != top_qux
+        ):  # loop: transform 2 different neighboring quxes
             last_transformed = transformed.pop()
             top_qux = new_qux(top_qux, last_transformed)
         transformed.append(top_qux)
     return len(transformed)
 
+
 def new_qux(a, b):
-    """ return the merged Qux from 2 input Quxes a & b """
-    quxes = ['R', 'G', 'B']
+    """return the merged Qux from 2 input Quxes a & b"""
+    quxes = ["R", "G", "B"]
     quxes.remove(a)
     quxes.remove(b)
     return quxes[0]
 
+
 # ------ UNIT TEST ------
 def test1():
-    assert quxes_tranformation(['R', 'G', 'B', 'G', 'B']) == 1
+    assert quxes_tranformation(["R", "G", "B", "G", "B"]) == 1
+
 
 def test2():
-    assert quxes_tranformation(['R', 'G', 'B']) == 2
+    assert quxes_tranformation(["R", "G", "B"]) == 2
+
 
 def test3():
     assert quxes_tranformation([]) == 0
 
+
 def test4():
-    assert quxes_tranformation(['R']) == 1
+    assert quxes_tranformation(["R"]) == 1
+
 
 def test5():
-    assert quxes_tranformation(['R', 'R', 'R']) == 3
+    assert quxes_tranformation(["R", "R", "R"]) == 3
+
 
 if __name__ == "__main__":
     test1()

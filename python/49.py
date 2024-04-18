@@ -16,26 +16,31 @@ since we would not take any elements.
 Do this in O(N) time.
 """
 
+
 def contiguousSubarrayMaxSum(a):
-# input: list 'a' of ints
-# output: max sum of contiguous subarray of 'a'
-# method: dynamic programming
-# running time: O(n)
+    # input: list 'a' of ints
+    # output: max sum of contiguous subarray of 'a'
+    # method: dynamic programming
+    # running time: O(n)
     maxSum = 0  # init output as 0
     # base case
-    S = [a[0]]   # init list storing temporary maxSum with arr[0] as 1st element
+    S = [a[0]]  # init list storing temporary maxSum with arr[0] as 1st element
     # iteration
     for i in range(1, len(a)):
-        S.append(max(a[i], S[i-1] + a[i]))  # Bellman's equation: s[i] = max(a[i], s[i-1] + a[i])
-    for s in S[1:]: # only consider the 2nd element to end of S b/c we need maxSum of contiguous subarray ~> contiguous: > 1 element
+        S.append(
+            max(a[i], S[i - 1] + a[i])
+        )  # Bellman's equation: s[i] = max(a[i], s[i-1] + a[i])
+    for s in S[
+        1:
+    ]:  # only consider the 2nd element to end of S b/c we need maxSum of contiguous subarray ~> contiguous: > 1 element
         maxSum = s if s > maxSum else maxSum
     return maxSum
 
 
 def contiguousSubarrayMaxSum_test(arr):
-    print(arr, '~> maxSum:', contiguousSubarrayMaxSum(arr))
+    print(arr, "~> maxSum:", contiguousSubarrayMaxSum(arr))
 
 
 if __name__ == "__main__":
-    contiguousSubarrayMaxSum_test([34, -50, 42, 14, -5, 86])    # return 137
-    contiguousSubarrayMaxSum_test([-5, -1, -8, -9]) # return 0
+    contiguousSubarrayMaxSum_test([34, -50, 42, 14, -5, 86])  # return 137
+    contiguousSubarrayMaxSum_test([-5, -1, -8, -9])  # return 0

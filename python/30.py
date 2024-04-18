@@ -20,19 +20,24 @@ we can hold 3 units in the first index,
 so we can trap 8 units of water.
 """
 
+
 def waterRemain(walls):
-# input: array map of non-negative ints
-# output: no. water unites remain trapped on the map
-    water = 0   # init output
-    firstWall = walls[0]    # 1st wall
+    # input: array map of non-negative ints
+    # output: no. water unites remain trapped on the map
+    water = 0  # init output
+    firstWall = walls[0]  # 1st wall
     restHighest = max(walls[1:])  # highest wall apart from the 1st wall
-    heightLimit = min([firstWall, restHighest])   # smaller one from 1st wall the restHighest
+    heightLimit = min(
+        [firstWall, restHighest]
+    )  # smaller one from 1st wall the restHighest
     i = 1
-    while i < len(walls) - 1: # water fills to n-1 wall, i.e last wall not count
+    while (
+        i < len(walls) - 1
+    ):  # water fills to n-1 wall, i.e last wall not count
         water += heightLimit - walls[i]
-        if walls[i] == restHighest:     # adjust params again
+        if walls[i] == restHighest:  # adjust params again
             firstWall = restHighest
-            restHighest = max(walls[walls.index(restHighest)+1:])
+            restHighest = max(walls[walls.index(restHighest) + 1 :])
             heightLimit = min([firstWall, restHighest])
         i += 1
     return water
@@ -43,7 +48,7 @@ def waterRemain_test(walls):
 
 
 if __name__ == "__main__":
-    waterRemain_test([2,1,2])   # return 1
-    waterRemain_test([3,0,1,3,0,5]) # return 8
-    waterRemain_test([3,2,1,0,1,2,3])   # return 9
-    waterRemain_test([3,0,1,2,0,1])   # return 4
+    waterRemain_test([2, 1, 2])  # return 1
+    waterRemain_test([3, 0, 1, 3, 0, 5])  # return 8
+    waterRemain_test([3, 2, 1, 0, 1, 2, 3])  # return 9
+    waterRemain_test([3, 0, 1, 2, 0, 1])  # return 4

@@ -13,15 +13,17 @@ return 7 since we can use 5 dimes, 1 nickel, and 1 penny.
 
 Given an array of [5, 8] and an amount 15, return 3 since we can use 5 5-cent coins.
 """
+
+
 def least_coins(coins, amount):
-    """ solved with dynamic programming: Knapsack problem """
+    """solved with dynamic programming: Knapsack problem"""
     if not coins or not amount:
         return None
     n = len(coins)
     values = [1 for i in range(n)]
     K = [None for i in range(amount + 1)]
     K[0] = 0  # base case
-    # Bellman's equation: 
+    # Bellman's equation:
     # K[w] = min{K[w - coins[i]] + values[i] | i < n & K[w - coins[i]]}
     for w in range(1, amount + 1):
         k_w = []
@@ -29,18 +31,21 @@ def least_coins(coins, amount):
             if w >= coins[i] and K[w - coins[i]] != None:
                 k_w.append(K[w - coins[i]] + values[i])
         if k_w:
-            K[w] = min(k_w) 
+            K[w] = min(k_w)
     return K[amount]
 
 
 def test1():
     assert least_coins([1, 5, 10], 56) == 7
 
+
 def test2():
     assert least_coins([5, 8], 15) == 3
 
+
 def test3():
     assert least_coins([5, 10], 56) == None
+
 
 if __name__ == "__main__":
     test1()

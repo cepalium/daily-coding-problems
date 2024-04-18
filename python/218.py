@@ -7,12 +7,14 @@
 Write an algorithm that computes the reversal of a directed graph. 
 For example, if a graph consists of A -> B -> C, it should become A <- B <- C.
 """
+
+
 class DirectedGraph:
     def __init__(self):
         self.nodes = list()
         self.edges = list()
         self.graph = dict()
-    
+
     def add_edge(self, u, v):
         if (u, v) in self.edges:
             return
@@ -30,9 +32,10 @@ class DirectedGraph:
             self.graph[u] = list()
         self.graph[u].append(v)
 
+
 def reverse_directed_graph(graph):
     reversal_graph = DirectedGraph()
-    for (u, v) in graph.edges:
+    for u, v in graph.edges:
         reversal_graph.add_edge(v, u)
     return reversal_graph
 
@@ -44,6 +47,7 @@ def test1():
     assert G.edges == [("A", "B"), ("B", "C")]
     reversed_G = reverse_directed_graph(G)
     assert reversed_G.edges == [("B", "A"), ("C", "B")]
+
 
 if __name__ == "__main__":
     test1()

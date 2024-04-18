@@ -12,10 +12,13 @@ You can assume that such element exists.
 For example, given [1, 2, 1, 1, 3, 4, 0], return 1.
 """
 
+
 def majorityElement(lst):
-    """ return the majority element from lst, which appears > half the time """
-    freq = {}   # dictionairy initialized: {element in list : its frequency in list}
-    majE = None    # output initialized
+    """return the majority element from lst, which appears > half the time"""
+    freq = (
+        {}
+    )  # dictionairy initialized: {element in list : its frequency in list}
+    majE = None  # output initialized
     # count frequencies of each distinct elements in lst
     for e in lst:
         if e not in freq.keys():

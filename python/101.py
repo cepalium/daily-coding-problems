@@ -21,27 +21,27 @@ import random
 
 
 def isPrime(N):
-# input: int N >=2
-# output: True if N is prime, False if N is composite
-# method: Fermat's primality test
-# running time: O(n^3)
+    # input: int N >=2
+    # output: True if N is prime, False if N is composite
+    # method: Fermat's primality test
+    # running time: O(n^3)
     if N == 1:
         return False
     if (N == 2) or (N == 3):
         return True
-    a = random.randint(2, N-1)
-    b = a**(N-1) % N
+    a = random.randint(2, N - 1)
+    b = a ** (N - 1) % N
     if b != 1:
-        return False 
+        return False
     return True
 
 
 def goldbachConjecture(n):
-# input: int n >= 2
-# output: list [a,b]; a & b prime s.t a+b=n
-    goldbachPair = []   # output declared
-    a = 2   # int a initialized
-    while a <= n/2: # loop until a = n/2
+    # input: int n >= 2
+    # output: list [a,b]; a & b prime s.t a+b=n
+    goldbachPair = []  # output declared
+    a = 2  # int a initialized
+    while a <= n / 2:  # loop until a = n/2
         if not isPrime(a):
             a += 1
             continue
@@ -49,13 +49,13 @@ def goldbachConjecture(n):
         if not isPrime(b):
             a += 1
             continue
-        goldbachPair = [a, b]   # both a & b are primes and a+b=n
+        goldbachPair = [a, b]  # both a & b are primes and a+b=n
         break
     return goldbachPair
 
 
 def goldbachConjecture_test(n):
-    print(n, '~>', goldbachConjecture(n))
+    print(n, "~>", goldbachConjecture(n))
 
 
 if __name__ == "__main__":

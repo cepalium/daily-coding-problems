@@ -12,8 +12,11 @@ deadbeef
 should produce:
 3q2+7w==
 """
+
+
 def hex_string_to_base64_string(hex_string):
     import base64
+
     byte = bytes.fromhex(hex_string)
     base64_encoded = base64.b64encode(byte)
     base64_string = base64_encoded.decode("utf-8")
@@ -22,6 +25,7 @@ def hex_string_to_base64_string(hex_string):
 
 def test1():
     assert hex_string_to_base64_string("deadbeef") == "3q2+7w=="
+
 
 if __name__ == "__main__":
     test1()

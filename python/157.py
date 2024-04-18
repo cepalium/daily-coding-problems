@@ -12,21 +12,22 @@ daily should return false, since there's no rearrangement that can form a palind
 
 from itertools import permutations
 
+
 def is_permutation_palindrome(str):
-    """ return True if any permutation of string str is a palindrome """
-    for s in permutations(str): # loop through all permutations of str
+    """return True if any permutation of string str is a palindrome"""
+    for s in permutations(str):  # loop through all permutations of str
         if is_palindrome(s):
-            return True # successfully find a palindrome permutation
-    return False        # reach this, then no possible permutation is palindrome
+            return True  # successfully find a palindrome permutation
+    return False  # reach this, then no possible permutation is palindrome
 
 
 def is_palindrome(str):
-    """ return True if string str is palindrome """
+    """return True if string str is palindrome"""
     n = len(str)
-    for i in range(n//2):       # loop to middle of string str
-        if str[i] != str[-1-i]:
-            return False    # find a character doesn't match with its mirror-positioned character
-    return True     # reach this, then str is palindrome
+    for i in range(n // 2):  # loop to middle of string str
+        if str[i] != str[-1 - i]:
+            return False  # find a character doesn't match with its mirror-positioned character
+    return True  # reach this, then str is palindrome
 
 
 def palindromePermutation_test(str, desiredVal):

@@ -13,10 +13,12 @@ determine what the minimum broadcast range would have to be in order for each li
 For example, suppose listeners = [1, 5, 11, 20], and towers = [4, 8, 15]. 
 In this case the minimum range would be 5, since that would be required for the tower at position 15 to reach the listener at position 20.
 """
+
+
 def min_broadcast_range(listeners, towers):
-    """ return the min range s.t towers will cover all listeners """
+    """return the min range s.t towers will cover all listeners"""
     # trivial cases
-    if len(listeners) == 0:  
+    if len(listeners) == 0:
         return 0
     if len(towers) == 0:
         return None
@@ -31,16 +33,24 @@ def min_broadcast_range(listeners, towers):
             else:  # greater
                 break
         ranges.append(nearest_tower_dist)
-    return max(ranges)  # max distance from all nearest-to-tower distances is the min required broadcast range
+    return max(
+        ranges
+    )  # max distance from all nearest-to-tower distances is the min required broadcast range
+
 
 def test1():
-    assert min_broadcast_range(listeners=[1, 5, 11, 20], towers=[4, 8, 15]) == 5
+    assert (
+        min_broadcast_range(listeners=[1, 5, 11, 20], towers=[4, 8, 15]) == 5
+    )
+
 
 def test2():
     assert min_broadcast_range(listeners=[1, 5, 11, 20], towers=[4, 8]) == 12
 
+
 def test3():
     assert min_broadcast_range(listeners=[1, 5, 11, 20], towers=[8]) == 12
+
 
 if __name__ == "__main__":
     test1()

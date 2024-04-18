@@ -10,8 +10,10 @@ Spreadsheets often use this alphabetical encoding for its columns:
 Given a column number, return its alphabetical column id. 
 For example, given 1, return "A". Given 27, return "AA".
 """
+
+
 def alphabet_col_id(col_num):
-    """ return alphabetical column id of a column number in spreadsheets """
+    """return alphabetical column id of a column number in spreadsheets"""
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     len_alphabet = len(alphabet)
     col_id = ""
@@ -22,9 +24,11 @@ def alphabet_col_id(col_num):
         col_num = q
     return col_id
 
+
 def test_alphabet_col_id():
     assert alphabet_col_id(1) == "A"
     assert alphabet_col_id(27) == "AA"
+
 
 if __name__ == "__main__":
     test_alphabet_col_id()

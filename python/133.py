@@ -15,57 +15,62 @@ For example, the inorder successor of 22 is 30.
    22    35
 You can assume each node has a parent pointer.
 """
-class BinarySearchTree:
 
+
+class BinarySearchTree:
     class _Item:
-        """ (k,v) pair """
+        """(k,v) pair"""
+
         def __init__(self, k, v):
             self._key = k
             self._value = v
+
     # ----- end of Item class -----
     class Node:
-        """ BST node """
+        """BST node"""
+
         def __init__(self, e, p=None, l=None, r=None):
-            self._element = e   # Item object
+            self._element = e  # Item object
             self._parent = p
             self._left = l
             self._right = r
-        
+
         def element(self):
             return self._element
-        
+
         def key(self):
             return self.element()._key
-        
+
         def value(self):
             return self.element()._value
+
     # ----- end of Node class -----
 
     # fundamental
     def __init__(self):
-        """ create an empty BST """
+        """create an empty BST"""
         self._root = None
         self._size = 0
-    
+
     # public accessors
     def __len__(self):
         return self._size
 
     def is_empty(self):
         return self._size == 0
-    
+
     def root(self):
         return self._root
-    
+
     def parent(self, n):
         return n._parent
-    
+
     def left(self, n):
         return n._left
-    
+
     def right(self, n):
         return n._right
-    
+
     def before(self, n):
         if self.left(n) is not None:
             return self.left(n)
@@ -109,8 +114,8 @@ class BinarySearchTree:
                 return self._subtree_search(self.left(n), k)
             if k > n.key() and self.right(n) is not None:
                 return self._subtree_search(self.right(n), k)
-        return n    # unsuccessful search
-        
+        return n  # unsuccessful search
+
     # public update methods
     def insert(self, k, v):
         item = self._Item(k, v)
@@ -126,7 +131,6 @@ class BinarySearchTree:
             else:
                 leaf = self._add_right(n, item)
         return leaf
-
 
     # nonpublic update methods
     def _add_root(self, item):
@@ -145,7 +149,10 @@ class BinarySearchTree:
         n._right = newest
         self._size += 1
         return newest
+
+
 # ----- end of BST class -----
+
 
 def test_next_bigger():
     bst = BinarySearchTree()
@@ -155,6 +162,7 @@ def test_next_bigger():
     n22 = bst.insert(22, 22)
     n35 = bst.insert(35, 35)
     assert bst.after(n22).key() == 30
+
 
 if __name__ == "__main__":
     test_next_bigger()

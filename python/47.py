@@ -12,13 +12,14 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5,
 since you could buy the stock at 5 dollars and sell it at 10 dollars.
 """
 
+
 def maxProfitFromStocks(stocks):
-# input: list 'stocks' of int as stock prices
-# output: max profit from buying first and selling that stock later
-    maxProfit = stocks[1] - stocks[0]   # init maxProfit
-    for i in range(len(stocks)-1):
+    # input: list 'stocks' of int as stock prices
+    # output: max profit from buying first and selling that stock later
+    maxProfit = stocks[1] - stocks[0]  # init maxProfit
+    for i in range(len(stocks) - 1):
         buy = stocks[i]
-        for j in range(i+1, len(stocks)):
+        for j in range(i + 1, len(stocks)):
             sell = stocks[j]
             if sell - buy > maxProfit:  # update maxProfit
                 maxProfit = sell - buy

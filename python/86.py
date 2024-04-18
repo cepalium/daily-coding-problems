@@ -16,16 +16,18 @@ validPair = "()"
 
 
 def numberRemovedParentheses(s):
-# input: 1 string 's' of parentheses
-# output: min no. removed parentheses to make 's' valid
-# running time: O(n)
-# method: stack
+    # input: 1 string 's' of parentheses
+    # output: min no. removed parentheses to make 's' valid
+    # running time: O(n)
+    # method: stack
     # trivial case:
     if len(s) == 0:
         return 0
     # else:
-    stack = []  # init stack ~> store invalid parentheses which need to be removed
-    p = 0       # init pivot
+    stack = (
+        []
+    )  # init stack ~> store invalid parentheses which need to be removed
+    p = 0  # init pivot
     # loop through input string 's'
     while p < len(s):
         stack.append(s[p])  # add current parenthesis of 's' into stack
@@ -44,8 +46,8 @@ def numberRemovedParentheses_test(s):
 
 if __name__ == "__main__":
     numberRemovedParentheses_test(s="()())()")  # return 1
-    numberRemovedParentheses_test(s=")(")   # return 2
-    numberRemovedParentheses_test(s=")")   # return 1
-    numberRemovedParentheses_test(s="")   # return 0
-    numberRemovedParentheses_test(s="(((())))")   # return 0
-    numberRemovedParentheses_test(s="(((()))))")   # return 1
+    numberRemovedParentheses_test(s=")(")  # return 2
+    numberRemovedParentheses_test(s=")")  # return 1
+    numberRemovedParentheses_test(s="")  # return 0
+    numberRemovedParentheses_test(s="(((())))")  # return 0
+    numberRemovedParentheses_test(s="(((()))))")  # return 1

@@ -11,11 +11,12 @@ Given a positive integer n, return the n-th perfect number.
 For example, given 1, you should return 19. Given 2, you should return 28.
 """
 
+
 def nthPerfectNumber(n):
-# input: int n
-# output: n-th perfect number
-# perfect number := sum all digits equals to 10
-# running time: O(n)
+    # input: int n
+    # output: n-th perfect number
+    # perfect number := sum all digits equals to 10
+    # running time: O(n)
     # init var
     pNumber = 0
     n0 = 0
@@ -23,7 +24,9 @@ def nthPerfectNumber(n):
     while n0 < n:
         pNumber += 1
         sum_digits_in_pNumber = sum([int(d) for d in str(pNumber)])
-        if sum_digits_in_pNumber <= 10: # increase n0 only if possible to construct perfect number from pNumber
+        if (
+            sum_digits_in_pNumber <= 10
+        ):  # increase n0 only if possible to construct perfect number from pNumber
             n0 += 1
     return int(str(pNumber) + str(10 - sum_digits_in_pNumber))
 

@@ -10,28 +10,39 @@ implement a function rand7() that returns an integer from 1 to 7 (inclusive).
 
 import random
 
+
 def rand5():
-# output: uniformly random int [1,5]
+    # output: uniformly random int [1,5]
     return random.randint(1, 5)
 
 
 def rand7():
-# output: uniformly random int [1,7] by using rand5()
-# requirements: build rand7() from rand5()
-# method: rand7 = ((rand5 + 5*rand5) % 7) + 1
-# condition: rand5 + 5*rand5 < 27
-    c = rand5() + 5*rand5() # c = {6,7,...,35}
+    # output: uniformly random int [1,7] by using rand5()
+    # requirements: build rand7() from rand5()
+    # method: rand7 = ((rand5 + 5*rand5) % 7) + 1
+    # condition: rand5 + 5*rand5 < 27
+    c = rand5() + 5 * rand5()  # c = {6,7,...,35}
     while c >= 27:
-        c = rand5() + 5*rand5()
+        c = rand5() + 5 * rand5()
     return (c % 7) + 1  # c % 7 = {0,...6} => (c % 7) + 1 = {1,...,7}
 
 
 def check_uniform_rand7():
-# generate rand7() values & print percentage of frequency [1,7]
-# if uniform ~> percentages are equal
-    freq = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}   # init frequency dictionary
+    # generate rand7() values & print percentage of frequency [1,7]
+    # if uniform ~> percentages are equal
+    freq = {
+        1: 0,
+        2: 0,
+        3: 0,
+        4: 0,
+        5: 0,
+        6: 0,
+        7: 0,
+    }  # init frequency dictionary
     iterations = 10000  # init number of iterations
-    for _ in range(iterations):  # random [1,7] for each iteration and increase its frequency
+    for _ in range(
+        iterations
+    ):  # random [1,7] for each iteration and increase its frequency
         r = rand7()
         freq[r] += 1
     # calculate and print the frequency percentage of each element [1,7]
@@ -39,5 +50,6 @@ def check_uniform_rand7():
         pct = v * 100.0 / iterations
         print(k, pct)
 
+
 if __name__ == "__main__":
-    check_uniform_rand7()   # print percentage[1,7] ~ 14.286
+    check_uniform_rand7()  # print percentage[1,7] ~ 14.286

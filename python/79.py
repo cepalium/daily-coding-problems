@@ -11,25 +11,26 @@ For example, given the array [10, 5, 7], you should return true, since we can mo
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 """
 
+
 def is_nonDecreasing(arr, m):
-# input: array of ints 'arr' & int m as max no. element modifications
-# output: True/False if arr is non-decreasing with at most m element modifications
+    # input: array of ints 'arr' & int m as max no. element modifications
+    # output: True/False if arr is non-decreasing with at most m element modifications
     # trivial case: array has 0 or 1 element ~> always True
     if len(arr) < 2:
         return True
     # iteration
     for i in range(1, len(arr)):
         # 2 adjacent elements are non-decreasing ~> continue
-        if arr[i] > arr[i-1]:   
+        if arr[i] > arr[i - 1]:
             continue
         # else: 2 adjacent elements are NOT non-decreasing
         # false case 1: 2 elements are NOT non-decreasing & no modification left
         if m == 0:
             return False
         # 2 elements are NOT non-decreasing & can modify element if possible
-        prevElement_digits = [int(d) for d in str(arr[i-1])]
+        prevElement_digits = [int(d) for d in str(arr[i - 1])]
         # false case 2: 2 adjacent elements are NOT non-decreasing & no possible modification
-        if arr[i] < min(prevElement_digits): 
+        if arr[i] < min(prevElement_digits):
             return False
         # else: 2 adjacent elements are NOT non-decreasing & a modification is possible
         m -= 1  # decrease no. modifications, then continue
@@ -37,7 +38,7 @@ def is_nonDecreasing(arr, m):
 
 
 def nonDecreasing_test(arr, m):
-    print(arr, '~>', is_nonDecreasing(arr, m))
+    print(arr, "~>", is_nonDecreasing(arr, m))
 
 
 if __name__ == "__main__":

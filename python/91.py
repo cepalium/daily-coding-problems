@@ -16,7 +16,7 @@ for f in functions:
 
 functions = []
 for i in range(10):
-    functions.append(lambda : i)
+    functions.append(lambda: i)
 
 i = 0
 for f in functions:

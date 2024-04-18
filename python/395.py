@@ -15,6 +15,8 @@ Return:
  ['apt', 'pat'],
  ['now']]
 """
+
+
 def group_anagrams(strings):
     anagram_dict = dict()
     for s in strings:
@@ -28,8 +30,12 @@ def group_anagrams(strings):
 
 
 def test1():
-    assert group_anagrams(['eat', 'ate', 'apt', 'pat', 'tea', 'now']) \
-        == [['eat', 'ate', 'tea'], ['apt', 'pat'], ['now']]
+    assert group_anagrams(["eat", "ate", "apt", "pat", "tea", "now"]) == [
+        ["eat", "ate", "tea"],
+        ["apt", "pat"],
+        ["now"],
+    ]
+
 
 if __name__ == "__main__":
     test1()

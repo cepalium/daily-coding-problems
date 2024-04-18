@@ -9,11 +9,12 @@ return x if b is 1 and y if b is 0, using only mathematical or bit operations.
 You can assume b can only be 1 or 0.
 """
 
+
 def xOrY(x, y, b):
-# input: 3 ints x, y, b; b={0,1}
-# output: x if b=1, y if b=0
-# method: output = x*b + y*|b-1|
-    return x*b + y*abs(b-1)
+    # input: 3 ints x, y, b; b={0,1}
+    # output: x if b=1, y if b=0
+    # method: output = x*b + y*|b-1|
+    return x * b + y * abs(b - 1)
 
 
 def xOrY_test(x, y, b):

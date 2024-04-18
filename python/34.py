@@ -17,12 +17,15 @@ but "ecarace" comes first alphabetically.
 As another example, given the string "google", you should return "elgoogle".
 """
 
+
 def isPalindrome(string):
-# input: a string string
-# output: True/False if string is a palindrome string
-# palindrome string := reversed string is the same as original string, e.g "level"
-    for i in range(int(len(string) /2)):    # check if half left is identical to half right
-        if string[i] != string[-i-1]:
+    # input: a string string
+    # output: True/False if string is a palindrome string
+    # palindrome string := reversed string is the same as original string, e.g "level"
+    for i in range(
+        int(len(string) / 2)
+    ):  # check if half left is identical to half right
+        if string[i] != string[-i - 1]:
             return False
     return True
 
@@ -30,11 +33,11 @@ def isPalindrome(string):
 def isPalindrome_test(string):
     print(string, ":Palindrome? ", isPalindrome(string))
 
-    
+
 def makePalindrome(string):
-# input: a string string
-# output: the fewest character-inserting palindrome string
-    if isPalindrome(string): # input string is palindrome at the beginning
+    # input: a string string
+    # output: the fewest character-inserting palindrome string
+    if isPalindrome(string):  # input string is palindrome at the beginning
         return string
     # if not -> need to add characters to create a palindrome string
     palindromeList = []
@@ -49,9 +52,11 @@ def makePalindrome(string):
         if isPalindrome(newString):
             palindromeList.append(newString)
     # sort palindromeList
-    palindromeList.sort()   # sort by alphabetical order
-    palindromeList.sort(key=len)    # sort by ascending length
-    return palindromeList[0]    # return the alphabetically shortest palindrome string 
+    palindromeList.sort()  # sort by alphabetical order
+    palindromeList.sort(key=len)  # sort by ascending length
+    return palindromeList[
+        0
+    ]  # return the alphabetically shortest palindrome string
 
 
 def makePalindrome_test(string):
@@ -63,7 +68,7 @@ if __name__ == "__main__":
     # isPalindrome_test("abba")   # return True
     # isPalindrome_test("level")  # return True
     # isPalindrome_test("abcdef") # return False
-    
+
     # makePalindrome
-    makePalindrome_test("race") # return "ecarace"
-    makePalindrome_test("google")   # return "elgoogle"
+    makePalindrome_test("race")  # return "ecarace"
+    makePalindrome_test("google")  # return "elgoogle"

@@ -12,27 +12,30 @@ For example, given the string "([])[]({})", you should return true.
 Given the string "([)]" or "((()", you should return false.
 """
 
+
 def isBracketBalance(str):
-# input: string of brackets str
-# output: True/False if the brackets are balanced
+    # input: string of brackets str
+    # output: True/False if the brackets are balanced
     stack = []  # init stack
-    openBrackets = ['(', '[', '{']
-    closingBrackets = [')', ']', '}']
+    openBrackets = ["(", "[", "{"]
+    closingBrackets = [")", "]", "}"]
 
     for bracket in str:
         if bracket in openBrackets:
             stack.append(bracket)
-        else:   # bracket is a closing bracket
-            if not stack:   # currently no open bracket in stack
+        else:  # bracket is a closing bracket
+            if not stack:  # currently no open bracket in stack
                 return False
             closingBracketIndex = closingBrackets.index(bracket)
             lastOpenBracketIndex = openBrackets.index(stack[-1])
-            if closingBracketIndex == lastOpenBracketIndex: # 1 pair is balances
-                stack.pop() # pop the last open bracket in stack
+            if (
+                closingBracketIndex == lastOpenBracketIndex
+            ):  # 1 pair is balances
+                stack.pop()  # pop the last open bracket in stack
             else:
                 return False
 
-    if stack:   # stack has a open bracket in the end -> not balanced
+    if stack:  # stack has a open bracket in the end -> not balanced
         return False
     return True
 
@@ -42,6 +45,6 @@ def isBracketBalance_test(str):
 
 
 if __name__ == "__main__":
-    isBracketBalance_test("([])[]({})") # return True
-    isBracketBalance_test("([)]") # return False
-    isBracketBalance_test("((()") # return False
+    isBracketBalance_test("([])[]({})")  # return True
+    isBracketBalance_test("([)]")  # return False
+    isBracketBalance_test("((()")  # return False
